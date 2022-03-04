@@ -27,28 +27,28 @@ export class NavMenu extends Component {
   render () {
     return (
       <header>
-        <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3">
+        <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3 color-nav">
           <Container>
-            <NavbarBrand tag={Link} to="/Home">
+            <NavbarBrand tag={Link} to="/">
             <img src={Logo} alt="logo"/>
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
               <ul className="navbar-nav flex-grow">
               <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/OmProgrammering">Om programmering</NavLink>
+                  <NavLink tag={Link} className="nav-link" to="/OmProgrammering">Om programmering</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/jobMuligheder">Job muligheder</NavLink>
+                  <NavLink tag={Link} className="nav-link" to="/jobMuligheder">Job muligheder</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/succesHistorier">Succes historier</NavLink>
+                  <NavLink tag={Link} className="nav-link" to="/succesHistorier">Succes historier</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/opgaver">Opgaver</NavLink>
+                  <NavLink tag={Link} className="nav-link" to="/opgaver">Opgaver</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/OmOs">Om os</NavLink>
+                  <NavLink tag={Link} className="nav-link" to="/OmOs">Om os</NavLink>
                 </NavItem>
               </ul>
             </Collapse>

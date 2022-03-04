@@ -6,6 +6,7 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
+
 a {
   color: purple;
 }
@@ -29,17 +30,17 @@ secText {
 }
 
 terText{
-  color: #CF914C;;
+  color: #CF914C;
 }
 
 priDiv {
- color: #F4EEE8;
+  background-color: #F4EEE8;
 }
 
 secDiv {
-  color: #CFA99D;
+  background-color: #CFA99D;
 }
 
 terDiv {
-  color: #CF914C;
+  background-color: #CF914C;
 }

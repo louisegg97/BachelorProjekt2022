@@ -8,6 +8,7 @@ import {Succeshistorier} from './components/SuccesHishorier';
 import {Opgaver} from './components/Opgaver';
 import { omOs } from './components/OmOs';
 
+
 import './custom.css'
 
 export default class App extends Component {

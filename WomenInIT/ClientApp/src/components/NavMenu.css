@@ -5,8 +5,12 @@ a.navbar-brand {
 
 }
 
-.container {
-  color: #CFA99D;
+.navbar-toggler-icon {
+  color: #F4EEE8;
+}
+
+.color-nav {
+  background-color: #CFA99D;
 }
 
 html {
@@ -21,4 +25,14 @@ html {
 
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.nav-link{
+  color: #F4EEE8;
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  color: #CF914C;
+  
 }
