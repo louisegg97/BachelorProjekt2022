@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import { Route } from 'react-router';
 import { Layout } from './components/Layout';
 import { Home } from './components/Home';
-import {OmProgrammering} from './components/OmProgrammering';
-import {JobMuligheder} from './components/JobMuligheder';
-import {Succeshistorier} from './components/SuccesHishorier';
-import {Opgaver} from './components/Opgaver';
-import { omOs } from './components/OmOs';
-
-
+import { OmProgrammering } from './components/OmProgrammering';
+import { JobMuligheder } from './components/JobMuligheder';
+import { SuccesHistorier } from './components/SuccesHistorier';
+import { Opgaver } from './components/Opgaver';
+import { OmOs } from './components/OmOs';
 import './custom.css'
 
 export default class App extends Component {
@@ -20,9 +18,9 @@ export default class App extends Component {
         <Route exact path='/' component={Home} />
         <Route path='/omProgrammering' component={OmProgrammering} />
         <Route path='/jobMuligheder' component={JobMuligheder} />
-        <Route path='/succesHistorier' component={Succeshistorier} />
+        <Route path='/succesHistorier' component={SuccesHistorier} />
         <Route path='/opgaver' component={Opgaver} />
-        <Route path='/omOs' component={omOs} />
+        <Route path='/omOs' component={OmOs} />
       </Layout>
     );
   }
