@@ -85,12 +85,14 @@ terDiv {
   color: #6B3B0A;
   margin-bottom: 30px;
   margin-left: 40px;
+  
 }
 /* skal bruges til flere sider*/
 .overskriftVenstre {
   color: #6B3B0A;
   margin-bottom: 30px;
   text-align: right;
+  margin-right: 40px;
 }
 /* skal bruges til flere sider*/
 .beskrivelseLys {
@@ -111,4 +113,8 @@ terDiv {
 .overskriftdiv{
   padding-bottom: 150px;
 
+}
+
+.billede {
+  height: 600px;
 }
