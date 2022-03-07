@@ -9,7 +9,9 @@ export class OmOs extends Component {
     render() {
       return (
             <div>
+                <div className="overskriftdiv" >
                 <secText className="overskrift">Om os</secText>
+            </div>
             
                 <div className="historieOrange">
           <h1 className="overskriftHøjre">Vores Mission</h1>

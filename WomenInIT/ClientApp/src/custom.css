@@ -53,3 +53,62 @@ secDiv {
 terDiv {
   background-color: #CF914C;
 }
+
+/* skal bruges til flere sider*/
+.historiePink {
+  background-color: #CFA99D;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+/* skal bruges til flere sider*/
+.historieLys {
+  background-color: #F4EEE8;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+/* skal bruges til flere sider*/
+.historieOrange {
+  background-color: #CF914C;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+/* skal bruges til flere sider*/
+.indhold {
+  display: flex;    
+}
+
+/* skal bruges til flere sider*/
+.overskriftHøjre {
+  color: #6B3B0A;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+/* skal bruges til flere sider*/
+.overskriftVenstre {
+  color: #6B3B0A;
+  margin-bottom: 30px;
+  text-align: right;
+}
+/* skal bruges til flere sider*/
+.beskrivelseLys {
+  margin-right: 40px;
+  margin-left: 40px;
+  color: #F4EEE8;
+  font-size: large;
+}
+/* skal bruges til flere sider*/
+
+.beskrivelseMørk {
+  margin-right: 40px;
+  margin-left: 40px;
+  color: #6B3B0A;
+  font-size: large;
+}
+
+.overskriftdiv{
+  padding-bottom: 150px;
+
+}
