@@ -8,28 +8,28 @@
     display: flex;
     flex-wrap: wrap;
 }
-
+/* skal bruges til flere sider*/
 .historiePink {
     background-color: #CFA99D;
     width: 100%;
     height: auto;
     padding: 30px;
 }
-
+/* skal bruges til flere sider*/
 .historieLys {
     background-color: #F4EEE8;
     width: 100%;
     height: auto;
     padding: 30px;
 }
-
+/* skal bruges til flere sider*/
 .historieOrange {
     background-color: #CF914C;
     width: 100%;
     height: auto;
     padding: 30px;
 }
-
+/* skal bruges til flere sider*/
 .indhold {
     display: flex;    
 }
@@ -44,25 +44,26 @@
     transform: translate(-50%, -50%) 
 
 }
-
+/* skal bruges til flere sider*/
 .overskriftHøjre {
     color: #6B3B0A;
     margin-bottom: 30px;
     margin-left: 40px;
 }
-
+/* skal bruges til flere sider*/
 .overskriftVenstre {
     color: #6B3B0A;
     margin-bottom: 30px;
     text-align: right;
 }
-
+/* skal bruges til flere sider*/
 .beskrivelseLys {
     margin-right: 40px;
     margin-left: 40px;
     color: #F4EEE8;
     font-size: large;
 }
+/* skal bruges til flere sider*/
 
 .beskrivelseMørk {
     margin-right: 40px;
@@ -125,6 +126,15 @@
     border-radius: 50%;
 }
 
+.billede7Div {
+    position: relative;
+    padding: 0;
+    width: auto;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
 .billede7 {
     object-fit: cover;
     width:300px;
@@ -133,21 +143,15 @@
     border-radius: 50%;
 }
 
-.billede7:hover {
+.billede7Div:hover .billede7{
     opacity: 0.3;
 }
 
-
-.billedeDiv {
-    position: relative;
-  padding: 0;
-  width: auto;
-  display: block;
-  cursor: pointer;
-  overflow: hidden;
+.billede7Div:hover .skjultText{
+    opacity: 1;
 }
 
-.billedeDiv .skjultTextDiv {
+.skjultTextDiv {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -158,7 +162,7 @@
     text-align: center;
   }
 
-.billedeDiv:hover .skjultTextDiv {
+.billede7Div:hover .skjultTextDiv {
     opacity: 1;
   }
 
