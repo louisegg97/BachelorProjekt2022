@@ -1,3 +1,8 @@
+.collapsible{
+    margin-top: -500px;
+    margin-left: 590px;
+}
+
 .collapsible .toggle{
     background-color: #CF914C;
     color: #F4EEE8;
