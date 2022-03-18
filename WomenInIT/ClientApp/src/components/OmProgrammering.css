@@ -1,0 +1,35 @@
+.overskrift_P{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #6B3B0A;
+    font-size: 500%;
+    padding: 0;
+
+}
+
+.billede_baggrund{
+    z-index: -1;
+    height: 700px;
+    opacity: 60%;
+    margin-top: -260px;
+    margin-left: -100px;
+
+}
+
+.ikoner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+  }
+
+.grid-item{
+    height: 90px;
+    cursor: pointer;
+}
