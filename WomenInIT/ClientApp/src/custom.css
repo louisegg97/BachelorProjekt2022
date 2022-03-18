@@ -118,3 +118,13 @@ terDiv {
 .billede {
   height: 600px;
 }
+
+.baggrundDiv{
+  background-image: url(./components/images/Baggrund_figur.png);
+  z-index: -1;
+  height: 500px;
+  opacity: 60%;
+  background-position: -30% 20%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}

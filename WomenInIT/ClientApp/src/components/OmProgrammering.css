@@ -8,12 +8,3 @@
     z-index: 1;
 
 }
-
-.billede_baggrund{
-    z-index: -1;
-    height: 700px;
-    opacity: 60%;
-    margin-top: -260px;
-    margin-left: -100px;
-
-}
