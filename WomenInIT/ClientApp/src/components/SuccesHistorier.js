@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './SuccesHistorier.css';
+import pinkBobbel from './images/Baggrund_figur.png'
 import GraceHopperImage from './images/SuccesHistorier/graceHopper.jpg';
 import EmilieChristensen from './images/SuccesHistorier/emilieChristensen.webp';
 import AlberteWærens from './images/SuccesHistorier/alberteWærens.png';
@@ -11,6 +12,7 @@ import test6 from './images/SuccesHistorier/g.jpg';
 
 export class SuccesHistorier extends Component {
   static displayName = SuccesHistorier.name;
+  
 
   
   render() {
@@ -97,7 +99,7 @@ export class SuccesHistorier extends Component {
           </div>
         </div>
 
-        <div className="historiePink">
+        <div id="id-of-div" className="historiePink">
           <h1 className="overskriftHøjre">Alberte Wærens</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
@@ -111,4 +113,6 @@ export class SuccesHistorier extends Component {
       </div>
     );
   }
+
+
 }
