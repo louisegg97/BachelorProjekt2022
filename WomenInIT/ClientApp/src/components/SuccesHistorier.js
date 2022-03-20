@@ -67,18 +67,16 @@ export class SuccesHistorier extends Component {
 
           <div className="billede7Div">
           <img className="billede7" src={GraceHopperImage} alt=""/>
-            <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
+           
+            <div  className="skjultTextDiv">
+              <div class="skjultTextOverskrift" >Grace Hopper</div>
               <div class="skjultText">Grace Hopper was born in 1906 and died in 1992, she was born in New York and attended Yale University in 1930 and eventually received a PH. D in mathematics.</div>
               </div>
+           
           </div>
 
         </div>
-
-
-
-
-
+ main
         <div className="historieOrange">
           <h1 className="overskriftHøjre" id={'section1'}>Grace Hopper</h1>
           <div className="indhold">
@@ -88,7 +86,7 @@ export class SuccesHistorier extends Component {
             <img className="billede" src={GraceHopperImage} alt=""/>
           </div>
         </div>
-
+      
         <div className="historieLys">
           <h1 className="overskriftVenstre">Emilie Christensen</h1>
           <div className="indhold">

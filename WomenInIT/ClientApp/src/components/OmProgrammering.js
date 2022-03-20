@@ -12,8 +12,10 @@ export class OmProgrammering extends Component {
     render() {
       return (
           <div>
-               <h1 className="overskrift_P">Om programmering</h1>
-               <img className="billede_baggrund" src={Baggrund_figur} alt=""/>
+              <div className="baggrundDiv">
+              <div className="overskriftdiv" >
+                <secText className="overskrift">Om programmering</secText>
+            </div>
                <Collapsible label="Hvad er programmering egentlig?">
                 <p>Programmering dækker over udvikling af software og applikationer
                     m.m. Formålet med software er at udføre nogle opgaver ud fra den 
@@ -24,6 +26,7 @@ export class OmProgrammering extends Component {
                     Her vil vi give et overblik over de forskellige aspekter, der er ved 
                     programmering</p>
                </Collapsible>
+               </div>
           </div>
       );
     }
