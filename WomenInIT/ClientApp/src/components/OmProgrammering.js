@@ -13,9 +13,8 @@ export class OmProgrammering extends Component {
       return (
           <div>
               <div className="baggrundDiv">
-            <div className="overskriftdiv" >
-                <secText className="overskrift">Om Programmering</secText>
-            </div>
+              <div className="overskriftdiv" >
+                <secText className="overskrift">Om programmering</secText>
             </div>
                <Collapsible label="Hvad er programmering egentlig?">
                 <p>Programmering dækker over udvikling af software og applikationer
@@ -27,6 +26,7 @@ export class OmProgrammering extends Component {
                     Her vil vi give et overblik over de forskellige aspekter, der er ved 
                     programmering</p>
                </Collapsible>
+               </div>
           </div>
       );
     }
