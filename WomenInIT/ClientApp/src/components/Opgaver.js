@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './Opgaver.css';
+import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import buttonImage from './images/lbbutton.png';
-import Baggrund_figur from './images/Baggrund_figur.png';
+import './opgavesider/begynder1.js';
+
 
 export class Opgaver extends Component {
     static displayName = Opgaver.name;
@@ -27,16 +30,18 @@ export class Opgaver extends Component {
           <div class="grid-container">
                 <div>Frontend</div>
                 <div>Backend</div>
-                <div>Database</div>  
-                <input type="image" id="myimage" src={buttonImage} alt="" />
-                <input type="image" id="myimage" src={buttonImage} alt=""/>
-                <input type="image" id="myimage" src={buttonImage} alt=""/>
-                <input type="image" id="myimage" src={buttonImage} alt="" />
-                <input type="image" id="myimage" src={buttonImage} alt=""/>
-                <input type="image" id="myimage" src={buttonImage} alt=""/>
-                <input type="image" id="myimage" src={buttonImage} alt="" />
-                <input type="image" id="myimage" src={buttonImage} alt=""/>
-                <input type="image" id="myimage" src={buttonImage} alt=""/>
+                <div>Database</div> 
+                
+            <NavLink tag={Link} className="nav-link" to="/opgavesider/begynder1">
+                <img id="myimage" src={buttonImage} alt="ladybug"/>
+            </NavLink>
+            <NavItem className="nav-link" tag={Link} to="/opgavesider/begynder1">
+                <img id="myimage" src={buttonImage} alt="ladybug"/>
+            </NavItem>
+            <NavItem tag={Link} to="/components/opgavesider/begynder1">
+                <img id="myimage" src={buttonImage} alt="ladybug"/>
+            </NavItem>
+             
                 
             </div>
          </div>
