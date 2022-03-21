@@ -10,9 +10,12 @@
     margin: 150px 10px 50px 70px ;
 }
 
-.introText {
+.introTextHome {
     position: absolute;
+    margin: 150px 50px 0px 50px;
     right: 10px;
+    width: 400px;
+    font-size: 35px;
 }
 
 .komIgangKnap {
@@ -27,5 +30,35 @@
     font-weight: 400;
     font-size: 20px;
     border-radius: 10px;
+    border: none;
     
+}
+
+.læsMereHer {
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: #F4EEE8;
+    color: #CF914C;
+    font-family:  'Playfair Display';
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px;
+}
+/* SuccesHistorie*/
+.billedeSucceshitorie {
+    display: relative;
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    right: 50px;
+    margin: 60px;
+    border-radius: 50%;
+
 }

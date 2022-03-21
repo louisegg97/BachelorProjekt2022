@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './SuccesHistorier.css';
-import pinkBobbel from './images/Baggrund_figur.png'
 import GraceHopperImage from './images/SuccesHistorier/graceHopper.jpg';
 import EmilieChristensen from './images/SuccesHistorier/emilieChristensen.webp';
 import AlberteWærens from './images/SuccesHistorier/alberteWærens.png';
@@ -76,7 +75,7 @@ export class SuccesHistorier extends Component {
           </div>
 
         </div>
- main
+ 
         <div className="historieOrange">
           <h1 className="overskriftHøjre" id={'section1'}>Grace Hopper</h1>
           <div className="indhold">
