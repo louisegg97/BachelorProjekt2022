@@ -12,6 +12,9 @@ import test6 from './images/SuccesHistorier/g.jpg';
 export class SuccesHistorier extends Component {
   static displayName = SuccesHistorier.name;
   
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  } 
 
   
   render() {
