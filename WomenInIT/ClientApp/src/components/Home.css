@@ -7,41 +7,42 @@
     display: flex;
     flex-wrap: wrap;
     background-image: url("images/Baggrund_figur.png");
-        background-size: 1000px;
+        background-size: 1100px;
         background-repeat: no-repeat;
         background-position: -200px;
 }
 
 .kvindeligProgrammør {
     width: 400px;
-    margin: 150px 10px 50px 70px ;
+    margin: 100px 10px 50px 70px ;
 }
 
 .introTextHome {
     position: absolute;
-    margin: 150px 50px 0px 50px;
-    right: 10px;
+    margin: 100px 50px 0px 50px;
+    right: 80px;
     width: 400px;
-    font-size: 35px;
+    font-size: 50px;
+    
 }
 
 .komIgangKnap {
     width: 300px;
-    height: 50px;
+    height: 60px;
     position: absolute;
-    bottom: 400px;
+    bottom: 50px;
     right: 70px;
     background-color: #CF914C;
     color: #F4EEE8;
     font-family:  'Playfair Display';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 10px;
     border: none;
     
 }
 
-.læsMereHer {
+.omProgrammeringlæsMereHer {
     width: 300px;
     height: 50px;
     display: block;
@@ -84,7 +85,9 @@
     color: #AE9188;
     font-style: italic;
     margin: 30px;
+    margin-left: 90px;
 }
+
 .indhold2 {
     position: relative;
     display: flex;
@@ -103,7 +106,7 @@
     color: #D0904D;
     font-style: italic;
     margin-left: auto; 
-    margin-right: 100px;
+    margin-right: 120px;
 
     
     
@@ -116,7 +119,7 @@
     background-image: url("images/Baggrund_figur.png");
     background-size: 800px;
     background-repeat: no-repeat;
-    background-position: -80px 150px;    
+    background-position: -80px 105px;    
 
 }
 
@@ -124,39 +127,65 @@
     font-size: 400px;
     color: #F7EFE8;
     font-style: italic;
-    margin: 30px;
+    margin: 20px;
+    margin-left: 90px;
 }
 
 .stepTekst {
     text-align: center;
     color: #6B3B0A;
-    font-size: 50px;
+    font-size: 40px;
     width: 500px;
     margin-top: 250px;
-    margin-left: 100px;
+    margin-left: 20%;
     
 }
 
 .stepTekst2 {
     text-align: center;
     color: #6B3B0A;
-    font-size: 50px;
+    font-size: 40px;
     width: 500px;
     margin-top: 200px;
-    margin-left: auto; 
+    margin-left: 30%; 
     margin-right: 0;
 }
 
+.prøvProgrammeringlæsMereHer {
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D0904D;
+    color: #F4EEE8;
+    font-family:  'Playfair Display';
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 10px;
+}
 
 
 /* SuccesHistorie*/
 .billedeSucceshitorie {
     display: relative;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
     object-fit: cover;
     right: 50px;
     margin: 60px;
     border-radius: 50%;
 
+}
+
+.overskriftSuccesForside {
+    color: #6B3B0A;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-size: 70px;
 }
