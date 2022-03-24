@@ -1,0 +1,13 @@
+/*måske rykkes til custom css eller lave denne til custom for opgaverne...*/
+
+.opgBeskrivelse{
+    margin: 20px;
+}
+
+.hints{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 80px;
+    gap: 10px;
+    padding: 80px;
+}
