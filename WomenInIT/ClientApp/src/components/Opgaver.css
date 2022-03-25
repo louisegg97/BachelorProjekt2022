@@ -1,16 +1,18 @@
 
 .intro{
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 80px;
+    margin-left: 80px;
     margin-bottom: 40px;
+    font-size: larger;
 }
 
 .grid-container {
     display: grid;
+    place-items: center;
     grid-template-columns: auto auto auto;
     grid-template-rows: 80px 80px;
     gap: 20px;
-    padding: 100px;
+    padding: 50px;
   }
   
   .grid-container > div {
@@ -22,7 +24,17 @@
   #myimage {
     height: 80px;
     width: 80px;
-    align-self: center;
     margin-left: auto;
     margin-right: auto;
 }
+
+.gifdiv{
+  display: grid;
+  place-items: center;  
+
+}
+
+.gif{
+  height: 300px;
+}
+
