@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './OmProgrammering.css';
 import Baggrund_figur from './images/Baggrund_figur.png';
-import backend_ikon from './images/OmProgrammering/backend1.png';
-import frontend_ikon from './images/OmProgrammering/user-experience.png';
-import database_ikon from './images/OmProgrammering/database-storage.png';
 import Collapsible from './Collapsible';
+import { FaDatabase } from 'react-icons/fa';
+import { FaLaptopCode } from 'react-icons/fa';
+import { FaColumns } from 'react-icons/fa';
 import ReactDOM from "react-dom";
 
 
@@ -31,16 +31,16 @@ export class OmProgrammering extends Component {
                         Her vil vi give et overblik over de forskellige aspekter, der er ved 
                         programmering</p>
                </Collapsible>
-               <div className='ikoner'>
-                    <div class="grid-container">
-                                <img className="grid-item" src={frontend_ikon} alt=""/>
-                                <p className="grid-item">Front-end</p>
-                                <img className="grid-item" src={backend_ikon} alt=""/>
-                                <p className="grid-item">Back-end</p>
-                                <img className="grid-item" src={database_ikon} alt=""/>
-                                <p className="grid-item">Databaser</p>
+               <div className="icons_">
+                    <div className="grid-container">
+                        <FaColumns size="4em" className="one"/>
+                        <p className="two">Front-end</p>
+                        <FaLaptopCode size="4em" className="three"/>
+                        <p className="four">Back-end</p>
+                        <FaDatabase size="4em" className="five"/>
+                        <p className="six">Databaser</p>
                     </div>
-               </div>
+                </div>
                <section className='section1'>
                    <h2>Om Frontend</h2>
                    <p>Begrebet front-end dækker over grænsefladen på websteder, 
