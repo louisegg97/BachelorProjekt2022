@@ -31,7 +31,7 @@ export class OmProgrammering extends Component {
                         Her vil vi give et overblik over de forskellige aspekter, der er ved 
                         programmering</p>
                </Collapsible>
-               <div className="icons">
+               <div className="icons_">
                     <div className="grid-container">
                         <FaColumns size="4em" className="one"/>
                         <p className="two">Front-end</p>

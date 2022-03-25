@@ -9,16 +9,17 @@
 
 }
 
-.icons{
-    align-content: center;
+.icons_{
+    width: 1000px;
     justify-content: center;
+    align-content: center;
 }
 
 .grid-container{
     display: grid;
     color: #6B3B0A;
-    grid-gap: 10px;
-    grid-template-columns: repeat(3, 10px);
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 50px);
     grid-template-rows: repeat(2, 10px);
 }
 
@@ -58,6 +59,10 @@
     grid-column: 3/3;
     grid-row: 2;
     cursor: pointer;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover{
+    color: #CFA99D;
 }
 
 
