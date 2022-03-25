@@ -12,6 +12,9 @@ import ReactDOM from "react-dom";
 export class OmProgrammering extends Component {
     static displayName = OmProgrammering.name;
   
+    componentDidMount() {
+      window.scrollTo(0, 0);
+    } 
     
     render() {
       return (

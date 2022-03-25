@@ -6,7 +6,10 @@ import machånd from './images/mac+hånd.jpg'
 export class JobMuligheder extends Component {
     static displayName = JobMuligheder.name;
   
-    
+    componentDidMount() {
+      window.scrollTo(0, 0);
+    } 
+
     render() {
       return (
             <div>

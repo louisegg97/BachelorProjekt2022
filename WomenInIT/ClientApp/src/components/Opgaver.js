@@ -9,6 +9,9 @@ import './opgavesider/begynder1.js';
 export class Opgaver extends Component {
     static displayName = Opgaver.name;
   
+    componentDidMount() {
+      window.scrollTo(0, 0);
+    } 
     
     render() {
       return (
