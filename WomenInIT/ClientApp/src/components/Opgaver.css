@@ -1,4 +1,3 @@
-
 .intro{
     margin-right: 80px;
     margin-left: 80px;
@@ -34,7 +33,31 @@
 
 }
 
-.gif{
-  height: 300px;
+.opgbtn{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
 }
+
+#knap1{
+  background-image: url(./images/Opgaveknapper/M3.png);
+  color: #F4EEE8;
+}
+
+#knap2{
+  background-image: url(./images/Opgaveknapper/MOW.png);
+  color: #CF914C;
+}
+
+#knap3{
+  background-image: url(./images/Opgaveknapper/MWP.png);
+  color: #F4EEE8;
+}
+
+
 

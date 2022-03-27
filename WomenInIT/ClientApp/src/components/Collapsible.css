@@ -1,6 +1,5 @@
 /*ændret til opgaver*/
 .collapsible{
-    margin-left: 50px;
     
 }
 
@@ -13,6 +12,7 @@
     border-radius: 5px;
     margin-bottom: 0.5rem;
     font-weight: bold;
+    width: 265px;
 }
 
 .collapsible .content{

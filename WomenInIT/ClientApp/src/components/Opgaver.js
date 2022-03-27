@@ -36,17 +36,35 @@ export class Opgaver extends Component {
               <Opgavenr/>
             </div>
 
-            <div className="historieLys">
+          <div className="historieLys">
               <h1 className="overskriftHøjre">For dig der er let øvet</h1>
-              <Opgavenr/>
-            </div>
+              
+              <div class="grid-container">
+                <div>Frontend</div>
+                <div>Backend</div>
+                <div>Database</div> 
+                <button className="opgbtn" id="knap1" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgavesider/begynder1';
+                  }}>1</button>
+                <button className="opgbtn" id="knap1" >1</button>
+                <button className="opgbtn" id="knap1" >1</button>
+                <button className="opgbtn" id="knap2" >2</button>
+                <button className="opgbtn" id="knap2" >2</button>
+                <button className="opgbtn" id="knap2" >2</button>
+                <button className="opgbtn" id="knap3" >3</button>
+                <button className="opgbtn" id="knap3" >3</button>
+                <button className="opgbtn" id="knap3" >3</button>
+              </div>
 
             <div className="historiePink">
               <h1 className="overskriftHøjre">For dig der er let øvet</h1>
               <Opgavenr/>
             </div>
 
-            </div>
+          </div>
+          </div>
+
 
            
       );

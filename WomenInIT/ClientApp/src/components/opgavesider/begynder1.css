@@ -9,5 +9,6 @@
     grid-template-columns: auto auto auto;
     grid-template-rows: 80px 80px;
     gap: 10px;
-    padding: 80px;
+    padding: 50px;
+    justify-content: center
 }
