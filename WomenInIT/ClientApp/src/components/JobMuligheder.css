@@ -35,12 +35,13 @@
 }
 
 
-.faktaOmJob {
-}
-
 .fakta {
     margin: 40px;
     color: #6B3B0A;
     font-size: 20px;
     font-weight: bolder;
+}
+
+.gif {
+ size: 1000px;
 }
