@@ -5,9 +5,8 @@
 
 .billedeBaggrund {
     position: relative;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
+    height: 800px;
+
     background-image: url("images/Baggrund_figur.png");
         background-size: 1100px;
         background-repeat: no-repeat;

@@ -19,8 +19,9 @@ export class OmProgrammering extends Component {
     render() {
       return (
           <div className='body'>
+              <div className="billedeBaggrund">
                <h1 className="overskrift_P">Om programmering</h1>
-               <div className="billedeBaggrund"></div>
+               
                <div className='collapsible'>
                   <Collapsible label="Hvad er programmering egentlig?">
                         <p>Programmering dækker over udvikling af software og applikationer
@@ -42,6 +43,7 @@ export class OmProgrammering extends Component {
                       <section><a href="#database"><p className="five">Back-end</p></a></section>
                       <section><a href="#database"><p className="six">Databaser</p></a></section>
                   </article>
+                 </div>
                  </div>
 
                <div id="frontend">
