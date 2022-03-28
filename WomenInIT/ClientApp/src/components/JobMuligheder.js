@@ -9,7 +9,8 @@ import fullStackGif from './images/JobMuligheder/fullStackGif.gif'
 import spilUdviklerGif from './images/JobMuligheder/spilUdviklerGif.gif'
 import cyberSikkerhedGif from './images/JobMuligheder/cyberSikkerhedGif.gif'
 import databaseAdministratorGif from './images/JobMuligheder/databaseAdministratorGif.gif'
-
+import itKonsulentGif from './images/JobMuligheder/itKonsulentGif.gif'
+import projektlederGif from './images/JobMuligheder/projektlederGif.gif'
 
 
 
@@ -167,31 +168,38 @@ export class JobMuligheder extends Component {
             <div className="historieLys">
               <h1 className="overskriftVenstre">IT Konsulent</h1>
               <div className="indhold">
-              <img className="billede" src={machånd} alt=""/>
-                <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-                Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-                Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
-              </div>
+              <img className="gifKvadrat" src={itKonsulentGif} alt=""/>
+                <p className="beskrivelseMørk"> 
+                Som IT Konsulent arbejder man med industrielle og klienter der søger hjælp og råd om 
+                IT-problemer eller opgaver. Typiske projekter man optager som IT Konsulent kunne være,
+                at analyserer data for en organisation; designe, installere og afprøve nye systemer
+                og software, og fixe de problemer der opstår undervejs; reperere computerer og fjerne virusser.
+                </p>
+                </div>
+                <div className="faktaOmJob">
+                  <p className="fakta">Gennemsnitsløn: 45.000 kr.</p> 
+                  <p className="fakta">Uddannelser: Datalogi, Softwareudvikling, Datamatiker, Softwareingeniør</p>
+                  <p className="fakta">Mest almindelige programmeringssprog: Alle</p>
+                </div>
             </div>
 
             <div className="historieOrange">
-              <h1 className="overskriftHøjre">Usabilitykonsulent</h1>
+              <h1 className="overskriftHøjre">IT Projektleder</h1>
               <div className="indhold">
-              <p className="beskrivelseLys"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-              Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-              Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
-              <img className="billede" src={machånd} alt=""/>
+              <p className="beskrivelseLys"> 
+               Når man arbejder som IT Projektleder har man ansvaret for at planlægge, organiserer,
+               afhvikle og aflutte et projekt. Man skal have et overblik over mange områder, heriblandt: 
+               risikostyring, budget, tidsofobrug. Ligeledes skal man også være sikre på at anre medlemmer 
+               af projektet ved hvor projektet står, eventuelle udfordringer, og hvad der skal til for at projektet når i mål.
+               Som IT Projektleder er det vigtigt at have kompetencer indenfor kommunikation, ledelse og tekniske færdigheder.
+              </p>
+              <img className="gifKvadrat" src={projektlederGif} alt=""/>
               </div>
-            </div>
-
-            <div className="historieLys">
-              <h1 className="overskriftVenstre">Projektleder</h1>
-              <div className="indhold">
-              <img className="billede" src={machånd} alt=""/>
-                <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-                Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-                Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
-              </div>
+              <div className="faktaOmJob">
+                  <p className="fakta">Gennemsnitsløn: 38.000 kr.</p> 
+                  <p className="fakta">Uddannelser: Softwareudvikling, HA.it, Datalogi, HA.pro</p>
+                  <p className="fakta">Mest almindelige programmeringssprog: Ingen specifikke</p>
+                </div>
             </div>
 
             </div>
