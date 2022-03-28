@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Opgaver.css';
-import './opgavesider/begynder1.js';
+import './opgavesider/Opgaveside.js';
 import Opgavenr from './OpgaveNr';
 import gif from './images/Opgaveknapper/giphy.gif'
 
@@ -49,7 +49,7 @@ export class Opgaver extends Component {
                 <div>Database</div> 
                 <button className="opgbtn" id="knap1" onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='./opgavesider/begynder1';
+                  window.location.href='./opgaveside/1';
                   }}>1</button>
                 <button className="opgbtn" id="knap1" >1</button>
                 <button className="opgbtn" id="knap1" >1</button>

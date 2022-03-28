@@ -7,7 +7,7 @@ import { JobMuligheder } from './components/JobMuligheder';
 import { SuccesHistorier } from './components/SuccesHistorier';
 import { Opgaver } from './components/Opgaver';
 import { OmOs } from './components/OmOs';
-import { Begynder1 } from './components/opgavesider/begynder1';
+import { Opgaveside } from './components/opgavesider/Opgaveside';
 import './custom.css'
 
 export default class App extends Component {
@@ -22,7 +22,7 @@ export default class App extends Component {
         <Route path='/succesHistorier' component={SuccesHistorier} />
         <Route path='/opgaver' component={Opgaver} />
         <Route path='/omOs' component={OmOs} />
-        <Route path='/opgavesider/begynder1' component={Begynder1}/>
+        <Route path='/opgaveside/:id' component={Opgaveside}/>
       </Layout>
     );
   }
