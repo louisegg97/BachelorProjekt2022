@@ -86,6 +86,8 @@ terDiv {
   color: #6B3B0A;
   margin-bottom: 30px;
   margin-left: 40px;
+  padding: 40px;
+
   
 }
 /* skal bruges til flere sider*/
@@ -94,6 +96,8 @@ terDiv {
   margin-bottom: 30px;
   text-align: right;
   margin-right: 40px;
+  padding: 40px;
+
 }
 /* skal bruges til flere sider*/
 .beskrivelseLys {
@@ -101,6 +105,7 @@ terDiv {
   margin-left: 40px;
   color: #F4EEE8;
   font-size: 20px;
+  padding: 40px;
 }
 /* skal bruges til flere sider*/
 
@@ -109,6 +114,8 @@ terDiv {
   margin-left: 40px;
   color: #6B3B0A;
   font-size: 20px;
+  padding: 40px;
+
 }
 
 .overskriftdiv{

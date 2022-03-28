@@ -1,0 +1,45 @@
+.fællesBillede {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+    width: fit-content;
+    font-size: 500%;
+
+}
+
+.overskrift {
+    font-size: 500%;
+}
+
+.midterTekst {
+    text-align: center;
+    color: #F4EEE8;
+    font-size: 25px;
+}
+
+.omOsSamlet {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.omOsSeperat {
+    width: 300px;
+    margin: auto;
+
+}
+
+.personligtBillede {
+    width: 300px;
+    border-radius: 50%;
+
+}
+
+.omOsTekst {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #6B3B0A;
+}
