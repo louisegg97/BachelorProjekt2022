@@ -5,22 +5,22 @@
 
 .billedeBaggrund {
     position: relative;
-    height: 800px;
+    height: 525px;
 
     background-image: url("images/Baggrund_figur.png");
-        background-size: 1100px;
+        background-size: 800px;
         background-repeat: no-repeat;
-        background-position: -200px;
+        background-position: -100px;
+        margin-bottom: 20px;
 }
 
 .overskrift_P{
-    margin-top: 100px;
     text-align: center;
     margin-bottom: 0;
     color: #6B3B0A;
     font-size: 500%;
-    padding: 0;
     z-index: 1;
+    padding-top: 100px;
 
 }
 
@@ -59,16 +59,44 @@ article {
   }
 
 
-#section_frontend{
+#frontend_OmProgrammering{
     background-color: #CF914C;
     height: 500px;
 }
 
-#section_backend{
+#backend_OmProgrammering{
     height: 500px;
 }
 
-#section_database{
+#database__OmProgrammering{
     height: 500px;
     background-color: #CFA99D;
+}
+
+.frontend_h2{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.frontend{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 800px);
+    grid-template-rows: auto;
+    grid-column-gap: 15%;
+}
+
+.frontend_tekst{
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    margin-left: 10%;
+    margin-top: 3%;
+    color: #F4EEE8;
+    width: 500px;
+}
+
+.frontendGif{
+    height: 300px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 3%;
 }
