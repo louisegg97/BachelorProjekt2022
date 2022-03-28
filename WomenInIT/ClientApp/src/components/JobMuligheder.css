@@ -42,6 +42,12 @@
     font-weight: bolder;
 }
 
-.gif {
- size: 1000px;
+.gifKvadrat {
+    width: 500px;
+    height: 500px;
+}
+
+.gifAflang {
+    width: 600px;
+    height: 300px;
 }
