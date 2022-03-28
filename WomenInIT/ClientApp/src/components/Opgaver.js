@@ -30,6 +30,10 @@ export class Opgaver extends Component {
             <div className="gifdiv" >
             <img className="gif" src={gif} alt=""/>
             </div>
+            <secText className="overskrift">Programmeringssprog</secText>
+            <div className="progsprog">
+             
+            </div>
             </div>
                 <div className="historieOrange">
              <h1 className="overskriftHøjre">For dig der er begynder</h1>
