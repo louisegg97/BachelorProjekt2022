@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './begynder1.css'
+import './Opgaveside.css'
 import Collapsible from '../Collapsible.js';
 import useOpgavesider from './Opgavesider.js';
 
@@ -33,7 +33,7 @@ export class Opgaveside extends Component {
                </Collapsible>
                </div>
             </div>
-              <iframe frameborder="0" width="100%" height="500px" src={opgavesider[opgaveside_id].src}></iframe>
+              <iframe id="replitlink" src={opgavesider[opgaveside_id].src}></iframe>
             </div>
       );
     }

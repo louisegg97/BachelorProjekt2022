@@ -37,7 +37,26 @@ export class Opgaver extends Component {
             </div>
                 <div className="historieOrange">
              <h1 className="overskriftHøjre">For dig der er begynder</h1>
-              <Opgavenr/>
+             <div class="grid-container">
+                <div>Frontend</div>
+                <div>Backend</div>
+                <div>Database</div> 
+                <button className="opgbtn" id="knap1" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/f1';
+                  }}>1</button>
+                <button className="opgbtn" id="knap1" id="knap1" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/b1';
+                  }}>1</button>
+                <button className="opgbtn" id="knap1" >1</button>
+                <button className="opgbtn" id="knap2" >2</button>
+                <button className="opgbtn" id="knap2" >2</button>
+                <button className="opgbtn" id="knap2" >2</button>
+                <button className="opgbtn" id="knap3" >3</button>
+                <button className="opgbtn" id="knap3" >3</button>
+                <button className="opgbtn" id="knap3" >3</button>
+              </div>
             </div>
 
           <div className="historieLys">
@@ -66,7 +85,28 @@ export class Opgaver extends Component {
 
             <div className="historiePink">
               <h1 className="overskriftHøjre">For dig der er let øvet</h1>
-              <Opgavenr/>
+                 <div class="grid-container">
+                <div>Frontend</div>
+                <div>Backend</div>
+                <div>Database</div> 
+                <button className="opgbtn" id="knap1" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/f1';
+                  }}>1</button>
+                <button className="opgbtn" id="knap1" id="knap1" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/b1';
+                  }}>1</button>
+                <button className="opgbtn" id="knap1" >1</button>
+                <button className="opgbtn" id="knap2" >2</button>
+                <button className="opgbtn" id="knap2" >2</button>
+                <button className="opgbtn" id="knap2" >2</button>
+                <button className="opgbtn" id="knap3" >3</button>
+                <button className="opgbtn" id="knap3" >3</button>
+                <button className="opgbtn" id="knap3" >3</button>
+              </div>
+             
+
             </div>
 
           </div>
