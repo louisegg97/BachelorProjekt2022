@@ -49,9 +49,12 @@ export class Opgaver extends Component {
                 <div>Database</div> 
                 <button className="opgbtn" id="knap1" onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='./opgaveside/1';
+                  window.location.href='./opgaveside/f1';
                   }}>1</button>
-                <button className="opgbtn" id="knap1" >1</button>
+                <button className="opgbtn" id="knap1" id="knap1" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/b1';
+                  }}>1</button>
                 <button className="opgbtn" id="knap1" >1</button>
                 <button className="opgbtn" id="knap2" >2</button>
                 <button className="opgbtn" id="knap2" >2</button>
