@@ -14,13 +14,11 @@ export class Opgaveside extends Component {
 
       return (
           <div>
-              <div className="baggrundDiv">
+              
               <div className="overskriftdiv" >
-                <secText className="overskrift">{opgavesider[opgaveside_id].title}</secText>
-            </div>
-              <div className="opgBeskrivelse">
-                <secText >{opgavesider[opgaveside_id].desc}</secText>
-              </div>
+                <p className="overskriftopg">{opgavesider[opgaveside_id].title}</p>
+                <p className="opgTekst">{opgavesider[opgaveside_id].desc}</p>
+              
               <div className="hints">
               <Collapsible  label="Hint 1">
                 <p>{opgavesider[opgaveside_id].hint1}</p>
@@ -32,7 +30,7 @@ export class Opgaveside extends Component {
                 <p>{opgavesider[opgaveside_id].hint3}</p>
                </Collapsible>
                </div>
-            </div>
+               </div>
               <iframe id="replitlink" src={opgavesider[opgaveside_id].src}></iframe>
             </div>
       );

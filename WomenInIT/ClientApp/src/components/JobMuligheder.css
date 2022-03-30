@@ -1,13 +1,3 @@
-.overskriftdiv {
-    margin-top: 100px;
-    background-image: url("images/Figur.png");;
-        background-size: 1500px;
-        background-repeat: no-repeat;
-        background-position: -400px -200px;
-        
-    
-}
-
 .overskriftJob {
     display: block;
     margin-left: auto;
@@ -34,7 +24,6 @@
     width: 500px;
 
 }
-
 
 .fakta {
     margin: 40px;

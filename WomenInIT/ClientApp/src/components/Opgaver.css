@@ -1,15 +1,35 @@
+.overskriftdiv{
+  margin-top: 100px;
+  background-image: url("images/Baggrund_figur.png");
+        background-size: 1100px;
+        background-repeat: no-repeat;
+        background-position: -200px;
+}
+
+#baggrund{
+  height: 700px;
+}
+
+.overskriftOpgaver{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 500%;
+    text-align: center;
+}
+
 .intro{
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-bottom: 40px;
     font-size: larger;
+    font-size: 15px;
+    margin: 50px 100px 100px 100px;
+    text-align: center;
 }
 
 .grid-container {
     display: grid;
     place-items: center;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 80px 80px;
+    grid-template-rows: 100px 100px;
     gap: 20px;
     padding: 50px;
   }
@@ -44,10 +64,21 @@
   font-size: 30px;
 }
 
+.opgbtn:hover{
+  height: 85px;
+  width: 85px; 
+}
+
+.opgbtn:active{
+  height: 75px;
+  width: 75px;
+}
+
 #knap1{
   background-image: url(./images/Opgaveknapper/M3.png);
   color: #F4EEE8;
 }
+
 
 #knap2{
   background-image: url(./images/Opgaveknapper/MOW.png);
