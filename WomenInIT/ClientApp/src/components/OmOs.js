@@ -73,14 +73,16 @@ export class OmOs extends Component {
               </div>
 
               <div className="omOsSeperat">
+              <img className="personligtBillede" src={alberte} alt=""/>
+              <p className="omOsTekst">Alberte Wærens, 23 år</p>
+              </div>
+
+              <div className="omOsSeperat">
               <img className="personligtBillede" src={louise} alt=""/>
               <p className="omOsTekst">Louise Götschze, 25 år</p>
               </div>
 
-              <div className="omOsSeperat">
-              <img className="personligtBillede" src={alberte} alt=""/>
-              <p className="omOsTekst">Alberte Wærens, 23 år</p>
-              </div>
+              
             </div>
           </div>
         </div>
