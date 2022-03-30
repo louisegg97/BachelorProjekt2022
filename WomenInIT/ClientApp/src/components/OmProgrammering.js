@@ -47,7 +47,7 @@ export class OmProgrammering extends Component {
                         </article>
                         </div>
                  </div>
-                 <Link to="#database_OmProgrammering">Your link text</Link>
+
 
                <div id="frontend_OmProgrammering">
                    <div className='frontend'>
@@ -63,7 +63,7 @@ export class OmProgrammering extends Component {
                </div>
                <div id="backend_OmProgrammering">
                    <h2>Om backend</h2>
-                   <p>Begrebet front-end dækker over grænsefladen på websteder, 
+                   <p className='backend_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
                        dvs alle de synlige elementer på webstedet eller applikationen. 
                        Der er således fokus på webudvikllingen af klientsiden, da der er 
                        fokus på, hvad brugerne ser visuelt. Front-end udviklere koder i HTML, 
@@ -72,7 +72,7 @@ export class OmProgrammering extends Component {
                </div>
                <div id="database_OmProgrammering">
                    <h2>Om databaser</h2>
-                   <p>Begrebet front-end dækker over grænsefladen på websteder, 
+                   <p className='databaser_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
                        dvs alle de synlige elementer på webstedet eller applikationen. 
                        Der er således fokus på webudvikllingen af klientsiden, da der er 
                        fokus på, hvad brugerne ser visuelt. Front-end udviklere koder i HTML, 
