@@ -7,6 +7,7 @@ import { FaLaptopCode } from 'react-icons/fa';
 import { FaColumns } from 'react-icons/fa';
 import frontendGif from './images/OmProgrammering/front_end.gif'
 import ReactDOM from "react-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 
@@ -37,15 +38,16 @@ export class OmProgrammering extends Component {
                     </div>
                     <div className="icons_">
                         <article>
-                            <section><FaColumns size="4em" className="one"/></section>
-                            <section><FaLaptopCode size="4em" className="two"/></section>
-                            <section><FaDatabase size="4em" className="three"/></section>
-                            <section><p className="four">Front-end</p></section>
-                            <section><p className="five">Back-end</p></section>
-                            <section><p className="six">Databaser</p></section>
+                            <section><Link to="#frontend_OmProgrammering"><FaColumns size="4em" className="one"/></Link></section>
+                            <section><Link to="#backend_OmProgrammering"><FaLaptopCode size="4em" className="two"/></Link></section>
+                            <section><Link to="#database_OmProgrammering"><FaDatabase size="4em" className="three"/></Link></section>
+                            <section><Link to="#frontend_OmProgrammering"><p className="four">Front-end</p></Link></section>
+                            <section><Link to="#backend_OmProgrammering"><p className="five">Back-end</p></Link></section>
+                            <section><Link to="#database_OmProgrammering"><p className="six">Databaser</p></Link></section>
                         </article>
                         </div>
                  </div>
+                 <Link to="#database_OmProgrammering">Your link text</Link>
 
                <div id="frontend_OmProgrammering">
                    <div className='frontend'>
