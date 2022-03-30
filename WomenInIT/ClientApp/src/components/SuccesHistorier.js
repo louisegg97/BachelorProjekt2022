@@ -15,7 +15,6 @@ export class SuccesHistorier extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   } 
-
   
   render() {
     return (

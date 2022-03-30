@@ -15,25 +15,18 @@ export class Opgaver extends Component {
     render() {
       return (
         <div>
-            <div className="baggrundDiv">
-            <div className="overskriftdiv" >
-                <secText className="overskrift">Opgaver</secText>
-            </div>
-            <div className="intro">
-            <secText  >
+            <div className="overskriftdiv" id="baggrund">
+              <secText className="overskriftOpgaver" >Opgaver</secText>
+            <p className="intro">
             Her har du mulighed for at prøve at programmer selv. 
             Der er opgaver for dig der er begynder, let øvet og for dig der er øvet. 
             Uanset niveau kan du prøve kræfter med programmering i frontend, backend og databaser 
             - hvis du vil vide mere om disse kan du læse om dem her
-            </secText>
-            </div>
+            </p>
             <div className="gifdiv" >
             <img className="gif" src={gif} alt=""/>
             </div>
-            <secText className="overskrift">Programmeringssprog</secText>
-            <div className="progsprog">
-             
-            </div>
+            <secText className="overskriftOpgaver">Programmeringssprog</secText>
             </div>
                 <div className="historieOrange">
              <h1 className="overskriftHøjre">For dig der er begynder</h1>
