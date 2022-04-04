@@ -29,7 +29,7 @@ export class Opgaver extends Component {
             <secText className="overskriftOpgaver">Programmeringssprog</secText>
             </div>
                 <div className="historieOrange">
-             <h1 className="overskriftHøjre">For dig der er begynder</h1>
+             <h1 className="overskriftHøjre">For dig, der er begynder</h1>
              <div class="grid-container">
                 <div>Frontend</div>
                 <div>Backend</div>
@@ -53,7 +53,7 @@ export class Opgaver extends Component {
             </div>
 
           <div className="historieLys">
-              <h1 className="overskriftHøjre">For dig der er let øvet</h1>
+              <h1 className="overskriftHøjre">For dig, der er let øvet</h1>
               
               <div class="grid-container">
                 <div>Frontend</div>
@@ -77,7 +77,7 @@ export class Opgaver extends Component {
               </div>
 
             <div className="historiePink">
-              <h1 className="overskriftHøjre">For dig der er let øvet</h1>
+              <h1 className="overskriftHøjre">For dig, der er øvet</h1>
                  <div class="grid-container">
                 <div>Frontend</div>
                 <div>Backend</div>
