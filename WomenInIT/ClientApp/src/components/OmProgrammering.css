@@ -68,13 +68,15 @@ article {
 h2{
     margin-top: 5%;
     margin-left: 10%;
+    color: #6B3B0A;
 }
 
 .frontend{
     display: inline-grid;
     grid-template-columns: repeat(2, 800px);
     grid-template-rows: auto;
-    grid-column-gap: 15%;
+    grid-column-gap: 10%;
+    width: 100%;
 }
 
 .frontend_tekst{
@@ -92,6 +94,23 @@ h2{
     grid-column-end: 3;
     margin-top: 3%;
 }
+
+.Frontend_knap{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 80px;
+    top: 950px;    
+    background: #F4EEE8;
+    border-radius: 10px;
+    color: #6B3B0A;
+    border: none;
+}
+
+.Frontend_knap:hover{
+    color:#CF914C;
+}
+
 
 #backend_OmProgrammering{
     height: 500px;

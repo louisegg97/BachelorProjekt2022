@@ -60,6 +60,7 @@ export class OmProgrammering extends Component {
                             Disse tre sprog danner fundamentet for webstedet front-end.</p>
                             <img className="frontendGif"src={frontendGif} alt="frontendGif" />
                     </div>
+                    <button className="Frontend_knap">Læs mere</button>
                </div>
                <div id="backend_OmProgrammering">
                    <h2>Om backend</h2>
