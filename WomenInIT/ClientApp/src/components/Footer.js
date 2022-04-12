@@ -34,6 +34,9 @@ export class Footer extends Component {
             <Link to="/SuccesHistorier" className="footerGenveje">Succeshistorier</Link>
             </p>
             <p>
+            <Link to="/Opgaver" className="footerGenveje">Opgaver</Link>
+            </p>
+            <p>
             <Link to="/OmOs" className="footerGenveje">Hvem er vi</Link>
             </p>
             </div>
