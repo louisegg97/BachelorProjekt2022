@@ -1,11 +1,12 @@
 .outerDiv {
-    background-color:aqua;
-    height: 400px;
+    background-color: #CF914C;
+    height: 500px;
     width:100%;
     position: relative;
     bottom: 0px;
     display: flex;
-    padding: 40px;
+    padding: 10%;
+    padding-top: 80px;
 }
 
 .venstreDiv {
@@ -13,8 +14,13 @@
 }
 
 .højreDiv {
- width: 50%;
+ position: absolute;
+ right: 15%;
+}
 
+.footerNyhedsBrev {
+    width: auto;
+    height: 300px;
 }
 
 .footerOverskrift {
@@ -25,4 +31,5 @@
 .footerGenveje {
     color: #FFFFFF;;
     font-size: 20px;
+    margin-top: 20px;
 }
