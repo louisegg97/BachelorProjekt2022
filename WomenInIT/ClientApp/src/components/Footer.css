@@ -33,3 +33,7 @@
     font-size: 20px;
     margin-top: 20px;
 }
+
+a:hover {
+    color: #6B3B0A;
+ }
