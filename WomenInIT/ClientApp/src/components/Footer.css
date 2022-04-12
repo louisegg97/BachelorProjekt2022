@@ -1,7 +1,28 @@
 .outerDiv {
-    background-color: #CF914C;
-    height: 25%;
+    background-color:aqua;
+    height: 400px;
     width:100%;
-    position: absolute;
+    position: relative;
     bottom: 0px;
+    display: flex;
+    padding: 40px;
+}
+
+.venstreDiv {
+ width: 50%;
+}
+
+.højreDiv {
+ width: 50%;
+
+}
+
+.footerOverskrift {
+    color: #FFFFFF;;
+    font-size: 30px;
+}
+
+.footerGenveje {
+    color: #FFFFFF;;
+    font-size: 20px;
 }

@@ -8,6 +8,7 @@ import { SuccesHistorier } from './components/SuccesHistorier';
 import { Opgaver } from './components/Opgaver';
 import { OmOs } from './components/OmOs';
 import { Opgaveside } from './components/opgavesider/Opgaveside';
+import { Footer } from './components/Footer';
 import './custom.css'
 
 export default class App extends Component {
@@ -23,6 +24,7 @@ export default class App extends Component {
         <Route path='/opgaver' component={Opgaver} />
         <Route path='/omOs' component={OmOs} />
         <Route path='/opgaveside/:id' component={Opgaveside}/>
+        <Footer/>
       </Layout>
     );
   }
