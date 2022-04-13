@@ -11,7 +11,7 @@ import cyberSikkerhedGif from './images/JobMuligheder/cyberSikkerhedGif.gif'
 import databaseAdministratorGif from './images/JobMuligheder/databaseAdministratorGif.gif'
 import itKonsulentGif from './images/JobMuligheder/itKonsulentGif.gif'
 import projektlederGif from './images/JobMuligheder/projektlederGif.gif'
-
+import TableOfContents from './TableOfContents';
 
 
 export class JobMuligheder extends Component {
@@ -31,9 +31,9 @@ export class JobMuligheder extends Component {
                   Det er kun fantasien der sætter grænser for hvilke jobs du kan få, og der er mange flere end dem vi nævner her, men måske du kan finde inspiration til din fremtidige karriere her.</p>
                   <img className="jobMulighedGif "src={introGif} alt="jobMulighedGif" />
               </div>
-
+              <TableOfContents/>
             <div className="historieOrange">
-              <h1 className="overskriftHøjre">Systemudvikler</h1>
+              <h1 id="systemudvikler" className="overskriftHøjre">Systemudvikler</h1>
               <div className="indhold">
               <p className="beskrivelseLys"> 
                 Som computer programmør er du med til at skabe nye software, hjemmesider og andre applikationer,
@@ -52,7 +52,7 @@ export class JobMuligheder extends Component {
             </div>
 
             <div className="historieLys">
-              <h1 className="overskriftVenstre">Back-End udvikler</h1>
+              <h1 id="back-end-udvikler" className="overskriftVenstre">Back-End udvikler</h1>
               <div className="indhold">
               <img className="gifAflang" src={backEndGif} alt=""/>
                 <p className="beskrivelseMørk"> 
@@ -73,7 +73,7 @@ export class JobMuligheder extends Component {
             </div>
 
             <div className="historiePink">
-              <h1 className="overskriftHøjre">Front-End udvikler</h1>
+              <h1 id="front-end-udvikler" className="overskriftHøjre">Front-End udvikler</h1>
               <div className="indhold">
                 <p className="beskrivelseLys"> 
                 En front-end uvikler bygger front-end delen af hjemmeside og applikationer.
@@ -94,7 +94,7 @@ export class JobMuligheder extends Component {
             </div>
 
             <div className="historieLys">
-              <h1 className="overskriftVenstre">Full-Stack Udvikler</h1>
+              <h1 id="full-stack-udvikler" className="overskriftVenstre">Full-Stack Udvikler</h1>
               <div className="indhold">
               <img className="gifKvadrat" src={fullStackGif} alt=""/>
                 <p className="beskrivelseMørk"> 
@@ -112,7 +112,7 @@ export class JobMuligheder extends Component {
             </div>
 
             <div className="historieOrange">
-              <h1 className="overskriftHøjre">Spil Udvikler</h1>
+              <h1 id="spiludvikler" className="overskriftHøjre">Spil Udvikler</h1>
               <div className="indhold">
               <p className="beskrivelseLys"> 
               Som Spiludvikler er dit ansvarsområde at designer og udvikle videospil til computere, consol, og 
@@ -129,7 +129,7 @@ export class JobMuligheder extends Component {
             </div>
 
             <div className="historieLys">
-              <h1 className="overskriftVenstre">Cyber-Sikkerhed Analytiker</h1>
+              <h1 id="cyber-sikkerhed" className="overskriftVenstre">Cyber-Sikkerhed Analytiker</h1>
               <div className="indhold">
               <img className="gifAflang" src={cyberSikkerhedGif} alt=""/>
                 <p className="beskrivelseMørk"> 
@@ -147,7 +147,7 @@ export class JobMuligheder extends Component {
             </div>
 
             <div className="historiePink">
-              <h1 className="overskriftHøjre">Database Administrator</h1>
+              <h1 id="database-admin" className="overskriftHøjre">Database Administrator</h1>
               <div className="indhold">
                 <p className="beskrivelseLys"> 
                 En Database Administrator sørge for at databasen fungere og kører optimalt. 
@@ -166,7 +166,7 @@ export class JobMuligheder extends Component {
             </div>
 
             <div className="historieLys">
-              <h1 className="overskriftVenstre">IT Konsulent</h1>
+              <h1 id="it-konsulent" className="overskriftVenstre">IT Konsulent</h1>
               <div className="indhold">
               <img className="gifKvadrat" src={itKonsulentGif} alt=""/>
                 <p className="beskrivelseMørk"> 
@@ -184,7 +184,7 @@ export class JobMuligheder extends Component {
             </div>
 
             <div className="historieOrange">
-              <h1 className="overskriftHøjre">IT Projektleder</h1>
+              <h1 id="it-projektleder" className="overskriftHøjre">IT Projektleder</h1>
               <div className="indhold">
               <p className="beskrivelseLys"> 
                Når man arbejder som IT Projektleder har man ansvaret for at planlægge, organiserer,
