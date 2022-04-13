@@ -60,24 +60,31 @@ export class OmProgrammering extends Component {
                             Disse tre sprog danner fundamentet for webstedet front-end.</p>
                             <img className="frontendGif"src={frontendGif} alt="frontendGif" />
                     </div>
+                    <button className="frontend_knap">Læs mere</button>
                </div>
                <div id="backend_OmProgrammering">
-                   <h2>Om backend</h2>
-                   <p className='backend_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
-                       dvs alle de synlige elementer på webstedet eller applikationen. 
-                       Der er således fokus på webudvikllingen af klientsiden, da der er 
-                       fokus på, hvad brugerne ser visuelt. Front-end udviklere koder i HTML, 
-                       CSS og Javascript, hvilket er de letteste programmeringssprog at lære. 
-                       Disse tre sprog danner fundamentet for webstedet front-end.</p>
+                    <div className='backend'>
+                        <h2>Om backend</h2>
+                        <p className='backend_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
+                            dvs alle de synlige elementer på webstedet eller applikationen. 
+                            Der er således fokus på webudvikllingen af klientsiden, da der er 
+                            fokus på, hvad brugerne ser visuelt. Front-end udviklere koder i HTML, 
+                            CSS og Javascript, hvilket er de letteste programmeringssprog at lære. 
+                            Disse tre sprog danner fundamentet for webstedet front-end.</p>
+                    </div>
+                 <button className="backend_knap">Læs mere</button>
                </div>
                <div id="database_OmProgrammering">
-                   <h2>Om databaser</h2>
-                   <p className='databaser_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
-                       dvs alle de synlige elementer på webstedet eller applikationen. 
-                       Der er således fokus på webudvikllingen af klientsiden, da der er 
-                       fokus på, hvad brugerne ser visuelt. Front-end udviklere koder i HTML, 
-                       CSS og Javascript, hvilket er de letteste programmeringssprog at lære. 
-                       Disse tre sprog danner fundamentet for webstedet front-end.</p>
+                   <div className='database'>
+                        <h2>Om databaser</h2>
+                        <p className='databaser_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
+                            dvs alle de synlige elementer på webstedet eller applikationen. 
+                            Der er således fokus på webudvikllingen af klientsiden, da der er 
+                            fokus på, hvad brugerne ser visuelt. Front-end udviklere koder i HTML, 
+                            CSS og Javascript, hvilket er de letteste programmeringssprog at lære. 
+                            Disse tre sprog danner fundamentet for webstedet front-end.</p>
+                    </div>
+                    <button className="database_knap">Læs mere</button>
                </div>
           </div>
       );

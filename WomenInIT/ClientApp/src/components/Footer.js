@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import "./Footer.css"
+import FooterNyhedBrev from "./images/Footer/footerImage.png"
 
 
 export class Footer extends Component {
@@ -10,7 +17,29 @@ export class Footer extends Component {
       {
         return (
             <div className="outerDiv">
-            <secText>Footer</secText>
+              <div className="venstreDiv"> 
+                <p className="footerOverskrift">Tilmed dig vores nyhedbrev</p>
+                <img className="footerNyhedsBrev" src={FooterNyhedBrev}/>
+            </div>
+
+            <div className="højreDiv">
+            <p className="footerOverskrift">Genveje</p>
+            <p>
+            <Link to="/OmProgrammering" className="footerGenveje">Om Programmering</Link>
+            </p>
+            <p>
+            <Link to="/JobMuligheder" className="footerGenveje">Jobmuligheder</Link>
+            </p>
+            <p>
+            <Link to="/SuccesHistorier" className="footerGenveje">Succeshistorier</Link>
+            </p>
+            <p>
+            <Link to="/Opgaver" className="footerGenveje">Opgaver</Link>
+            </p>
+            <p>
+            <Link to="/OmOs" className="footerGenveje">Hvem er vi</Link>
+            </p>
+            </div>
           </div>
 
         )

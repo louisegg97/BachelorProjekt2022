@@ -68,13 +68,15 @@ article {
 h2{
     margin-top: 5%;
     margin-left: 10%;
+    color: #6B3B0A;
 }
 
 .frontend{
     display: inline-grid;
     grid-template-columns: repeat(2, 800px);
     grid-template-rows: auto;
-    grid-column-gap: 15%;
+    grid-column-gap: 10%;
+    width: 100%;
 }
 
 .frontend_tekst{
@@ -93,6 +95,30 @@ h2{
     margin-top: 3%;
 }
 
+.frontend_knap{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 80px;
+    top: 950px;    
+    background: #F4EEE8;
+    border-radius: 10px;
+    color: #6B3B0A;
+    border: none;
+}
+
+.frontend_knap:hover{
+    color:#CF914C;
+}
+
+.backend{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 800px);
+    grid-template-rows: auto;
+    grid-column-gap: 10%;
+    width: 100%;
+}
+
 #backend_OmProgrammering{
     height: 500px;
 }
@@ -105,9 +131,33 @@ h2{
     width: 500px;
 }
 
+.backend_knap{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 80px;
+    top: 1450px;    
+    background: #CF914C;
+    border-radius: 10px;
+    color: #F4EEE8;
+    border: none;
+}
+
+.backend_knap:hover{
+    color:#6B3B0A;
+}
+
 #database_OmProgrammering{
     height: 500px;
     background-color: #CFA99D;
+}
+
+.database{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 800px);
+    grid-template-rows: auto;
+    grid-column-gap: 10%;
+    width: 100%;
 }
 
 .databaser_tekst{
@@ -118,5 +168,19 @@ h2{
     color: #F4EEE8;
     width: 500px;
 }
+.database_knap{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 80px;
+    top: 1950px;    
+    background: #F4EEE8;
+    border-radius: 10px;
+    color: #6B3B0A;
+    border: none;
+}
 
+.database_knap:hover{
+    color:#CFA99D;
+}
 
