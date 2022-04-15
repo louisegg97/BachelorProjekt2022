@@ -124,11 +124,18 @@ h2{
 }
 
 .backend_tekst{
-    grid-column-start: 2;
-    grid-column-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 2; 
     margin-left: 10%;
     margin-top: 3%;
     width: 500px;
+}
+
+.backendGif{
+    height: 300px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 3%;
 }
 
 .backend_knap{

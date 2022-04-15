@@ -6,6 +6,7 @@ import { FaDatabase } from 'react-icons/fa';
 import { FaLaptopCode } from 'react-icons/fa';
 import { FaColumns } from 'react-icons/fa';
 import frontendGif from './images/OmProgrammering/front_end.gif'
+import backendGif from './images/OmProgrammering/back_end.gif'
 import ReactDOM from "react-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -65,24 +66,21 @@ export class OmProgrammering extends Component {
                <div id="backend_OmProgrammering">
                     <div className='backend'>
                         <h2>Om backend</h2>
-                        <p className='backend_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
-                            dvs alle de synlige elementer på webstedet eller applikationen. 
-                            Der er således fokus på webudvikllingen af klientsiden, da der er 
-                            fokus på, hvad brugerne ser visuelt. Front-end udviklere koder i HTML, 
-                            CSS og Javascript, hvilket er de letteste programmeringssprog at lære. 
-                            Disse tre sprog danner fundamentet for webstedet front-end.</p>
+                        <p className='backend_tekst'>Backend er alt det bagvedliggende på en hjemmeside og dækker 
+                        dermed webapplikationslogik. Back-end udviklere bygger kode, der tillader en database 
+                        og en applikation at kommunikere med hinanden. En backend består typisk af tre komponenter: en server, en applikation og en database
+                        De sprog man ofte bruger er java, C#, Python og databasesprog.</p>
+                        <img className="backendGif"src={backendGif} alt="backendGif" />
                     </div>
                  <button className="backend_knap">Læs mere</button>
                </div>
                <div id="database_OmProgrammering">
                    <div className='database'>
                         <h2>Om databaser</h2>
-                        <p className='databaser_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
-                            dvs alle de synlige elementer på webstedet eller applikationen. 
-                            Der er således fokus på webudvikllingen af klientsiden, da der er 
-                            fokus på, hvad brugerne ser visuelt. Front-end udviklere koder i HTML, 
-                            CSS og Javascript, hvilket er de letteste programmeringssprog at lære. 
-                            Disse tre sprog danner fundamentet for webstedet front-end.</p>
+                        <p className='databaser_tekst'>Når man snakker on en database, snakker man om et sted,
+                         hvor man kan opbevare data på en struktureret måde. Mange databaser starter ud som et
+                          regneark, men når omfanget af informationen bliver for stor er det en god ide at 
+                          overføre sin data til en database. </p>
                     </div>
                     <button className="database_knap">Læs mere</button>
                </div>
