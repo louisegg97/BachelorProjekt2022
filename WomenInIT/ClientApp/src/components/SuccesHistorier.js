@@ -27,7 +27,7 @@ export class SuccesHistorier extends Component {
           <img className="billede1" src={test1} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
-              <div class="skjultText">Grace Hopper was born in 1906 and died in 1992, she was born in New York and attended Yale University in 1930 and eventually received a PH. D in mathematics.</div>
+              <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
 
@@ -35,7 +35,7 @@ export class SuccesHistorier extends Component {
           <img className="billede2" src={test2} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
-              <div class="skjultText">Grace Hopper was born in 1906 and died in 1992, she was born in New York and attended Yale University in 1930 and eventually received a PH. D in mathematics.</div>
+              <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
           
@@ -44,7 +44,7 @@ export class SuccesHistorier extends Component {
           <img className="billede3" src={test3} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
-              <div class="skjultText">Grace Hopper was born in 1906 and died in 1992, she was born in New York and attended Yale University in 1930 and eventually received a PH. D in mathematics.</div>
+              <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
 
@@ -54,7 +54,7 @@ export class SuccesHistorier extends Component {
           <img className="billede4" src={test4} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
-              <div class="skjultText">Grace Hopper was born in 1906 and died in 1992, she was born in New York and attended Yale University in 1930 and eventually received a PH. D in mathematics.</div>
+              <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
 
@@ -62,7 +62,7 @@ export class SuccesHistorier extends Component {
           <img className="billede6" src={test6} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
-              <div class="skjultText">Grace Hopper was born in 1906 and died in 1992, she was born in New York and attended Yale University in 1930 and eventually received a PH. D in mathematics.</div>
+              <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
 
@@ -71,7 +71,7 @@ export class SuccesHistorier extends Component {
            
             <div  className="skjultTextDiv">
               <div class="skjultTextOverskrift" >Grace Hopper</div>
-              <div class="skjultText">Grace Hopper was born in 1906 and died in 1992, she was born in New York and attended Yale University in 1930 and eventually received a PH. D in mathematics.</div>
+              <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
            
           </div>

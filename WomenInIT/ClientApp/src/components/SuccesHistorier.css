@@ -37,6 +37,7 @@
     position: relative;
     padding: 0;
     width: auto;
+    height: 450px;
     display: block;
     cursor: pointer;
     overflow: hidden;
@@ -55,8 +56,6 @@
 .billede1Div:hover .billede1{
     opacity: 0.3;
     transition: 1s ease;
-    width:500px;
-    height:500px;
 }
 
 .billede1Div:hover .skjultText{
@@ -81,8 +80,8 @@
 .billede2 {
     transition: 1s ease;
     object-fit: cover;
-    width:200px;
-    height:200px;
+    width:400px;
+    height:400px;
     margin: 100px 50px 0px 50px;
     border-radius: 50%;
 }
@@ -90,8 +89,6 @@
 .billede2Div:hover .billede2{
     opacity: 0.3;
     transition: 1s ease;
-    width:500px;
-    height:500px;
 }
 
 .billede2Div:hover .skjultText{
@@ -110,6 +107,7 @@
     position: relative;
     padding: 0;
     width: auto;
+    height: 350px;
     display: block;
     cursor: pointer;
     overflow: hidden;
@@ -119,8 +117,8 @@
 .billede3 {
     transition: 1s ease;
     object-fit: cover;
-    width:150px;
-    height:150px;
+    width:200px;
+    height:200px;
     margin: 100px 50px 0px 50px;
     border-radius: 50%;
 }
@@ -128,8 +126,6 @@
 .billede3Div:hover .billede3{
     opacity: 0.3;
     transition: 1s ease;
-    width:500px;
-    height:500px;
 }
 
 .billede3Div:hover .skjultText{
@@ -154,8 +150,8 @@
 .billede4 {
     transition: 1s ease;
     object-fit: cover;
-    width:260px;
-    height:260px;
+    width:400px;
+    height:400px;
     margin: 100px 50px 50px 50px;
     border-radius: 50%;
 }
@@ -163,8 +159,6 @@
 .billede4Div:hover .billede4{
     opacity: 0.3;
     transition: 1s ease;
-    width:500px;
-    height:500px;
 }
 
 .billede4Div:hover .skjultText{
@@ -182,6 +176,7 @@
     position: relative;
     padding: 0;
     width: auto;
+    height: 400px;
     display: block;
     cursor: pointer;
     overflow: hidden;
@@ -190,8 +185,8 @@
 .billede6 {
     transition: 2s ease;
     object-fit: cover;
-    width:100px;
-    height:100px;
+    width:280px;
+    height:280px;
     margin: 100px 50px 50px 50px;
     border-radius: 50%;
 }
@@ -199,8 +194,6 @@
 .billede6Div:hover .billede6{
     opacity: 0.3;
     transition: 1s ease;
-    width:400px;
-    height:400px;
 }
 
 .billede6Div:hover .skjultText{
@@ -219,6 +212,7 @@
     position: relative;
     padding: 0;
     width: auto;
+    height: 450px;
     display: block;
     cursor: pointer;
     overflow: hidden;
@@ -227,8 +221,8 @@
 .billede7 {
     transition: 1s ease;
     object-fit: cover;
-    width:300px;
-    height:300px;
+    width:320px;
+    height:320px;
     margin: 100px 50px 50px 50px;
     border-radius: 50%;
 }
@@ -236,8 +230,6 @@
 .billede7Div:hover .billede7{
     opacity: 0.3;
     transition: 1s ease;
-    width:400px;
-    height:400px;
 }
 
 .billede7Div:hover .skjultText{
@@ -255,7 +247,7 @@
     transition: 1s ease;
     opacity: 0;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
