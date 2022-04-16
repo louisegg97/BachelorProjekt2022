@@ -7,6 +7,7 @@ import { FaLaptopCode } from 'react-icons/fa';
 import { FaColumns } from 'react-icons/fa';
 import frontendGif from './images/OmProgrammering/front_end.gif'
 import backendGif from './images/OmProgrammering/back_end.gif'
+import databaseGif from './images/OmProgrammering/database.gif'
 import ReactDOM from "react-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -81,6 +82,7 @@ export class OmProgrammering extends Component {
                          hvor man kan opbevare data på en struktureret måde. Mange databaser starter ud som et
                           regneark, men når omfanget af informationen bliver for stor er det en god ide at 
                           overføre sin data til en database. </p>
+                          <img className="databaseGif"src={databaseGif} alt="databaseGif" />
                     </div>
                     <button className="database_knap">Læs mere</button>
                </div>

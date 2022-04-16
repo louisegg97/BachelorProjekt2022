@@ -175,6 +175,14 @@ h2{
     color: #F4EEE8;
     width: 500px;
 }
+
+.databaseGif{
+    height: 300px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 3%;
+}
+
 .database_knap{
     position: absolute;
     width: 200px;
