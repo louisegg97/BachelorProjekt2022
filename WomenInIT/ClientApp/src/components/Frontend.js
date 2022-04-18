@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import './OmProgrammering.css';
 import Baggrund_figur from './images/Baggrund_figur.png';
 import Collapsible from './Collapsible';
-import { FaDatabase } from 'react-icons/fa';
-import { FaLaptopCode } from 'react-icons/fa';
+import { FaLanguage } from 'react-icons/fa';
+import { FaHandHoldingUsd } from 'react-icons/fa';
 import { FaColumns } from 'react-icons/fa';
 import frontendGif from './images/OmProgrammering/front_end.gif'
 import backendGif from './images/OmProgrammering/back_end.gif'
 import databaseGif from './images/OmProgrammering/database.gif'
 import ReactDOM from "react-dom";
-import { HashLink as Link } from 'react-router-hash-link';
+
 
 
 
@@ -28,12 +28,12 @@ export class Frontend extends Component {
                     
                     <div className="icons_">
                         <article>
-                            <section><Link to="#Hvad_er_frontend"><FaColumns size="4em" className="one"/></Link></section>
-                            <section><Link to="#frontend_sprog"><FaLanguage size="4em" className="two"/></Link></section>
-                            <section><Link to="#frontend_job"><FaHandHoldingUsd size="4em" className="three"/></Link></section>
-                            <section><Link to="#Hvad_er_frontend"><p className="four">Hvad er Front-end</p></Link></section>
-                            <section><Link to="#frontend_sprog"><p className="five">Front-end sprog</p></Link></section>
-                            <section><Link to="#frontend_job"><p className="six">Jobmuligheder</p></Link></section>
+                            <section><FaColumns size="4em" className="one"/></section>
+                            <section><FaLanguage size="4em" className="two"/></section>
+                            <section><FaHandHoldingUsd size="4em" className="three"/></section>
+                            <section><p className="four">Hvad er Front-end</p></section>
+                            <section><p className="five">Front-end sprog</p></section>
+                            <section><p className="six">Jobmuligheder</p></section>
                         </article>
                         </div>
                  </div>

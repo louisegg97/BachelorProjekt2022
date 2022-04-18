@@ -9,6 +9,12 @@ import frontendGif from './images/OmProgrammering/front_end.gif'
 import backendGif from './images/OmProgrammering/back_end.gif'
 import databaseGif from './images/OmProgrammering/database.gif'
 import ReactDOM from "react-dom";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 
 
@@ -62,6 +68,7 @@ export class OmProgrammering extends Component {
                             Disse tre sprog danner fundamentet for webstedet front-end.</p>
                             <img className="frontendGif"src={frontendGif} alt="frontendGif" />
                     </div>
+                    <Link to="/Frontend" className="frontend_knap">Læs mere her</Link>
                </div>
                <div id="backend_OmProgrammering">
                     <div className='backend'>
