@@ -6,7 +6,12 @@ import { FaColumns } from 'react-icons/fa';
 import frontend_1 from './images/Frontend/Frontend_1.png'
 import frontend_2 from './images/Frontend/Frontend_2.png'
 import frontend_3 from './images/Frontend/Frontend_3.png'
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 
 
@@ -22,6 +27,7 @@ export class Backend extends Component {
       return (
           <div className='body'>
               <div className="billedeBaggrund">
+              <Link to="/OmProgrammering" className="tilbage">Tilbage</Link>
                     <h1 className="overskrift_P">Backend</h1>
                     
                     <div className="icons_">

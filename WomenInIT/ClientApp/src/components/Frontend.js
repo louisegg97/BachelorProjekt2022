@@ -6,6 +6,13 @@ import { FaColumns } from 'react-icons/fa';
 import frontend_1 from './images/Frontend/Frontend_1.png'
 import frontend_2 from './images/Frontend/Frontend_2.png'
 import frontend_3 from './images/Frontend/Frontend_3.png'
+import Animation from './Animation';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 
 
@@ -22,6 +29,7 @@ export class Frontend extends Component {
       return (
           <div className='body'>
               <div className="billedeBaggrund">
+              <Link to="/OmProgrammering" className="tilbage">Tilbage</Link>
                     <h1 className="overskrift_P">Frontend</h1>
                     
                     <div className="icons_">
@@ -55,11 +63,11 @@ export class Frontend extends Component {
                         dermed webapplikationslogik. Back-end udviklere bygger kode, der tillader en database 
                         og en applikation at kommunikere med hinanden. En backend består typisk af tre komponenter: en server, en applikation og en database
                         De sprog man ofte bruger er java, C#, Python og databasesprog.</p>
-                    </div>
-                    <div className="sprog_ikoner">
+                        <div className='section2_ikoner'>
                             <img className="frontend_1"src={frontend_1} alt="frontend_1" />
                             <img className="frontend_2"src={frontend_2} alt="frontend_2" />
-                            <img className="frontend_3"src={frontend_3} alt="frontend_3" />
+                            <Animation/>
+                        </div>
                     </div>
                </div>
                <div id="section3">
