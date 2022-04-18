@@ -9,11 +9,12 @@ import frontendGif from './images/OmProgrammering/front_end.gif'
 import backendGif from './images/OmProgrammering/back_end.gif'
 import databaseGif from './images/OmProgrammering/database.gif'
 import ReactDOM from "react-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 
-export class OmProgrammering extends Component {
-    static displayName = OmProgrammering.name;
+export class Om_Programmering extends Component {
+    static displayName = Om_Programmering.name;
   
     componentDidMount() {
       window.scrollTo(0, 0);
@@ -37,7 +38,16 @@ export class OmProgrammering extends Component {
                                     programmering</p>
                         </Collapsible>
                     </div>
-                    
+                    <div className="icons_">
+                        <article>
+                            <section><Link to="#frontend_OmProgrammering"><FaColumns size="4em" className="one"/></Link></section>
+                            <section><Link to="#backend_OmProgrammering"><FaLaptopCode size="4em" className="two"/></Link></section>
+                            <section><Link to="#database_OmProgrammering"><FaDatabase size="4em" className="three"/></Link></section>
+                            <section><Link to="#frontend_OmProgrammering"><p className="four">Front-end</p></Link></section>
+                            <section><Link to="#backend_OmProgrammering"><p className="five">Back-end</p></Link></section>
+                            <section><Link to="#database_OmProgrammering"><p className="six">Databaser</p></Link></section>
+                        </article>
+                        </div>
                  </div>
 
 
