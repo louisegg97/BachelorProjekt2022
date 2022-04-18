@@ -12,6 +12,7 @@ import ReactDOM from "react-dom";
 
 
 
+
 export class OmProgrammering extends Component {
     static displayName = OmProgrammering.name;
   
@@ -37,7 +38,16 @@ export class OmProgrammering extends Component {
                                     programmering</p>
                         </Collapsible>
                     </div>
-                    
+                    <div className="icons_">
+                        <article>
+                            <section><FaColumns size="4em" className="one"/></section>
+                            <section><FaLaptopCode size="4em" className="two"/></section>
+                            <section><FaDatabase size="4em" className="three"/></section>
+                            <section><p className="four">Front-end</p></section>
+                            <section><p className="five">Back-end</p></section>
+                            <section><p className="six">Databaser</p></section>
+                        </article>
+                        </div>
                  </div>
 
 
