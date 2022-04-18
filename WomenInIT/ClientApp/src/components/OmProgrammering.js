@@ -79,6 +79,7 @@ export class OmProgrammering extends Component {
                         De sprog man ofte bruger er java, C#, Python og databasesprog.</p>
                         <img className="backendGif"src={backendGif} alt="backendGif" />
                     </div>
+                    <Link to="/Backend" className="backend_knap">Læs mere her</Link>
                </div>
                <div id="database_OmProgrammering">
                    <div className='database'>
@@ -89,6 +90,7 @@ export class OmProgrammering extends Component {
                           overføre sin data til en database. </p>
                           <img className="databaseGif"src={databaseGif} alt="databaseGif" />
                     </div>
+                    <Link to="/Database" className="database_knap">Læs mere her</Link>
                </div>
           </div>
       );
