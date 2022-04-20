@@ -117,6 +117,7 @@ export default function useOpgavesider() {
             "hint2": "Når man printer Strings ud skal der \"\" rundt om dem",
             "hint3": "Kommandoen til at printe hvilket som helst ud i terminalen hedder System.out.println()",
             "src":"https://replit.com/@AlberteWaerens/HelloWorld?lite=true"
+
         },
 
         "lb2": {
@@ -138,11 +139,11 @@ export default function useOpgavesider() {
         },
 
         "ob1": {
-            "title": "Øvet, Opgave 1: ",
-            "desc": "Den første opgave alle spirende programmøre møde er Hello World!. En opgave der helt simpelt går ud på at få din computer til at udskrive, Hello World!. Da dette er er den første opgave så har vi allerede startet klassen op for dig, men hvis du har brug for lidt mere hjælp end det så tryk på et hint nedenfor: ...skal måske være noget forklaring eller link til om programmering siden",
-            "hint1": "I denne opgave skal du bruge en kommando der printer en linje ud, også kaldet en string.",
-            "hint2": "Når man printer Strings ud skal der \"\" rundt om dem",
-            "hint3": "Kommandoen til at printe hvilket som helst ud i terminalen hedder System.out.println()",
+            "title": "Øvet, Opgave 1: Arrays",
+            "desc": "Denne opgave handler om Arrays. my_array1 indeholder årstallene 1999, 2009, 2019 og 2229 og my_array2 indeholder strengene 'Der' 'er' 'ti' 'års' 'mellemrum'. Skriv et java program, der først printer indholdet fra arrayene my_array1 og my_array2 og derefter sorterer indholdet fra de to arrays ",
+            "hint1": "Et array, der indeholder tal instantieres: int [] array_navn og et array, der indeholder strenge instantieres: String [] array_navn",
+            "hint2": "Arrays.ToString() er en java metode, der returnerer det indhold, der er i arrayet",
+            "hint3": "For at sorterer indholdet i et array, kan man bruge metoden Arrays.sort().",
             "src":"https://replit.com/@AlberteWaerens/HelloWorld?lite=true"
         },
 
