@@ -36,11 +36,11 @@ export class Opgaver extends Component {
                 <div>Database</div> 
                 <button className="opgbtn" id="knap1" onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='./opgaveside/f1';
+                  window.location.href='./opgaveside/bf1';
                   }}>1</button>
-                <button className="opgbtn" id="knap1" id="knap1" onClick={(e) => {
+                <button className="opgbtn" id="knap1" onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='./opgaveside/b1';
+                  window.location.href='./opgaveside/bb1';
                   }}>1</button>
                 <button className="opgbtn" id="knap1" >1</button>
                 <button className="opgbtn" id="knap2" >2</button>
@@ -61,11 +61,11 @@ export class Opgaver extends Component {
                 <div>Database</div> 
                 <button className="opgbtn" id="knap1" onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='./opgaveside/f1';
+                  window.location.href='./opgaveside/lf1';
                   }}>1</button>
-                <button className="opgbtn" id="knap1" id="knap1" onClick={(e) => {
+                <button className="opgbtn" id="knap1" onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='./opgaveside/b1';
+                  window.location.href='./opgaveside/lb1';
                   }}>1</button>
                 <button className="opgbtn" id="knap1" >1</button>
                 <button className="opgbtn" id="knap2" >2</button>
@@ -84,11 +84,11 @@ export class Opgaver extends Component {
                 <div>Database</div> 
                 <button className="opgbtn" id="knap1" onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='./opgaveside/f1';
+                  window.location.href='./opgaveside/of1';
                   }}>1</button>
-                <button className="opgbtn" id="knap1" id="knap1" onClick={(e) => {
+                <button className="opgbtn" id="knap1" onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='./opgaveside/b1';
+                  window.location.href='./opgaveside/ob1';
                   }}>1</button>
                 <button className="opgbtn" id="knap1" >1</button>
                 <button className="opgbtn" id="knap2" >2</button>
