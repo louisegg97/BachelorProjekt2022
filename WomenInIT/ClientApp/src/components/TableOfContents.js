@@ -1,6 +1,7 @@
 import React, { Component, useState, useEffect } from 'react';
 import './TableOfContents.css'
 
+
 const Headings = ({ headings, activeId }) => (
     <ul>
       {headings.map((heading) => (
