@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Frontend.css';
 import { FaLanguage } from 'react-icons/fa';
 import { FaHandHoldingUsd } from 'react-icons/fa';
-import { FaColumns } from 'react-icons/fa';
+import { FaDatabase } from 'react-icons/fa';
 import frontend_1 from './images/Frontend/Frontend_1.png'
 import frontend_2 from './images/Frontend/Frontend_2.png'
 import frontend_3 from './images/Frontend/Frontend_3.png'
@@ -30,11 +30,11 @@ export class Database extends Component {
                     
                     <div className="icons_">
                         <article>
-                            <section><FaColumns size="4em" className="one"/></section>
+                            <section><FaDatabase size="4em" className="one"/></section>
                             <section><FaLanguage size="4em" className="two"/></section>
                             <section><FaHandHoldingUsd size="4em" className="three"/></section>
-                            <section><p className="four">Hvad er Front-end</p></section>
-                            <section><p className="five">Front-end sprog</p></section>
+                            <section><p className="four">Hvad er en database</p></section>
+                            <section><p className="five">Database sprog</p></section>
                             <section><p className="six">Jobmuligheder</p></section>
                         </article>
                         </div>

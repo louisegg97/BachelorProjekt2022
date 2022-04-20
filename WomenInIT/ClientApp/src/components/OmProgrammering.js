@@ -20,6 +20,7 @@ import {
 
 
 
+
 export class OmProgrammering extends Component {
     static displayName = OmProgrammering.name;
   
@@ -56,7 +57,6 @@ export class OmProgrammering extends Component {
                         </article>
                         </div>
                  </div>
-
 
                <div id="frontend_OmProgrammering">
                    <div className='frontend'>
