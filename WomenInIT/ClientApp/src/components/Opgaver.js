@@ -42,13 +42,34 @@ export class Opgaver extends Component {
                   e.preventDefault();
                   window.location.href='./opgaveside/bb1';
                   }}>1</button>
-                <button className="opgbtn" id="knap1" >1</button>
-                <button className="opgbtn" id="knap2" >2</button>
-                <button className="opgbtn" id="knap2" >2</button>
-                <button className="opgbtn" id="knap2" >2</button>
-                <button className="opgbtn" id="knap3" >3</button>
-                <button className="opgbtn" id="knap3" >3</button>
-                <button className="opgbtn" id="knap3" >3</button>
+                <button className="opgbtn" id="knap1" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/bd1';
+                  }}>1</button>
+                <button className="opgbtn" id="knap2" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/bf2';
+                  }}>2</button>
+                <button className="opgbtn" id="knap2" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/bb2';
+                  }}>2</button>
+                <button className="opgbtn" id="knap2" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/bd2';
+                  }}>2</button>
+                <button className="opgbtn" id="knap3" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/bf3';
+                  }}>3</button>
+                <button className="opgbtn" id="knap3" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/bb3';
+                  }}>3</button>
+                <button className="opgbtn" id="knap3" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/bd3';
+                  }}>3</button>
               </div>
             </div>
 
