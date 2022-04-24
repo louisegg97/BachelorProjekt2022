@@ -112,10 +112,10 @@ export default function useOpgavesider() {
 
         "lb1": {
             "title": "Letøvet, Opgave 1: ",
-            "desc": "Den første opgave alle spirende programmøre møde er Hello World!. En opgave der helt simpelt går ud på at få din computer til at udskrive, Hello World!. Da dette er er den første opgave så har vi allerede startet klassen op for dig, men hvis du har brug for lidt mere hjælp end det så tryk på et hint nedenfor: ...skal måske være noget forklaring eller link til om programmering siden",
-            "hint1": "I denne opgave skal du bruge en kommando der printer en linje ud, også kaldet en string.",
-            "hint2": "Når man printer Strings ud skal der \"\" rundt om dem",
-            "hint3": "Kommandoen til at printe hvilket som helst ud i terminalen hedder System.out.println()",
+            "desc": "Her skal du oprette et Array. Et array er en liste af variable, og i denne opgave skal det være en liste af tal, så et Array af int. For at oprette et array med int skriver du: `int[] tal = {...,...};` Du skal her have et array der heder “tal”, med værdierne 1,2,3,4,5,6,7,8,9,10. Herefter skal du alle tallene i arrayet printes ud, dette gøres ved hjælp at et for-loop, så løber igennem din liste (array), og kan printe hvert enkelt element ud. I et array har hver værdi en plads, hvor den første plads er plads 0, så plads 1 og så videre. I dit array vil tallet 1, derfor være på pladsen 0.  Man kan kalde på en værdi fra sit array ved at skrive navnet på arrayet og derefter den ønskede plads: arraynavnet[0]. For at lave et for-loop, skriver du: for (int i = _, i < _.length, i+1) { _printud}. Det første udtryk (int i = _), fortæller hvor i dit array du vil starte, vi ønsker at printe alle tal, og vi skal derfor starte fra plads 0.  Det andet udtryk (i < _.lenght) fortæller hvornår vi skal stoppe med at køre igennem arrayet. Vi ønsker at stoppe når vi har været hele arrayet igennem, dette kan vi gøre ved at skrive arrayNavn.length. Det tredje og sidste udtryk, fortæller at hver gang loopet har kørt skal vi øge værdien i med 1, og derved løber vi igennem hele arrayet (listen).",
+            "hint1": "For at lave et array med int skriver man: int[] numbers = {1, 2, 3..}",
+            "hint2": "For at løbe igennem arrayet med et for-loop, skriver man: for (int i = 0; i < numbers.length; i+1) {...}",
+            "hint3": "For at printe alle elementer i arrayet ud skriver man: System.out.println(numbers[i])",
             "src":"https://replit.com/@AlberteWaerens/lb1?lite=true"
 
         },
