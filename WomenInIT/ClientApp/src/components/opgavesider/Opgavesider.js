@@ -135,7 +135,7 @@ export default function useOpgavesider() {
             "hint1": "I denne opgave skal du bruge en kommando der printer en linje ud, også kaldet en string.",
             "hint2": "Når man printer Strings ud skal der \"\" rundt om dem",
             "hint3": "Kommandoen til at printe hvilket som helst ud i terminalen hedder System.out.println()",
-            "src":"?lite=true"
+            "src":"https://replit.com/@AlberteWaerens/lb3?lite=true"
         },
 
         "ob1": {
