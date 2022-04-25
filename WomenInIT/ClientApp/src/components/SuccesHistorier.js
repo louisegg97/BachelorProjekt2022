@@ -32,15 +32,15 @@ export class SuccesHistorier extends Component {
           <div className="billede1Div">
           <img className="billede1" src={AlberteWærens} alt=""/>
             <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
-              <div class="skjultText">Softwareingeiør for Militæret</div>
+              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Alberte Kjær Wærens</div>
+              <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
           </div>
 
           <div className="billede2Div">
           <img className="billede2" src={CarlaMeninsky} alt=""/>
             <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
+              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Carla Meninsky</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
@@ -49,7 +49,7 @@ export class SuccesHistorier extends Component {
           <div className="billede3Div">
           <img className="billede3" src={LouiseBarkhuus} alt=""/>
             <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
+              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Louise Barkhuus</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
@@ -59,7 +59,7 @@ export class SuccesHistorier extends Component {
           <div className="billede4Div">
           <img className="billede4" src={DonaBailey} alt=""/>
             <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
+              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Dona Bailey</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
@@ -67,7 +67,7 @@ export class SuccesHistorier extends Component {
           <div className="billede6Div">
           <img className="billede6" src={AdaLovelace} alt=""/>
             <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
+              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Ada Lovelace</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
@@ -83,7 +83,7 @@ export class SuccesHistorier extends Component {
           <div className="billede8Div">
           <img className="billede8" src={MaryKennethKeller} alt=""/>
             <div  className="skjultTextDiv">
-              <div class="skjultTextOverskrift" >Grace Hopper</div>
+              <div class="skjultTextOverskrift" >Mary Kennet hKeller</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
@@ -91,7 +91,7 @@ export class SuccesHistorier extends Component {
           <div className="billede9Div">
           <img className="billede9" src={PernilleBjoern} alt=""/>
             <div  className="skjultTextDiv">
-              <div class="skjultTextOverskrift" >Grace Hopper</div>
+              <div class="skjultTextOverskrift" >Pernille Bjørn</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
