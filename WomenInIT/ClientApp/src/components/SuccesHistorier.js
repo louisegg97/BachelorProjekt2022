@@ -41,7 +41,7 @@ export class SuccesHistorier extends Component {
           <img className="billede2" src={CarlaMeninsky} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Carla Meninsky</div>
-              <div class="skjultText">Softwareingeiør for Militæret</div>
+              <div class="skjultText">Ingeniør, softwareudvikler og advokat</div>
               </div>
           </div>
           
@@ -50,7 +50,7 @@ export class SuccesHistorier extends Component {
           <img className="billede3" src={LouiseBarkhuus} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Louise Barkhuus</div>
-              <div class="skjultText">Softwareingeiør for Militæret</div>
+              <div class="skjultText">Professor ved IT-Universitetet</div>
               </div>
           </div>
 
@@ -60,7 +60,7 @@ export class SuccesHistorier extends Component {
           <img className="billede4" src={DonaBailey} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Dona Bailey</div>
-              <div class="skjultText">Softwareingeiør for Militæret</div>
+              <div class="skjultText">Programmør</div>
               </div>
           </div>
 
@@ -68,7 +68,7 @@ export class SuccesHistorier extends Component {
           <img className="billede6" src={AdaLovelace} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Ada Lovelace</div>
-              <div class="skjultText">Softwareingeiør for Militæret</div>
+              <div class="skjultText">Verdens første computerprogrammør</div>
               </div>
           </div>
 
@@ -84,7 +84,7 @@ export class SuccesHistorier extends Component {
           <img className="billede8" src={MaryKennethKeller} alt=""/>
             <div  className="skjultTextDiv">
               <div class="skjultTextOverskrift" >Mary Kennet hKeller</div>
-              <div class="skjultText">Softwareingeiør for Militæret</div>
+              <div class="skjultText">Ph.d. i datalogi</div>
               </div>
           </div>
 
@@ -92,7 +92,7 @@ export class SuccesHistorier extends Component {
           <img className="billede9" src={PernilleBjoern} alt=""/>
             <div  className="skjultTextDiv">
               <div class="skjultTextOverskrift" >Pernille Bjørn</div>
-              <div class="skjultText">Softwareingeiør for Militæret</div>
+              <div class="skjultText">Professor på Datalogisk Institut</div>
               </div>
           </div>
 
