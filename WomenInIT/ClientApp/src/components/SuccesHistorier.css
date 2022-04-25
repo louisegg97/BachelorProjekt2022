@@ -27,8 +27,9 @@
 }
 
 .billede {
-    height: 600px;
+    width: 400px;
 }
+
 
 
 /* Billede 1*/
@@ -237,6 +238,73 @@
 }
 
 .billede7Div:hover .skjultTextDiv {
+    opacity: 1;
+  }
+
+  /* Billede 8 */
+.billede8Div {
+    position: relative;
+    padding: 0;
+    width: auto;
+    height: 450px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+.billede8 {
+    transition: 1s ease;
+    object-fit: cover;
+    width:320px;
+    height:320px;
+    margin: 100px 50px 50px 50px;
+    border-radius: 50%;
+}
+
+.billede8Div:hover .billede8{
+    opacity: 0.3;
+    transition: 1s ease;
+}
+
+.billede8Div:hover .skjultText{
+    opacity: 1;
+}
+
+.billede8Div:hover .skjultTextDiv {
+    opacity: 1;
+  }
+
+
+  /* Billede 9 */
+.billede9Div {
+    position: relative;
+    padding: 0;
+    width: auto;
+    height: 450px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+.billede9 {
+    transition: 1s ease;
+    object-fit: cover;
+    width:320px;
+    height:320px;
+    margin: 100px 50px 50px 50px;
+    border-radius: 50%;
+}
+
+.billede9Div:hover .billede9{
+    opacity: 0.3;
+    transition: 1s ease;
+}
+
+.billede9Div:hover .skjultText{
+    opacity: 1;
+}
+
+.billede9Div:hover .skjultTextDiv {
     opacity: 1;
   }
 

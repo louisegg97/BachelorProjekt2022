@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import './SuccesHistorier.css';
-import EmilieChristensen from './images/SuccesHistorier/emilieChristensen.webp';
 import AdaLovelace from './images/SuccesHistorier/AdaLovelace.jpg';
 import AlberteWærens from './images/SuccesHistorier/alberteWærens.png';
 import CarlaMeninsky from './images/SuccesHistorier/CarlaMeninsky.jpg';
 import DonaBailey from './images/SuccesHistorier/DonaBailey.jpg';
 import GraceHopperImage from './images/SuccesHistorier/graceHopper.jpg';
+import LouiseBarkhuus from './images/SuccesHistorier/LouiseBarkhuus.jpg';
+import MaryKennethKeller from './images/SuccesHistorier/MaryKennethKeller.jpg';
+import PernilleBjoern from './images/SuccesHistorier/PernilleBjoern.jpg'
+import PlamenaCherneva from './images/SuccesHistorier/PlamenaCherneva.jpg'
+import SukiLee from './images/SuccesHistorier/SukiLee.jpg'
 import test1 from './images/SuccesHistorier/1.jpg';
 import test2 from './images/SuccesHistorier/2.jpg';
-import LouiseBarkhuus from './images/SuccesHistorier/LouiseBarkhuus.jpg';
 import test4 from './images/SuccesHistorier/4.jpg';
 
 
@@ -27,7 +30,7 @@ export class SuccesHistorier extends Component {
           <secText className="introText">Der er mange seje kvinder i IT-branchen! Her kan du blive klogere på nogle af dem, og høre deres historier</secText>
           
           <div className="billede1Div">
-          <img className="billede1" src={test1} alt=""/>
+          <img className="billede1" src={AlberteWærens} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
@@ -35,7 +38,7 @@ export class SuccesHistorier extends Component {
           </div>
 
           <div className="billede2Div">
-          <img className="billede2" src={test2} alt=""/>
+          <img className="billede2" src={CarlaMeninsky} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
@@ -54,7 +57,7 @@ export class SuccesHistorier extends Component {
 
 
           <div className="billede4Div">
-          <img className="billede4" src={test4} alt=""/>
+          <img className="billede4" src={DonaBailey} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Grace Hopper</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
@@ -71,12 +74,26 @@ export class SuccesHistorier extends Component {
 
           <div className="billede7Div">
           <img className="billede7" src={GraceHopperImage} alt=""/>
-           
             <div  className="skjultTextDiv">
               <div class="skjultTextOverskrift" >Grace Hopper</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
-           
+          </div>
+
+          <div className="billede8Div">
+          <img className="billede8" src={MaryKennethKeller} alt=""/>
+            <div  className="skjultTextDiv">
+              <div class="skjultTextOverskrift" >Grace Hopper</div>
+              <div class="skjultText">Softwareingeiør for Militæret</div>
+              </div>
+          </div>
+
+          <div className="billede9Div">
+          <img className="billede9" src={PernilleBjoern} alt=""/>
+            <div  className="skjultTextDiv">
+              <div class="skjultTextOverskrift" >Grace Hopper</div>
+              <div class="skjultText">Softwareingeiør for Militæret</div>
+              </div>
           </div>
 
         </div>
@@ -173,7 +190,7 @@ export class SuccesHistorier extends Component {
         <div className="historieLys">
           <h1 className="overskriftVenstre">Isabella Drest Rasmussen</h1>
           <div className="indhold">
-            <img className="billede" src={EmilieChristensen} alt=""/>
+            <img className="billede" src={AlberteWærens} alt=""/>
             <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
             Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
             Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
@@ -206,7 +223,7 @@ export class SuccesHistorier extends Component {
         <div className="historieLys">
           <h1 className="overskriftVenstre">Louise Gyland Götschze</h1>
           <div className="indhold">
-            <img className="billede" src={EmilieChristensen} alt=""/>
+            <img className="billede" src={AlberteWærens} alt=""/>
             <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
             Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
             Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
@@ -216,40 +233,65 @@ export class SuccesHistorier extends Component {
         <div className="historieOrange">
           <h1 className="overskriftHøjre" id={'section1'}>Mary Kenneth Keller</h1>
           <div className="indhold">
-            <p className="beskrivelseLys"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-            Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-            Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
-            <img className="billede" src={GraceHopperImage} alt=""/>
+            <p className="beskrivelseLys"> I 1965 var Mary Kenneth Keller den første kvinde i USA, der blev tildelt en ph.d. i datalogi, efter at have studeret matematik og fysik. 
+              Tidligere havde hun aflagt sine løfter som en romersk-katolsk religiøs søster i Ohio og var i 1958 begyndt at arbejde på Dartmouth College i computercentret (dengang kun for mænd).
+              Hos Dartmouth arbejdede Mary på at udvikle BASIC programmeringssproget. 
+              BASIC er en måde at oversætte nuller og etaller i computerkode til noget mere intuitivt og ligetil. 
+              Det er et programmeringssprog på højt niveau til generelle formål, som hjalp med at udvide computerprogrammering til ikke-matematiske og naturvidenskabelige områder, hvilket efterfølgende gav mange mennesker deres første erfaring med programmering.
+              Søster Mary oprettede senere computerafdelingen på Clarke College i Iowa, som hun derefter ledede i tyve år, idet hun blev passioneret omkring potentialet for computere til at øge adgangen til information og fremme uddannelse.
+              Hun forestillede sig en verden, hvor computere gjorde folk klogere og forudsagde den informationseksplosion, der ville ske årtier senere. 
+              Hendes vision var forud for sin tid.
+              Søster Mary arbejdede hårdt for at skabe sin egen unikke vej i livet og var en lidenskabelig fortaler for kvinder inden for databehandling. 
+              Computercentret på Clarke College kaldes Keller Computer Center til hendes ære.</p>
+            <img className="billede" src={MaryKennethKeller} alt=""/>
           </div>
         </div>
 
         <div className="historieLys">
           <h1 className="overskriftVenstre">Pernille Bjørn</h1>
           <div className="indhold">
-            <img className="billede" src={EmilieChristensen} alt=""/>
-            <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-            Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-            Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
+            <img className="billede" src={PernilleBjoern} alt=""/>
+            <p className="beskrivelseMørk"> Pernille Bjørn er professor på Datalogisk Institut ved Københavns Universitet, hvor hun også er viceinstitutleder for forskning. 
+              Hun var den første kvindelige professor på instituttet, da hun blev udnævnt i 2015. 
+              Siden har hun arbejdet på at forstå, hvorfor der med tiden er blevet længere og længere mellem kvinderne i datalogi, der ellers oprindelig var et kvindefag.
+              I 2016 begyndte Pernille Bjørn at forske i emnet ved siden af sit hovedforskningsområde, Computer Supported Cooperative Work, der handler om, hvordan mennesker samarbejder virtuelt.
+              Ud over sit projekt med at løfte datalogihistoriens kvinder frem og give dem behørig credit for deres bidrag til faget, har Pernille Bjørn også arbejdet for at ændre ved den pilskæve kønsbalance på sit institut.
+              For fem år siden, næsten samtidig med Pernille Bjørns ansættelse på Datalogisk Institut, var blot otte procent af de nye studerende på Datalogi kvinder. 
+              I 2019 var 39 procent af de nye studerende kvinder, mens næsten 20 procent af alle de studerende var kvinder.</p>
           </div>
         </div>
 
         <div id="id-of-div" className="historiePink">
           <h1 className="overskriftHøjre">Plamena Cherneva</h1>
           <div className="indhold">
-            <p className="beskrivelseLys"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-            Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-            Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
-            <img className="billede" src={AlberteWærens} alt=""/>
+            <p className="beskrivelseLys"> Plamena Cherneva er, som navnet antyder, ikke dansker, men fra Bulgarien. 
+              Hun kom til Danmark i år 2010 for at studere Webudvikling på Copenhagen Business Academy og var chokeret over, at hun var den eneste kvinde i klassen med 30 mennesker. 
+              Mønstret fortsatte efter studiet, da hun fik et ”frontend developer”-job hos et dansk webbureau med omkring 30 ansatte. 
+              Her var hun igen den eneste kvinde, der arbejdede med kodning. De to andre var ansat i marketing.
+              Derfor gik Plamena Cherneva sammen med de to kvinder, Maria Hidalgo og Christiane Sanchez, om at stifte non-profit-organisationen Codher, som tilbyder gratis undervisning og sparring for kvinder, der er interesserede i IT og programmering, herunder kodning. 
+              Til deres første event i november 2015 dukkede 50 personer op.
+              Plamena Cherneva er ikke længere involveret i Codher, men arbejder i dag som business-ingeniør i virksomheden Epi-Use Nordic Og Baltic, hvor app-udvikling er en del af det daglige arbejde. 
+              Hun blev først introduceret for kode som 16-17-årig i gymnasiet, da klassen fik besked på at bygge en hjemmeside.</p>
+            <img className="billede" src={PlamenaCherneva} alt=""/>
           </div>
         </div>
 
         <div className="historieLys">
           <h1 className="overskriftVenstre">Suki Lee</h1>
           <div className="indhold">
-            <img className="billede" src={EmilieChristensen} alt=""/>
-            <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-            Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-            Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
+            <img className="billede" src={SukiLee} alt=""/>
+            <p className="beskrivelseMørk"> Suki Lee er en banebrydende kvindelig videospiludvikler, softwareingeniør og succesfuld projektleder.
+              Hun er uddannet fra San Jose State University med en grad i generel ingeniørvidenskab med mulighed for datalogi. 
+              I løbet af sit sidste år interviewede hun Atari på campus og blev tilbudt en stilling som spilprogrammør for at starte lige efter college i august 1981. 
+              Suki blev ansat til at skabe pædagogiske spil, og som en førstegenerations immigrant fra Hong Kong, var hun opdraget for at få et godt job, og med hypen om hjemmevideospil på det tidspunkt virkede Atari som et godt valg. 
+              Hos Atari var Sukis første spil Math Gran Prix (1982), et pædagogisk spil, hvor spilleren er på en racerbane og skal besvare matematiske spørgsmål korrekt for at komme videre. 
+              Hun fortsatte sin spiludviklerkarriere med fokus på licenserede spil f.eks. den sjældne Anders And Speedboat (1983), som kun er udgivet i Brasilien, og Obelix (1983) spillet. 
+              For at udvikle disse spil designede og programmerede hun spillet; hun arbejdede også med animationsteamet om historien, grafikken og karaktererne. 
+              Dette arbejde gjorde det muligt for hende at besøge Disney-studier og arbejde med animatorerne samt besøge Astrix Og Obelix-studiet i Paris, Frankrig. 
+              Her havde hun mulighed for at møde Albert Uderzo.
+              Suki forlod Atari i 1984 og gik på arbejde for Cadtrak Corporation, hvor hun udviklede CAD-softwarebrugergrænseflader til oliebehandlingsanlægs layout, og her avancerede hun fra montageprogrammering til Pascal. 
+              I 1986 gik arbejdede hun for Apple, fortsatte i 1997 til WebTV, eCircles og derefter Palm. Efter 6 års fravær vendte hun tilbage til Apple. 
+              Hos Apple fortsætter hun sit arbejde som en anerkendt og succesfuld projektleder, som blev dygtig til at arbejde med ingeniører og andre projektledere.</p>
           </div>
         </div>
 
