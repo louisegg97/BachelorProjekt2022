@@ -10,9 +10,8 @@ import MaryKennethKeller from './images/SuccesHistorier/MaryKennethKeller.jpg';
 import PernilleBjoern from './images/SuccesHistorier/PernilleBjoern.jpg'
 import PlamenaCherneva from './images/SuccesHistorier/PlamenaCherneva.jpg'
 import SukiLee from './images/SuccesHistorier/SukiLee.jpg'
-import test1 from './images/SuccesHistorier/1.jpg';
-import test2 from './images/SuccesHistorier/2.jpg';
-import test4 from './images/SuccesHistorier/4.jpg';
+import IsabellaDrest from './images/SuccesHistorier/IsabellaDrest.jpg'
+
 
 
 export class SuccesHistorier extends Component {
@@ -93,6 +92,31 @@ export class SuccesHistorier extends Component {
             <div  className="skjultTextDiv">
               <div class="skjultTextOverskrift" >Pernille Bjørn</div>
               <div class="skjultText">Professor på Datalogisk Institut</div>
+              </div>
+          </div>
+
+
+          <div className="billede11Div">
+          <img className="billede11" src={PernilleBjoern} alt=""/>
+            <div  className="skjultTextDiv">
+              <div class="skjultTextOverskrift" >Louise Gyland Götschze</div>
+              <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
+              </div>
+          </div>
+
+          <div className="billede10Div">
+          <img className="billede10" src={SukiLee} alt=""/>
+            <div  className="skjultTextDiv">
+              <div class="skjultTextOverskrift" >Suki Lee</div>
+              <div class="skjultText">Videospiludvikler, softwareingeniør og projektleder</div>
+              </div>
+          </div>
+
+          <div className="billede12Div">
+          <img className="billede12" src={IsabellaDrest} alt=""/>
+            <div  className="skjultTextDiv">
+              <div class="skjultTextOverskrift" >Isabella Drest Rasmussen</div>
+              <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
           </div>
 
