@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './SuccesHistorier.css';
 import AdaLovelace from './images/SuccesHistorier/AdaLovelace.jpg';
 import AlberteWærens from './images/SuccesHistorier/alberteWærens.png';
-import CarlaMeninsky from './images/SuccesHistorier/CarlaMeninsky.jpg';
+import CarlaMeninsky from './images/SuccesHistorier/CarlaMeninsky.png';
 import DonaBailey from './images/SuccesHistorier/DonaBailey.jpg';
 import GraceHopperImage from './images/SuccesHistorier/graceHopper.jpg';
 import LouiseBarkhuus from './images/SuccesHistorier/LouiseBarkhuus.jpg';
-import MaryKennethKeller from './images/SuccesHistorier/MaryKennethKeller.jpg';
+import MaryKennethKeller from './images/SuccesHistorier/MaryKennethKeller.png';
 import PernilleBjoern from './images/SuccesHistorier/PernilleBjoern.jpg'
 import PlamenaCherneva from './images/SuccesHistorier/PlamenaCherneva.jpg'
 import SukiLee from './images/SuccesHistorier/SukiLee.jpg'
@@ -267,14 +267,14 @@ export class SuccesHistorier extends Component {
               Hendes vision var forud for sin tid.
               Søster Mary arbejdede hårdt for at skabe sin egen unikke vej i livet og var en lidenskabelig fortaler for kvinder inden for databehandling. 
               Computercentret på Clarke College kaldes Keller Computer Center til hendes ære.</p>
-            <img className="billede" src={MaryKennethKeller} alt=""/>
+            <img className="billedeSucceshistorie" src={MaryKennethKeller} alt=""/>
           </div>
         </div>
 
         <div className="historieLys">
           <h1 className="overskriftVenstre">Pernille Bjørn</h1>
           <div className="indhold">
-            <img className="billede" src={PernilleBjoern} alt=""/>
+            <img className="billedeSucceshistorie" src={PernilleBjoern} alt=""/>
             <p className="beskrivelseMørk"> Pernille Bjørn er professor på Datalogisk Institut ved Københavns Universitet, hvor hun også er viceinstitutleder for forskning. 
               Hun var den første kvindelige professor på instituttet, da hun blev udnævnt i 2015. 
               Siden har hun arbejdet på at forstå, hvorfor der med tiden er blevet længere og længere mellem kvinderne i datalogi, der ellers oprindelig var et kvindefag.
@@ -296,14 +296,14 @@ export class SuccesHistorier extends Component {
               Til deres første event i november 2015 dukkede 50 personer op.
               Plamena Cherneva er ikke længere involveret i Codher, men arbejder i dag som business-ingeniør i virksomheden Epi-Use Nordic Og Baltic, hvor app-udvikling er en del af det daglige arbejde. 
               Hun blev først introduceret for kode som 16-17-årig i gymnasiet, da klassen fik besked på at bygge en hjemmeside.</p>
-            <img className="billede" src={PlamenaCherneva} alt=""/>
+            <img className="billedeSucceshistorie" src={PlamenaCherneva} alt=""/>
           </div>
         </div>
 
         <div className="historieLys">
           <h1 className="overskriftVenstre">Suki Lee</h1>
           <div className="indhold">
-            <img className="billede" src={SukiLee} alt=""/>
+            <img className="billedeSucceshistorie" src={SukiLee} alt=""/>
             <p className="beskrivelseMørk"> Suki Lee er en banebrydende kvindelig videospiludvikler, softwareingeniør og succesfuld projektleder.
               Hun er uddannet fra San Jose State University med en grad i generel ingeniørvidenskab med mulighed for datalogi. 
               I løbet af sit sidste år interviewede hun Atari på campus og blev tilbudt en stilling som spilprogrammør for at starte lige efter college i august 1981. 
