@@ -4,6 +4,7 @@
         background-size: 1100px;
         background-repeat: no-repeat;
         background-position: -200px;
+  margin-bottom: 100px;
 }
 
 #baggrund{
@@ -19,10 +20,10 @@
 }
 
 .intro{
-    font-size: larger;
-    font-size: 15px;
+    font-size: 20px;
     margin: 50px 100px 100px 100px;
     text-align: center;
+    color: #6B3B0A;
 }
 
 .grid-container {
@@ -59,19 +60,19 @@
   background-position: center;
   border: none;
   background-color: transparent;
-  height: 80px;
-  width: 80px;
+  height: 110px;
+  width: 110px;
   font-size: 30px;
 }
 
 .opgbtn:hover{
-  height: 85px;
-  width: 85px; 
+  height: 115px;
+  width: 115px; 
 }
 
 .opgbtn:active{
-  height: 75px;
-  width: 75px;
+  height: 95px;
+  width: 95px;
 }
 
 #knap1{
@@ -90,5 +91,28 @@
   color: #F4EEE8;
 }
 
+.opgaveknapper {
+  width: 300px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #D0904D;
+  font-family:  'Playfair Display';
+  font-weight: 400;
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.opgaveknapper:hover, .opgaveknapper:visited, .opgaveknapper:link, .opgaveknapper:active
+{
+    text-decoration: none;
+    color: #F4EEE8;
+}
 
 
