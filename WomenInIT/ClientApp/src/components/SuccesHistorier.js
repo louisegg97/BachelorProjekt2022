@@ -25,7 +25,7 @@ export class SuccesHistorier extends Component {
     return (
       <div>
         <secText className="overskrift">Succes Historier</secText>
-        <div className="topDiv">
+        <div className="topDivSuccesHistorie">
           <secText className="introText">Der er mange seje kvinder i IT-branchen! Her kan du blive klogere på nogle af dem, og høre deres historier</secText>
           
           <div className="billede1Div">
