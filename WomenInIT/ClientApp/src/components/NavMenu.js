@@ -27,7 +27,7 @@ export class NavMenu extends Component {
   render () {
     return (
       <header>
-        <Navbar className="navbar-expand-sm navbar-toggleable-sm mb-3 color-nav">
+        <Navbar className="navbar-expand-sm navbar-toggleable-sm color-nav">
           <Container>
             <NavbarBrand tag={Link} to="/">
             <img src={Logo} alt="logo"/>
