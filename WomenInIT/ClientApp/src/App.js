@@ -12,6 +12,10 @@ import { Opgaver } from './components/Opgaver';
 import { OmOs } from './components/OmOs';
 import { Opgaveside } from './components/opgavesider/Opgaveside';
 import { Footer } from './components/Footer';
+import { FrontendOpg } from './components/FrontendOpg.js';
+import { BackendOpg } from './components/BackendOpg.js';
+import { DatabaseOpg } from './components/DatabaseOpg.js';
+
 import './custom.css'
 
 export default class App extends Component {
@@ -30,6 +34,9 @@ export default class App extends Component {
         <Route path='/opgaver' component={Opgaver} />
         <Route path='/omOs' component={OmOs} />
         <Route path='/opgaveside/:id' component={Opgaveside}/>
+        <Route path='/FrontendOpg' component={FrontendOpg}/>
+        <Route path='/BackendOpg' component={BackendOpg}/>
+        <Route path='/DatabaseOpg' component={DatabaseOpg}/>
         <Footer/>
       </Layout>
     );

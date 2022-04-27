@@ -2,30 +2,30 @@ export default function useOpgavesider() {
     return {
 //Frontend opgaver
         "bf1": {
-            "title": "Begynder, Opgave 1: Lav en overskrift",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
+            "title": "Begynder, Opgave 1:",
+            "desc": "Skriv noget tekst i normal tykkelse og noget andet fed. Lav i head en titel “Titel” og i body tagget skal teksten skrives.",
+            "hint1": "For at skrive en titel kan du bruge tagget <titel></titel>",
+            "hint2": "tekst skrives i et <p></p> tag",
+            "hint3": "For at gøre tekst fed, brug <b></b> tagget",
             "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
         },
 
         "bf2": {
-            "title": "Begynder, Opgave 2: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
+            "title": "Begynder, Opgave 3: ",
+            "desc": "Lav en knap der hedder “Klik her” og udskriver “Velkommen til” i konsollen. Der skal være en titel på siden, der hedder “Knap”",
+            "hint1": "Lav en knap ved at bruge tagget <button type=”button”></button>",
+            "hint2": "For at give knap en tekst, skriv teksten imellem <button ...> Skriv tekst her </button>",
+            "hint3": "For at udskrive “Velkommen til” i konsollen brug onclick=”console.log(’tekst’)” efter du har defineret at type er en button",
+            "src":"https://replit.com/@AlberteWaerens/bf2?lite=true"
         },
 
         "bf3": {
             "title": "Begynder, Opgave 3: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
+            "desc": "Lav en iframe (et udsnit fra en hjemmeside) i målene: 300px i højden og 70% i bredden. Brug dette link til at lave din iframe: https://www.google.com/?client=safari. Siden skal have en titel “iFrame”",
+            "hint1": "For at lave en iframe brug tagget <iframe></iframe> ",
+            "hint2": "For at sætte linket ind brug src=”link” i iframe tagget",
+            "hint3": "For at sætte størrelsen på iframen brug width=”x” height=”y” i iframe tagget",
+            "src":"https://replit.com/@AlberteWaerens/bf3?lite=true"
         },
 
         "lf1": {
