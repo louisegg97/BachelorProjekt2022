@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import './Home.css';
 import forsideBillede from './images/Forside/forside-billede.jpg';
+import alberteWærens from './images/Forside/alberteWærens.png';
 
 
 
@@ -70,9 +71,9 @@ export class Home extends Component {
         <div className="indhold">
           <div className ="tekstInhold">
           <h1 className="overskriftSuccesForside">"Jeg programmerer fordi jeg kan udfolde min kreativitet"</h1>
-          <p className="beskrivelseLys"> Emilie Christensen -20 år.</p>
+          <p className="quoteNavn"> Alberte Kjær Wærens -23 år.</p>
           </div>
-          <img className="billedeSucceshitorie" src={forsideBillede} alt=""/>
+          <img className="billedeSucceshitorie" src={alberteWærens} alt=""/>
           </div>
           <Link to="/SuccesHistorier" className="omSuccesHistorierlæsMereHer">Læs mere her</Link>
         </div>

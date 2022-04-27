@@ -19,7 +19,7 @@
 .introTextHome {
     display: flex;
     flex-wrap: wrap;   
-    margin: 100px 50px 0px 50px;
+    margin: 100px 50px 0px 80px;
     right: 80px;
     width: 200px;
     font-size: 50px;
@@ -31,7 +31,7 @@
     height: 50px;
     position: absolute;
     bottom: 200px;
-    margin-left: 50px;
+    margin-left: 85px;
     background-color: #CF914C;
     color: #F4EEE8;
     font-family:  'Playfair Display';
@@ -198,6 +198,14 @@
     margin-bottom: 30px;
     margin-left: 40px;
     font-size: 70px;
+}
+
+.quoteNavn {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 50px;
+  color: #F4EEE8;
+  font-size: 20px;
 }
 
 .omSuccesHistorierlæsMereHer {
