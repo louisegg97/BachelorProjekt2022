@@ -67,7 +67,7 @@ export class DatabaseOpg extends Component {
                   window.location.href='./opgaveside/od2';
                   }}>3</button>
         
-              
+        </div>
               </div>
 
             <div className="historiePink">
@@ -95,7 +95,7 @@ export class DatabaseOpg extends Component {
 
             </div>
 
-          </div>
+        
           </div>
 
 

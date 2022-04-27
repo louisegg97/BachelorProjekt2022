@@ -69,7 +69,7 @@ export class FrontendOpg extends Component {
                   }}>3</button>
         
               </div>
-
+              </div>
             <div className="historiePink">
               <h1 className="overskriftHøjre">For dig der er øvet</h1>
                  <div class="grid-container">
@@ -88,7 +88,7 @@ export class FrontendOpg extends Component {
 
             </div>
 
-          </div>
+       
           </div>
 
 

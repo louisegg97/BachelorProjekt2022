@@ -13,9 +13,6 @@ import {
     Link
   } from "react-router-dom";
 
-
-
-
 export class Backend extends Component {
     static displayName = Backend.name;
   

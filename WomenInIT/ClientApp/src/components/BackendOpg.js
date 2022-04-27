@@ -66,7 +66,7 @@ export class BackendOpg extends Component {
                   e.preventDefault();
                   window.location.href='./opgaveside/ob2';
                   }}>3</button>
-        
+            </div>
               
               </div>
 
@@ -95,7 +95,7 @@ export class BackendOpg extends Component {
 
             </div>
 
-          </div>
+      
           </div>
 
 
