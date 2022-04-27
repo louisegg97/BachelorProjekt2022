@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Baggrund_figur from './images/Baggrund_figur.png';
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import './Home.css';
-import EmilieChristensen from './images/SuccesHistorier/emilieChristensen.webp';
+import forsideBillede from './images/Forside/forside-billede.jpg';
 
 
 
@@ -22,10 +21,10 @@ export class Home extends Component {
     return (
       <div>
         <div className="topDiv">
-        <img className="kvindeligProgrammør" src={EmilieChristensen} alt=""/>
+        <img className="kvindeligProgrammør" src={forsideBillede} alt=""/>
          <div className="textAndButton">
           <secText className="introTextHome">Styrk din selvtillid indenfor programmering sammen med Ladybugs</secText>
-          <button className="komIgangKnap">Kom igang her</button>
+          <Link to="/OmProgrammering" className="komIgangKnap">Kom igang her</Link>
           </div>
         </div>
 
@@ -70,12 +69,12 @@ export class Home extends Component {
         <div id="id-of-div" className="historiePink">
         <div className="indhold">
           <div className ="tekstInhold">
-          <h1 className="overskriftSuccesForside">"Jeg programmerer fordi jeg kan udfolde min kreativitet""</h1>
+          <h1 className="overskriftSuccesForside">"Jeg programmerer fordi jeg kan udfolde min kreativitet"</h1>
           <p className="beskrivelseLys"> Emilie Christensen -20 år.</p>
           </div>
-          <img className="billedeSucceshitorie" src={EmilieChristensen} alt=""/>
+          <img className="billedeSucceshitorie" src={forsideBillede} alt=""/>
           </div>
-          <Link to="/SuccesHistorier" className="omProgrammeringlæsMereHer">Læs mere her</Link>
+          <Link to="/SuccesHistorier" className="omSuccesHistorierlæsMereHer">Læs mere her</Link>
         </div>
 
        

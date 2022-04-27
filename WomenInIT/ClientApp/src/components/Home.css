@@ -2,41 +2,42 @@
 
 
 .topDiv {
-    position: relative;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    background-image: url("images/Baggrund_figur.png");
-        background-size: 1100px;
+    background-image: url("images/Forside/Baggrund-forside.png");
+        background-size: 650px;
         background-repeat: no-repeat;
-        background-position: -200px;
+        background-position: right 50px;
 }
 
 .kvindeligProgrammør {
     width: 400px;
-    margin: 100px 10px 50px 70px ;
+    margin: 100px 10px 100px 70px ;
 }
 
 .introTextHome {
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;   
     margin: 100px 50px 0px 50px;
     right: 80px;
-    width: 400px;
+    width: 200px;
     font-size: 50px;
     
 }
 
 .komIgangKnap {
     width: 300px;
-    height: 60px;
+    height: 50px;
     position: absolute;
-    bottom: 50px;
-    right: 70px;
+    bottom: 200px;
+    margin-left: 50px;
     background-color: #CF914C;
     color: #F4EEE8;
     font-family:  'Playfair Display';
     font-weight: 400;
     font-size: 25px;
+    text-align: center;
     border-radius: 10px;
     border: none;
     
@@ -47,7 +48,7 @@
     height: 50px;
     display: block;
     margin-left: auto;
-    margin-right: 0;
+    margin-right: 80px;
     background-color: #F4EEE8;
     font-family:  'Playfair Display';
     font-weight: 400;
@@ -121,10 +122,10 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    background-image: url("images/Baggrund_figur.png");
-    background-size: 800px;
+    background-image: url("images/Figur.png");
+    background-size: 1000px;
     background-repeat: no-repeat;
-    background-position: -80px 105px;    
+    background-position: -350px 50px;    
 
 }
 
@@ -198,3 +199,22 @@
     margin-left: 40px;
     font-size: 70px;
 }
+
+.omSuccesHistorierlæsMereHer {
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin-left: 45px;
+    margin-right: auto;
+    background-color: #F4EEE8;
+    color: #CF914C;
+    font-family:  'Playfair Display';
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
