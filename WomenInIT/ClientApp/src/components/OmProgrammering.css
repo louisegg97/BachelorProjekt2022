@@ -7,8 +7,8 @@
     position: relative;
     height: 525px;
 
-    background-image: url("images/Baggrund_figur.png");
-        background-size: 800px;
+    background-image: url("images/Alle-bobler-baggrund.png");
+        background-size: 400px;
         background-repeat: no-repeat;
         background-position: -100px;
         margin-bottom: 20px;
@@ -20,19 +20,40 @@
     color: #6B3B0A;
     font-size: 500%;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 50px;
 
 }
-
-.collapsible{
-    margin-top: 50px;
-    margin-bottom: -10px;
-    margin-left: 23%;
+.boks{
+    width: 100%
 }
 
+.tekstBoks{
+    margin-top: 20px;
+    width: 60%;
+    background-color: #CF914C;
+    border-radius: 10px;
+    margin-left: 20%;
+}
 
-.icons_{
+.tekstBoks h2{
+    padding-top: 1%;
+    margin-left: 20%;
+}
+
+.tekstBoks p{
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
+    padding-bottom: 2%;
+    color: #F4EEE8;
+}
+
+
+
+.icons{
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 3%;
 }
 
 
@@ -62,6 +83,7 @@ article {
 
 
 #frontend_OmProgrammering{
+    margin-top: 6%;
     background-color: #CF914C;
     height: 500px;
 }
@@ -108,6 +130,7 @@ h2{
     border: none;
     text-align: center;
     padding: 0.5%;
+    margin-top: 5%;
 }
 
 .frontend_knap:hover{
@@ -153,6 +176,7 @@ h2{
     border: none;
     text-align: center;
     padding: 0.5%;
+    margin-top: 5%;
 }
 
 .backend_knap:hover{
@@ -200,6 +224,7 @@ h2{
     border: none;
     text-align: center;
     padding: 0.5%;
+    margin-top: 5%;
 }
 
 .database_knap:hover{
