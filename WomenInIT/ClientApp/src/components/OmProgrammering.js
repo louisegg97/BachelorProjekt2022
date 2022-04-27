@@ -9,6 +9,14 @@ import frontendGif from './images/OmProgrammering/front_end.gif'
 import backendGif from './images/OmProgrammering/back_end.gif'
 import databaseGif from './images/OmProgrammering/database.gif'
 import ReactDOM from "react-dom";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+
+
 
 
 
@@ -50,7 +58,6 @@ export class OmProgrammering extends Component {
                         </div>
                  </div>
 
-
                <div id="frontend_OmProgrammering">
                    <div className='frontend'>
                         <h2 className='frontend_h2'>Om Frontend</h2>
@@ -62,6 +69,7 @@ export class OmProgrammering extends Component {
                             Disse tre sprog danner fundamentet for webstedet front-end.</p>
                             <img className="frontendGif"src={frontendGif} alt="frontendGif" />
                     </div>
+                    <Link to="/Frontend" className="frontend_knap">Læs mere her</Link>
                </div>
                <div id="backend_OmProgrammering">
                     <div className='backend'>
@@ -72,6 +80,7 @@ export class OmProgrammering extends Component {
                         De sprog man ofte bruger er java, C#, Python og databasesprog.</p>
                         <img className="backendGif"src={backendGif} alt="backendGif" />
                     </div>
+                    <Link to="/Backend" className="backend_knap">Læs mere her</Link>
                </div>
                <div id="database_OmProgrammering">
                    <div className='database'>
@@ -82,6 +91,7 @@ export class OmProgrammering extends Component {
                           overføre sin data til en database. </p>
                           <img className="databaseGif"src={databaseGif} alt="databaseGif" />
                     </div>
+                    <Link to="/Database" className="database_knap">Læs mere her</Link>
                </div>
           </div>
       );

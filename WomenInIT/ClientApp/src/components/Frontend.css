@@ -1,0 +1,122 @@
+.body{
+    scroll-behavior: smooth;
+}
+
+.billedeBaggrund {
+    position: relative;
+    height: 525px;
+
+    background-image: url("images/Baggrund_figur.png");
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: -100px;
+        margin-bottom: 20px;
+}
+
+.tilbage{
+    margin-left: 5%;
+    position: absolute;
+    width: 100px;
+    height: 40px;    
+    background: #CF914C;
+    border-radius: 10px;
+    color: #F4EEE8;
+    border: none;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.overskrift_P{
+    text-align: center;
+    margin-bottom: 0;
+    color: #6B3B0A;
+    font-size: 500%;
+    z-index: 1;
+    padding-top: 100px;
+
+}
+
+.icons_{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.one, .two, .three, .four, .five, .six{
+    color: #6B3B0A;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover{
+    color: #CFA99D;
+}
+
+article {
+    display: inline-grid;
+    grid-template-rows: 60px 60px 60px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 3px;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #section1{
+    background-color: #CF914C;
+    height: 500px;
+  }
+
+  h2{
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #6B3B0A;
+}
+
+.section_1, .section_2, .section_3{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 800px);
+    grid-template-rows: auto;
+    grid-column-gap: 10%;
+    width: 100%;
+}
+
+.section1_tekst, .section2_tekst, .section3_tekst{
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 500px;
+}
+
+.section1_tekst, .section3_tekst{
+color: #F4EEE8;
+}
+
+.section2_tekst{
+    color: #6B3B0A;
+    
+}
+
+.section2_ikoner{
+    grid-column-start: 2;
+    grid-column-end: 3; 
+}
+
+.frontend_1, .frontend_2, .frontend_3{
+    height: 70px;
+    opacity: 80%;
+}
+
+  #section2{
+    height: 500px;
+  }
+
+  #section3{
+    height: 500px;
+    background-color: #CFA99D;
+  }
+

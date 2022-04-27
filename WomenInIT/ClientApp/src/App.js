@@ -3,6 +3,9 @@ import { Route } from 'react-router';
 import { Layout } from './components/Layout';
 import { Home } from './components/Home';
 import { OmProgrammering } from './components/OmProgrammering';
+import { Frontend} from './components/Frontend';
+import { Backend } from './components/Backend';
+import { Database } from './components/Database';
 import { JobMuligheder } from './components/JobMuligheder';
 import { SuccesHistorier } from './components/SuccesHistorier';
 import { Opgaver } from './components/Opgaver';
@@ -19,6 +22,9 @@ export default class App extends Component {
       <Layout>
         <Route exact path='/' component={Home} />
         <Route path='/omProgrammering' component={OmProgrammering} />
+        <Route path='/frontend' component={Frontend} />
+        <Route path='/backend' component={Backend} />
+        <Route path='/database' component={Database} />
         <Route path='/jobMuligheder' component={JobMuligheder} />
         <Route path='/succesHistorier' component={SuccesHistorier} />
         <Route path='/opgaver' component={Opgaver} />
