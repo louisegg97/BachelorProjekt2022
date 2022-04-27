@@ -92,6 +92,7 @@ export class OmProgrammering extends Component {
                           <img className="databaseGif"src={databaseGif} alt="databaseGif" />
                     </div>
                     <Link to="/Database" className="database_knap">Læs mere her</Link>
+                    <Link to="/Database" className="database_knap">Læs mere her</Link>
                </div>
           </div>
       );
