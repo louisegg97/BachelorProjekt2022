@@ -1,6 +1,6 @@
 .outerDiv {
     background-color: #CF914C;
-    height: 500px;
+    height: 400px;
     width:100%;
     position: relative;
     bottom: 0px;
@@ -47,3 +47,46 @@ a:hover {
  .ikon:hover{
     color: #CFA99D;
  }
+
+ .formLabel{
+     color: #F4EEE8;
+ }
+
+ .form{
+     max-width: 400px;
+ }
+
+ .form label{
+     text-align: left;
+     display: block;
+ }
+
+ .form input, .form textarea, form select{
+     width: 100%;
+     margin: 10px 0;
+     border: 1px solid #F4EEE8;
+     box-sizing: border-box;
+     display: block;
+     background-color: transparent;
+     border-radius: 3px;
+ }
+
+ .Tilmeld_knap{
+    position: absolute;
+    width: 100px;
+    height: 30px;   
+    background: #F4EEE8;
+    border-radius: 10px;
+    color: #6B3B0A;
+    border: none;
+    text-align: center;
+    padding-top: 2.5px;
+}
+
+.Tilmeld_knap:hover{
+    color:#CF914C;
+}
+
+.ikoner{
+    margin-top: 15%;
+}
