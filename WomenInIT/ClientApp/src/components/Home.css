@@ -5,23 +5,24 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-image: url("images/Forside/Baggrund-forside.png");
-        background-size: 650px;
+        background-size: 800px;
         background-position: right 50px;
 }
 
 .kvindeligProgrammør {
     width: 400px;
-    margin: 100px 10px 300px 70px ;
+    margin: 150px 100px 300px 0px ;
 
 }
 
 .introTextHome {
     display: flex;
     flex-wrap: wrap;   
-    margin: 100px 50px 0px 80px;
+    margin: 150px 50px 0px 80px;
     right: 80px;
-    width: 200px;
+    width: 300px;
     font-size: 50px;
     
 }
@@ -30,8 +31,7 @@
     width: 300px;
     height: 50px;
     position: absolute;
-    bottom: 400px;
-    margin-left: 85px;
+    margin: 80px 0px 0px 80px;
     background-color: #CF914C;
     color: #F4EEE8;
     font-family:  'Playfair Display';
@@ -50,6 +50,7 @@
     margin-left: auto;
     margin-right: 80px;
     background-color: #F4EEE8;
+    color: #CF914C;
     font-family:  'Playfair Display';
     font-weight: 400;
     font-size: 20px;
@@ -60,11 +61,7 @@
     padding: 10px;
 }
 
-.omProgrammeringlæsMereHer:hover, .omProgrammeringlæsMereHer:visited, .omProgrammeringlæsMereHer:link, .omProgrammeringlæsMereHer:active
-{
-    text-decoration: none;
-    color: #CF914C;
-}
+
 
 .mellemdiv {
   background-color: #F4EEE8;
@@ -164,6 +161,7 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #D0904D;
+    color: #F4EEE8;
     font-family:  'Playfair Display';
     font-weight: 400;
     font-size: 20px;
@@ -175,11 +173,7 @@
     padding: 10px;
 }
 
-.prøvProgrammeringlæsMereHer:hover, .prøvProgrammeringlæsMereHer:visited, .prøvProgrammeringlæsMereHer:link, .prøvProgrammeringlæsMereHer:active
-{
-    text-decoration: none;
-    color: #F4EEE8;
-}
+
 
 /* SuccesHistorie*/
 .billedeSucceshitorie {
