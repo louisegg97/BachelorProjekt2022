@@ -7,7 +7,10 @@ import {
   Link
 } from "react-router-dom";
 import "./Footer.css"
-import FooterNyhedBrev from "./images/Footer/footerImage.png"
+import { FaInstagramSquare } from 'react-icons/fa';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaYoutubeSquare } from 'react-icons/fa';
 
 
 export class Footer extends Component {
@@ -19,7 +22,11 @@ export class Footer extends Component {
             <div className="outerDiv">
               <div className="venstreDiv"> 
                 <p className="footerOverskrift">Tilmed dig vores nyhedbrev</p>
-                <img className="footerNyhedsBrev" src={FooterNyhedBrev}/>
+                <FaInstagramSquare size="2em" className='ikon'/>
+                <FaFacebookSquare size="2em" className='ikon'/>
+                <FaLinkedin size="2em" className='ikon'/>
+                <FaYoutubeSquare size="2em" className='ikon'/>
+
             </div>
 
             <div className="højreDiv">

@@ -24,16 +24,26 @@
 }
 
 .footerOverskrift {
-    color: #FFFFFF;;
+    color: #F4EEE8;
     font-size: 30px;
 }
 
 .footerGenveje {
-    color: #FFFFFF;;
+    color: #F4EEE8;
     font-size: 20px;
     margin-top: 20px;
 }
 
 a:hover {
-    color: #6B3B0A;
+    color: #CFA99D;
+    text-decoration: inherit;
+ }
+
+ .ikon{
+     color: #F4EEE8;
+     margin: 5px;
+ }
+
+ .ikon:hover{
+    color: #CFA99D;
  }
