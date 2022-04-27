@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import './Opgaver.css';
 import './opgavesider/Opgaveside.js';
-import Opgavenr from './OpgaveNr';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import gif from './images/Opgaveknapper/giphy.gif'
 
 
@@ -26,104 +31,14 @@ export class Opgaver extends Component {
             <div className="gifdiv" >
             <img className="gif" src={gif} alt=""/>
             </div>
-            <secText className="overskriftOpgaver">Programmeringssprog</secText>
+            <div className="grid-container">
+            <Link to="/FrontendOpg" className="opgaveknapper">Frontend</Link>
+            <Link to="/BackendOpg" className="opgaveknapper">Backend</Link>
+            <Link to="/DatabaseOpg" className="opgaveknapper">Database</Link>
             </div>
-                <div className="historieOrange">
-             <h1 className="overskriftHøjre">For dig der er begynder</h1>
-             <div class="grid-container">
-                <div>Frontend</div>
-                <div>Backend</div>
-                <div>Database</div> 
-                <button className="opgbtn" id="knap1" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/bf1';
-                  }}>1</button>
-                <button className="opgbtn" id="knap1" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/bb1';
-                  }}>1</button>
-                <button className="opgbtn" id="knap1" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/bd1';
-                  }}>1</button>
-                <button className="opgbtn" id="knap2" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/bf2';
-                  }}>2</button>
-                <button className="opgbtn" id="knap2" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/bb2';
-                  }}>2</button>
-                <button className="opgbtn" id="knap2" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/bd2';
-                  }}>2</button>
-                <button className="opgbtn" id="knap3" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/bf3';
-                  }}>3</button>
-                <button className="opgbtn" id="knap3" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/bb3';
-                  }}>3</button>
-                <button className="opgbtn" id="knap3" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/bd3';
-                  }}>3</button>
-              </div>
             </div>
-
-          <div className="historieLys">
-              <h1 className="overskriftHøjre">For dig der er let øvet</h1>
-              
-              <div class="grid-container">
-                <div>Frontend</div>
-                <div>Backend</div>
-                <div>Database</div> 
-                <button className="opgbtn" id="knap1" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/lf1';
-                  }}>1</button>
-                <button className="opgbtn" id="knap1" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/lb1';
-                  }}>1</button>
-                <button className="opgbtn" id="knap1" >1</button>
-                <button className="opgbtn" id="knap2" >2</button>
-                <button className="opgbtn" id="knap2" >2</button>
-                <button className="opgbtn" id="knap2" >2</button>
-                <button className="opgbtn" id="knap3" >3</button>
-                <button className="opgbtn" id="knap3" >3</button>
-                <button className="opgbtn" id="knap3" >3</button>
-              </div>
-
-            <div className="historiePink">
-              <h1 className="overskriftHøjre">For dig der er let øvet</h1>
-                 <div class="grid-container">
-                <div>Frontend</div>
-                <div>Backend</div>
-                <div>Database</div> 
-                <button className="opgbtn" id="knap1" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/of1';
-                  }}>1</button>
-                <button className="opgbtn" id="knap1" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='./opgaveside/ob1';
-                  }}>1</button>
-                <button className="opgbtn" id="knap1" >1</button>
-                <button className="opgbtn" id="knap2" >2</button>
-                <button className="opgbtn" id="knap2" >2</button>
-                <button className="opgbtn" id="knap2" >2</button>
-                <button className="opgbtn" id="knap3" >3</button>
-                <button className="opgbtn" id="knap3" >3</button>
-                <button className="opgbtn" id="knap3" >3</button>
-              </div>
+               
              
-
-            </div>
-
-          </div>
           </div>
 
 
