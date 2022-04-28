@@ -12,8 +12,6 @@ import databaseAdministratorGif from './images/JobMuligheder/databaseAdministrat
 import itKonsulentGif from './images/JobMuligheder/itKonsulentGif.gif'
 import projektlederGif from './images/JobMuligheder/projektlederGif.gif'
 
-
-
 export class JobMuligheder extends Component {
     static displayName = JobMuligheder.name;
   
@@ -31,7 +29,7 @@ export class JobMuligheder extends Component {
                   Det er kun fantasien der sætter grænser for hvilke jobs du kan få, og der er mange flere end dem vi nævner her, men måske du kan finde inspiration til din fremtidige karriere her.</p>
                   <img className="jobMulighedGif "src={introGif} alt="jobMulighedGif" />
               </div>
-
+           
             <div className="historieOrange">
               <h1 className="overskriftHøjre">Systemudvikler</h1>
               <div className="indhold">
@@ -200,9 +198,11 @@ export class JobMuligheder extends Component {
                   <p className="fakta">Uddannelser: Softwareudvikling, HA.it, Datalogi, HA.pro</p>
                   <p className="fakta">Mest almindelige programmeringssprog: Ingen specifikke</p>
                 </div>
+              
             </div>
-
+           
             </div>
+            
 
            
       );
