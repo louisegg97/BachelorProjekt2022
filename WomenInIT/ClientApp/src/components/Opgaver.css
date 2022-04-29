@@ -4,7 +4,7 @@
         background-size: 1100px;
         background-repeat: no-repeat;
         background-position: -200px;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 }
 
 #baggrund{
@@ -52,7 +52,7 @@
 
 .gifdiv{
   display: grid;
-  place-items: center;  
+  place-items: center;
 
 }
 
@@ -97,8 +97,6 @@
   width: 300px;
   height: 100px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #D0904D;
   font-family:  'Playfair Display';
   font-weight: 400;
@@ -108,7 +106,7 @@
   margin-top: 150px;
   margin-bottom: 200px;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .opgaveknapper:hover, .opgaveknapper:visited, .opgaveknapper:link, .opgaveknapper:active
