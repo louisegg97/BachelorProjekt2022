@@ -8,14 +8,7 @@ import ScrollToTop from './components/ScrollToTop.js';
 import {JobMuligheder} from './components/JobMuligheder';
 import "./custom.css";
 
-function pp() {
-  return (
-    <div className="App">
-      <JobMuligheder />
-      <ScrollToTop />
-    </div>
-  );
-}
+
 
 
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');
@@ -24,6 +17,7 @@ const rootElement = document.getElementById('root');
 ReactDOM.render(
   <BrowserRouter basename={baseUrl}>
     <App />
+    <ScrollToTop />
   </BrowserRouter>,
   rootElement);
 

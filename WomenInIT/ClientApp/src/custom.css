@@ -166,3 +166,7 @@ terDiv {
     opacity: 1;
   }
 }
+
+.tiltoppen{
+  height: 70px !important;
+}
