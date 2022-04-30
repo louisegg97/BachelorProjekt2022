@@ -20,7 +20,7 @@ export class Opgaver extends Component {
     render() {
       return (
         <div>
-            <div className="overskriftdiv" id="baggrund">
+            <div className="overskriftdivOpagerStartside" id="baggrund">
               <secText className="overskriftOpgaver" >Opgaver</secText>
             <p className="intro">
             Her har du mulighed for at prøve kræfter med at programmere selv. 
