@@ -138,14 +138,14 @@ export class SuccesHistorier extends Component {
               Men mere end det, Lovelace var en visionær: Hun forstod, at tal kunne bruges til at repræsentere mere end blot mængder, og en maskine, der kunne manipulere tal, kunne bruges til at manipulere data repræsenteret ved tal.
               Hun forudsagde, at maskiner som den analytiske motor kunne bruges til at komponere musik, producere grafik og være nyttige for videnskaben . Som vi nu ved, skete alt dette, men selvfølgelig ikke før yderligere 100 år.
               Babbage var så imponeret over Lovelaces bidrag, at han døbte hende "The Enchantress of Numbers".</p>
-            <img className="billede" src={AdaLovelace} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={AdaLovelace} alt=""/>
           </div>
         </div>
       
         <div className="historieLys">
           <h1 className="overskriftVenstre">Alberte Kjær Wærens</h1>
           <div className="indhold">
-            <img className="billede" src={AlberteWærens} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={AlberteWærens} alt=""/>
             <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
             Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
             Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
@@ -164,14 +164,14 @@ export class SuccesHistorier extends Component {
             I denne periode arbejdede hun for bl.a. Activision, Cadlink, Wei Tek og Sun Microsystems. Senere gik hun over til hardwarearkitekturdesign, og i 1995 startede hun sit eget firma som entreprenør, 
             dette gav hende større frihed til at vælge interessante og udfordrende opgaver og hendes kompetencer og ekspertise var meget efterspurgt, f.eks. EA, 3Dfx, Sony/Cirrus Logic. 
             I 2004 dimitterede hun fra jurastudiet og har siden da arbejdet som advokat.</p>
-            <img className="billede" src={CarlaMeninsky} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={CarlaMeninsky} alt=""/>
           </div>
         </div>
 
         <div className="historieLys">
           <h1 className="overskriftVenstre">Dona Bailey</h1>
           <div className="indhold">
-            <img className="billede" src={DonaBailey} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={DonaBailey} alt=""/>
             <p className="beskrivelseMørk"> Dona Bailey var den første kvindelige programmør i coin-op afdelingen hos Atari, da hun blev ansat i 1980. 
               I sin første opgave var hun programmør på et fire-personers hold for det succesrige Atari arkadespil "Centipede".
               Hun blev først introduceret til computerprogrammering gennem UALRs psykologiafdeling, da psykologiforskningsstudier bruger statistisk analyse til hypotesetestning. 
@@ -207,17 +207,25 @@ export class SuccesHistorier extends Component {
               som beskrev, hvordan man betjener Mark I og var den første omfattende behandling af, hvordan man programmerer en computer. 
               Hun forblev på Harvard som civil forsker, mens hun bevarede sin flådekarriere som reservist. Efter at en møl infiltrerede Mark I's kredsløb, 
               opfandt hun udtrykket bug for at henvise til uforklarlige computerfejl.</p>
-            <img className="billede" src={GraceHopperImage} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={GraceHopperImage} alt=""/>
           </div>
         </div>
 
         <div className="historieLys">
           <h1 className="overskriftVenstre">Isabella Drest Rasmussen</h1>
           <div className="indhold">
-            <img className="billede" src={AlberteWærens} alt=""/>
-            <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-            Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-            Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
+            <img className="succesfuldeKvinderBillede" src={IsabellaDrest} alt=""/>
+            <p className="beskrivelseMørk"> Isabella læser til dagligt på ITU på en bachelor i Softwareudvikling og er igang med 6. semester. 
+            På uddannelsen har der været stor fokus på programmering, gruppearbejde, arbejde med virksomheder og design. 
+            Hun har været interesseret i alle delene, og har nydt af at denne uddannelse kan kombinere dem alle. 
+            Ligeledes har hun stor fokus på at tiltrække flere kvinder til programmeringsverden, og håber på at kunne bringe denne vision videre gennem uddannelse og karriere. 
+            Isabella havde aldrig programmeret før hun startede på universitet, og det var en hel ny verden. 
+            Interessen kom under hendes sabbatår, hvor hun boede i Paris. 
+            Hun havde altid været glad for at være kreativt, og troede i lang tid hun skulle gå den vej med en uddannelse i design. 
+            Hun har også altid været glad for matematik og fandt ud af at ligeså vel som hun ønskede at kunne arbejde kreativt, ville hun gerne have noget logisk og matematisk tangegang i hendes hverdag. 
+            Derfor fandt hun forskellige uddannelse indenfor computer og programmering, hvor hun deltog i diverse åbent hus og it-camps, og fandt ud af at man her nemlig kan kombinere det kreative med det logiske. 
+            Hun er nu ved at færdigøre hendes bachelor, og har søgt ind på en kandidat i Datalogi. 
+            Hun håber på en dag at komme til at arbejde med software indenfor bilindustrien og måske en dag indenfor motorsporten Formel 1.</p>
           </div>
         </div>
 
@@ -240,17 +248,18 @@ export class SuccesHistorier extends Component {
               Hendes forskningsområde er menneske-computer interaktion, med særlig vægt på allestedsnærværende databehandling og privatliv.
                Mere specifikt forsøger hendes forskning at afdække den nye praksis og brugen af avancerede computerteknologier, såsom mobile applikationer og social software i deres oprindelige miljø. 
                Hun konceptualiserer og udvikler disse teknologier til videre studier, og hun studerer også eksisterende. Senest har hun set på mobil brug af sociale medier, hvilket har ført til analyser af privatlivsopfattelse hos brugere af mobile sociale medier.</p>
-            <img className="billede" src={LouiseBarkhuus} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={LouiseBarkhuus} alt=""/>
           </div>
         </div>
 
         <div className="historieLys">
           <h1 className="overskriftVenstre">Louise Gyland Götschze</h1>
           <div className="indhold">
-            <img className="billede" src={AlberteWærens} alt=""/>
-            <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-            Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-            Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
+            <img className="succesfuldeKvinderBillede" src={AlberteWærens} alt=""/>
+            <p className="beskrivelseMørk"> Louise Götzsche er igang med at læse softwareudvikling på ITU og er på sit 6.semsester af uddannelsen. 
+              Interessen for programmering startede på hendes tidliger uddannelse, “multimediedesign” på Zealand. 
+              Multimediedesign er en bred uddannelse, hvor man berører mange forskellige aspekter af digital udvikling. 
+              Hun stiftede bekendtskab med det at kode, da de havde om hjemmesider og i den forbindelse skulle lære HTML, CSS og JavaScript. .</p>
           </div>
         </div>
 
@@ -267,14 +276,14 @@ export class SuccesHistorier extends Component {
               Hendes vision var forud for sin tid.
               Søster Mary arbejdede hårdt for at skabe sin egen unikke vej i livet og var en lidenskabelig fortaler for kvinder inden for databehandling. 
               Computercentret på Clarke College kaldes Keller Computer Center til hendes ære.</p>
-            <img className="billedeSucceshistorie" src={MaryKennethKeller} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={MaryKennethKeller} alt=""/>
           </div>
         </div>
 
         <div className="historieLys">
           <h1 className="overskriftVenstre">Pernille Bjørn</h1>
           <div className="indhold">
-            <img className="billedeSucceshistorie" src={PernilleBjoern} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={PernilleBjoern} alt=""/>
             <p className="beskrivelseMørk"> Pernille Bjørn er professor på Datalogisk Institut ved Københavns Universitet, hvor hun også er viceinstitutleder for forskning. 
               Hun var den første kvindelige professor på instituttet, da hun blev udnævnt i 2015. 
               Siden har hun arbejdet på at forstå, hvorfor der med tiden er blevet længere og længere mellem kvinderne i datalogi, der ellers oprindelig var et kvindefag.
@@ -296,14 +305,14 @@ export class SuccesHistorier extends Component {
               Til deres første event i november 2015 dukkede 50 personer op.
               Plamena Cherneva er ikke længere involveret i Codher, men arbejder i dag som business-ingeniør i virksomheden Epi-Use Nordic Og Baltic, hvor app-udvikling er en del af det daglige arbejde. 
               Hun blev første gang introduceret for kode som 16-17-årig i gymnasiet, da klassen fik besked på at bygge en hjemmeside.</p>
-            <img className="billedeSucceshistorie" src={PlamenaCherneva} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={PlamenaCherneva} alt=""/>
           </div>
         </div>
 
         <div className="historieLys">
           <h1 className="overskriftVenstre">Suki Lee</h1>
           <div className="indhold">
-            <img className="billedeSucceshistorie" src={SukiLee} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={SukiLee} alt=""/>
             <p className="beskrivelseMørk"> Suki Lee er en banebrydende kvindelig videospiludvikler, softwareingeniør og succesfuld projektleder.
               Hun er uddannet fra San Jose State University med en grad i generel ingeniørvidenskab og datalogi. 
               I løbet af sit sidste år interviewede hun Atari på campus og blev tilbudt en stilling som spilprogrammør for at starte lige efter college i august 1981. 

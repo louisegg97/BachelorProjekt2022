@@ -75,6 +75,8 @@ terDiv {
   width: 100%;
   height: auto;
   padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
 }
 /* skal bruges til flere sider*/
 .indhold {

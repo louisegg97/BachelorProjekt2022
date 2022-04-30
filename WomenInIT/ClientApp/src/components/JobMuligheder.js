@@ -165,28 +165,11 @@ export class JobMuligheder extends Component {
                 </div>
             </div>
 
-            <div className="historieLys">
-              <h1 className="overskriftVenstre">IT Konsulent</h1>
-              <div className="indhold">
-              <img className="gifKvadrat" src={itKonsulentGif} alt=""/>
-                <p className="beskrivelseMørk"> 
-                Som IT Konsulent arbejder man med industrielle og klienter der søger hjælp og råd om 
-                IT-problemer eller opgaver. Typiske projekter man optager som IT Konsulent kunne være,
-                at analyserer data for en organisation; designe, installere og afprøve nye systemer
-                og software, og fixe de problemer der opstår undervejs; reperere computerer og fjerne virusser.
-                </p>
-                </div>
-                <div className="faktaOmJob">
-                  <p className="fakta">Gennemsnitsløn: 45.000 kr.</p> 
-                  <p className="fakta">Uddannelser: Datalogi, Softwareudvikling, Datamatiker, Softwareingeniør</p>
-                  <p className="fakta">Mest almindelige programmeringssprog: Alle</p>
-                </div>
-            </div>
 
-            <div className="historieOrange">
+            <div className="historieLys">
               <h1 className="overskriftHøjre">IT Projektleder</h1>
               <div className="indhold">
-              <p className="beskrivelseLys"> 
+              <p className="beskrivelseMørk"> 
                Når man arbejder som IT Projektleder har man ansvaret for at planlægge, organiserer,
                afhvikle og aflutte et projekt. Man skal have et overblik over mange områder, heriblandt: 
                risikostyring, budget, tidsofobrug. Ligeledes skal man også være sikre på at anre medlemmer 
