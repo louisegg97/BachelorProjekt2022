@@ -17,6 +17,8 @@
     width: 265px;
     border-radius: 5px;
     margin-bottom: 0.5rem;
+    text-align: center;
+    color:  #6B3B0A;
 }
 
 .collapsible .content-parent{
