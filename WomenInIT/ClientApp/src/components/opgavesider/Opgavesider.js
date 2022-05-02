@@ -30,37 +30,37 @@ export default function useOpgavesider() {
 
         "lf1": {
             "title": "Letøvet, Opgave 1: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
+            "desc": "Her skal du skrive en overskrift og en tekst. Din overskrift skal skrives i et h1 tag: <h1></h1>. Din tekst skal skrives i et p tag: <p></p> Derudover skal du nu style på det du har lavet. Dette kan gøres i en helt seperat fil der hedder en CSS-fil, men det kan også gøres direkte i den kode du skriver nu, som er en HTML-fil. Det du skal style er baggrundsfarven og farven på teksten. Dette gøres ved at skrive: style=”dinStylingHer”. Baggrundsfarven skal være bål og tekstens farve skal rød.",
+            "hint1": "For at skrive en overskrift skriver du: <h1> Her er en overskrift</h1>",
+            "hint2": "For at style din baggrund grøn kan du skrive: <body style=”background-color:green”>",
+            "hint3": "For at style din baggrund grøn og lave din tekst pink kan du skrive: <body style=”background-color:green; color:pink”>",
+            "src":"?lite=true"
         },
 
         "lf2": {
             "title": "Letøvet, Opgave 2: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
+            "desc": "Her skal du lave en knap der med teksten “Jeg er en knap”. Når man trykker på knappen skal der udskrives “Du har nu trykket på knappen” i konsollen. Knappen skal styles så den bliver blå, og med runde hjørner svarerne til 10px. Dette kan gøres i en helt seperat fil der hedder en CSS-fil, men det kan også gøres direkte i den kode du skriver nu, som er en HTML-fil. Dette gøres ved at skrive: style=”dinStylingHer”.",
+            "hint1": "Lav en knap ved at bruge tagget <button type=”button”>navnPåKnapHer</button>",
+            "hint2": "For at style din baggrund grøn kan du skrive: <body style=”background-color:green”>",
+            "hint3": "For at udskrive “Du har nu trykket på knappen” i konsollen brug onclick=”console.log(’tekst’)” efter du har defineret at type er en button",
+            "src":"?lite=true"
         },
 
         "lf3": {
             "title": "Letøvet, Opgave 3: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
+            "desc": "I denne opgave skal du lave et tekstfelt, et label, et input felt og en knap, som omhandler at tilmelde sig et nyhedsbrev på en hjemmeside. Først skal du lave et almindeligt tekstfelt med et p tag, hvor der skal stå: “Tilmeld dig nyhedsbrev”. Derefter skal du lave et form-tag, hvor der skal ligge et label-tag og et input-tag (vi har allerede lavet input-tagget for dig). I label-tagget skal der står teksten “email:”. I selve inputfeltet, skal der være nogler værdier; type=””text”, name=”email” og requried. Tilsidst skal der være en knap af tag button, med teksten: “Tilmeld”.",
+            "hint1": "Du kan lave et label ved at skrive: <label>tekst:</label>",
+            "hint2": "Du kan lave et inputfelt ved at skrive: <input type=”text” name=”email” required />",
+            "hint3": "Du kan lave en knap med et button-tag ved at skrive: <button type=”button> Her er noget tekst</button> ",
+            "src":"?lite=true"
         },
 
         "of1": {
             "title": "Øvet, Opgave 1: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
+            "desc": "",
+            "hint1": "",
+            "hint2": "",
+            "hint3": "",
             "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
         },
 
@@ -75,17 +75,17 @@ export default function useOpgavesider() {
 
         "of3": {
             "title": "Øvet, Opgave 3: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
+            "desc": "I denne opgave skal du lave en knap, hvor når der klikkes på den vil man ryge til toppen af en hjemmeside. Disse er især brugt på online-shopping hjemmeside, men f.eks. også på denne hjemmeside. Vi har startet noget af koden for dig. Vi har lavet en metode, som er funktionaliteten der skal være i knappen, så man ryger til toppen af en hjemmesiden når der klikkes på den. Du skal give metoden et passende navn. Dernæst har vi lavet lidt kode til selve knappen, du skal skrive at når der klikkes på knappen, skal den bruge metoden vi har defineret ovenover. Derefter skal du lave selve knappen med et button-tag, med teksten: “Gå til toppen”.",
+            "hint1": "Et passende navn til metoden kunne være “scrollToTop”",
+            "hint2": "For at fortælle at en metode skal bruges når der klikkes, kan du skrive: “onClick={scrollToTop}",
+            "hint3": "For at lave en knap kan du skrive: <button>her er en knap</button>",
+            "src":"?lite=true"
         },
 
 //Backend opgaver
         "bb1": {
             "title": "Begynder, Opgave 1: Hello World!",
-            "desc": "Den første opgave alle spirende programmøre møde er Hello World!. En opgave der helt simpelt går ud på at få din computer til at udskrive, Hello World!. Da dette er er den første opgave så har vi allerede startet klassen op for dig, men hvis du har brug for lidt mere hjælp end det så tryk på et hint nedenfor: ...skal måske være noget forklaring eller link til om programmering siden",
+            "desc": "Den første opgave alle spirende programmøre møde er Hello World!.\"\" En opgave der helt simpelt går ud på at få din computer til at udskrive, Hello World!. Da dette er er den første opgave så har vi allerede startet klassen op for dig, men hvis du har brug for lidt mere hjælp end det så tryk på et hint nedenfor: ...skal måske være noget forklaring eller link til om programmering siden",
             "hint1": "I denne opgave skal du bruge en kommando der printer en linje ud, også kaldet en string.",
             "hint2": "Når man printer Strings ud skal der \"\" rundt om dem",
             "hint3": "Kommandoen til at printe hvilket som helst ud i terminalen hedder System.out.println()",
