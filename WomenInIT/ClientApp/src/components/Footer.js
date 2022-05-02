@@ -34,7 +34,7 @@ export class Footer extends Component {
                         />
                     </form>
                 </div>
-                <Link to="/Frontend" className="Tilmeld_knap">Tilmeld</Link>
+                <Link className="Tilmeld_knap">Tilmeld</Link>
                 <div className='ikoner'>
                   <FaInstagramSquare size="2em" className='ikon'/>
                   <FaFacebookSquare size="2em" className='ikon'/>
