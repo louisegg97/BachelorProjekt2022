@@ -57,11 +57,11 @@ export default function useOpgavesider() {
 
         "of1": {
             "title": "Øvet, Opgave 1: ",
-            "desc": "",
-            "hint1": "",
-            "hint2": "",
-            "hint3": "",
-            "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
+            "desc": "I denne opgave skal du lave en titel og en stripet baggrund. I titlen skal der stå teksten: “Stripet baggrund”. Den stribet baggrund skal laves i en div og den skal laves med style, hvor du skal bruge; width, height, backgroundcolor, background-image og background-size. Den skal være både 240px i bredden og højden, baggrunden skal være hvis, og baggrundsbilledet skal være “linear-gradient”, med værdierne 90 grader, gennemsigtig 50%, farven sort 50%. Baggrundsstørrelsen skal være 60px i højden og bredden.",
+            "hint1": "For at style en div skriver du: <div style=”style1; style2”></div>",
+            "hint2": "For at style en div med en baggrundsfarver skriver du: <div style=”backgroundcolor:#fff”></div>",
+            "hint3": "For at style background-image skriver du: background-image:linear-gradient(90deg, transparent 50%, #000 50%)",
+            "src":"?lite=true"
         },
 
         "of2": {
