@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import fællesBillede from './images/OmOs/fælles.png'
+import fællesBillede from './images/OmOs/FællesBillede.png'
 import isabella from './images/OmOs/isabella.png'
 import louise from './images/OmOs/louise.png'
 import alberte from './images/OmOs/alberte.png'
