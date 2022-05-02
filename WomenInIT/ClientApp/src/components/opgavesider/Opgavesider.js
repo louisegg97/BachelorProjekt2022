@@ -66,10 +66,10 @@ export default function useOpgavesider() {
 
         "of2": {
             "title": "Øvet, Opgave 2: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
+            "desc": "",
+            "hint1": "",
+            "hint2": "",
+            "hint3": "",
             "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
         },
 
