@@ -65,20 +65,20 @@ export default function useOpgavesider() {
         },
 
         "of2": {
-            "title": "Øvet, Opgave 2: ",
-            "desc": "",
-            "hint1": "",
-            "hint2": "",
-            "hint3": "",
-            "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
-        },
-
-        "of3": {
             "title": "Øvet, Opgave 3: ",
             "desc": "I denne opgave skal du lave en knap, hvor når der klikkes på den vil man ryge til toppen af en hjemmeside. Disse er især brugt på online-shopping hjemmeside, men f.eks. også på denne hjemmeside. Vi har startet noget af koden for dig. Vi har lavet en metode, som er funktionaliteten der skal være i knappen, så man ryger til toppen af en hjemmesiden når der klikkes på den. Du skal give metoden et passende navn. Dernæst har vi lavet lidt kode til selve knappen, du skal skrive at når der klikkes på knappen, skal den bruge metoden vi har defineret ovenover. Derefter skal du lave selve knappen med et button-tag, med teksten: “Gå til toppen”.",
             "hint1": "Et passende navn til metoden kunne være “scrollToTop”",
             "hint2": "For at fortælle at en metode skal bruges når der klikkes, kan du skrive: “onClick={scrollToTop}",
             "hint3": "For at lave en knap kan du skrive: <button>her er en knap</button>",
+            "src":"?lite=true"
+        },
+
+        "of3": {
+            "title": "Øvet, Opgave 3: ",
+            "desc": "I denne opgave skal du lave en titel, en tekst, en tekst med tal, og en knap. Denne Opgave handler om at knappen skal have en “counter” funktion, som får et tal til at stige med én hver gang der klikkes på den. Vi har lavet mange af funktionerne for dig, men du skal selv skrive i metoden “incrementCounter()” som er her metoden for at tallet stiger med én er. For at gøre dette kan man bruge den nuværende variable og sige “+1”. Herefter skal du i return, lave en titel som hedder “Counter”  med et h-tag: <h></h>. Herefter skal du lave en tekst med et p-tag: <p></p>, med teksten “Current count:” . Dit p-tag skal undeholde et strong-tag, hvor du kalder på din variabel this.state.currentCount. Til sidst skal der være en knap af et button-tag:<button></button> med teksten “Increment”. Den skal have en onClick function, hvor der kaldes på metoden: incrementCounter.",
+            "hint1": "For at kalde på den nuværende variabel skal du skrive: “this.state.currentCount”",
+            "hint2": "For at kalde på din variabel i dit strong-tag kan du skrive: <strong>{this.state.currentCount}</strong>",
+            "hint3": "For at få din klik funktion til knappen og kalde på din metode kan du skrive: <button onClick={this.incrementCounter}>Increment</button>",
             "src":"?lite=true"
         },
 
