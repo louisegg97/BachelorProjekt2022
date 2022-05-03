@@ -34,7 +34,7 @@ export default function useOpgavesider() {
             "hint1": "For at skrive en overskrift skriver du: <h1> Her er en overskrift</h1>",
             "hint2": "For at style din baggrund grøn kan du skrive: <body style=”background-color:green”>",
             "hint3": "For at style din baggrund grøn og lave din tekst pink kan du skrive: <body style=”background-color:green; color:pink”>",
-            "src":"?lite=true"
+            "src":"https://replit.com/@AlberteWaerens/lf1?lite=true"
         },
 
         "lf2": {
