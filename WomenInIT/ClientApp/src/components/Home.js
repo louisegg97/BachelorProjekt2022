@@ -32,20 +32,20 @@ export class Home extends Component {
         <div className="historieOrange">
         <div className="indhold">
           <h1 className="overskriftHøjre" id={'section1'}>Hvad er programmering egentlig?</h1>
-            <p className="beskrivelseLys"> 
-            <p>Programmering har eksisteret i mange år, men er stadig en del af nyere tids udvikling. 
-            Det kaldes også for kodning eller udvikling, og handler om udviklingen at software og applikationer. 
-            Når man som udvikler skal lave en app eller et program, skal det kunne nogle specielle ting, 
-            det kan f.eks. være at modtage noget data og bearbejde det, eller man skal kunne sende beskeder og billeder via programmet. 
-            Programmering og kodning er en måde hvorpå en programmør fortæller softwaren præcis hvordan den skal opføre sig, og hvad der skal ske, 
-            når en bruger f.eks. trykker på en specifik knap. </p>
+            <div className="beskrivelseLys"> 
+              <p>Programmering har eksisteret i mange år, men er stadig en del af nyere tids udvikling. 
+              Det kaldes også for kodning eller udvikling, og handler om udviklingen at software og applikationer. 
+              Når man som udvikler skal lave en app eller et program, skal det kunne nogle specielle ting, 
+              det kan f.eks. være at modtage noget data og bearbejde det, eller man skal kunne sende beskeder og billeder via programmet. 
+              Programmering og kodning er en måde hvorpå en programmør fortæller softwaren præcis hvordan den skal opføre sig, og hvad der skal ske, 
+              når en bruger f.eks. trykker på en specifik knap. </p>
 
-            <p>Der findes forskellige programmerings sprog, hvor hver har deres egenskaber og kvaliteter 
-            - nogle er derfor bedre at bruge når der skal udvikle specielle former for applikationer eller programmer. </p>
-            
-            <p>Programmering er en super spænende verden, og det er kun fantasien der sætter grænser for hvad du kan gøre med det 
-            - så vi er glade for at inviterer dig med på rejsen, og give dig en introduktion til det.</p>
-            </p>
+              <p>Der findes forskellige programmerings sprog, hvor hver har deres egenskaber og kvaliteter 
+              - nogle er derfor bedre at bruge når der skal udvikle specielle former for applikationer eller programmer. </p>
+              
+              <p>Programmering er en super spænende verden, og det er kun fantasien der sætter grænser for hvad du kan gøre med det 
+              - så vi er glade for at inviterer dig med på rejsen, og give dig en introduktion til det.</p>
+            </div>
           </div>
           <Link to="/OmProgrammering" className="omProgrammeringlæsMereHer">Læs mere her</Link>
         </div>
