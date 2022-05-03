@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './JobMulighederNav.css';
 import './JobMuligheder.css';
 import machånd from './images/mac+hånd.jpg'
 import introGif from './images/JobMuligheder/JM.gif'
@@ -11,6 +12,7 @@ import cyberSikkerhedGif from './images/JobMuligheder/cyberSikkerhedGif.gif'
 import databaseAdministratorGif from './images/JobMuligheder/databaseAdministratorGif.gif'
 import itKonsulentGif from './images/JobMuligheder/itKonsulentGif.gif'
 import projektlederGif from './images/JobMuligheder/projektlederGif.gif'
+
 
 export class JobMuligheder extends Component {
     static displayName = JobMuligheder.name;
@@ -29,8 +31,21 @@ export class JobMuligheder extends Component {
                   Det er kun fantasien der sætter grænser for hvilke jobs du kan få, og der er mange flere end dem vi nævner her, men måske du kan finde inspiration til din fremtidige karriere her.</p>
                   <img className="jobMulighedGif "src={introGif} alt="jobMulighedGif" />
               </div>
-           
-            <div className="historieOrange">
+
+              <div class="nav">
+                <nav >
+                  <a href="jobMuligheder/#Systemudvikler">Systemudvikler</a>
+                  <a href="jobMuligheder/#Back-End">Back-end Udvikler</a>
+                  <a href="jobMuligheder/#front-end">Front-end Udvikler</a>
+                  <a href="jobMuligheder/#full-stack">full-stack Udvikler</a>
+                  <a href="jobMuligheder/#spil">Spil Udvikler</a>
+                  <a href="jobMuligheder/#cyber-sikkerhed">Cyber-sikkerhed Analytiker</a>
+                  <a href="jobMuligheder/#database">Database Administrator</a>
+                  <a href="jobMuligheder/#projektleder">IT Projektleder</a>
+                </nav>
+              </div>
+
+            <div id="Systemudvikler" className="historieOrange">
               <h1 className="overskriftHøjre">Systemudvikler</h1>
               <div className="indhold">
               <p className="beskrivelseLys"> 
@@ -49,7 +64,7 @@ export class JobMuligheder extends Component {
               </div>
             </div>
 
-            <div className="historieLys">
+            <div id="Back-End" className="historieLys">
               <h1 className="overskriftVenstre">Back-End udvikler</h1>
               <div className="indhold">
               <img className="gifAflang" src={backEndGif} alt=""/>
@@ -70,7 +85,7 @@ export class JobMuligheder extends Component {
               </div>
             </div>
 
-            <div className="historiePink">
+            <div id="front-end" className="historiePink">
               <h1 className="overskriftHøjre">Front-End udvikler</h1>
               <div className="indhold">
                 <p className="beskrivelseLys"> 
@@ -91,7 +106,7 @@ export class JobMuligheder extends Component {
               </div>
             </div>
 
-            <div className="historieLys">
+            <div id="full-stack" className="historieLys">
               <h1 className="overskriftVenstre">Full-Stack Udvikler</h1>
               <div className="indhold">
               <img className="gifKvadrat" src={fullStackGif} alt=""/>
@@ -109,7 +124,7 @@ export class JobMuligheder extends Component {
                 </div>
             </div>
 
-            <div className="historieOrange">
+            <div id="spil" className="historieOrange">
               <h1 className="overskriftHøjre">Spil Udvikler</h1>
               <div className="indhold">
               <p className="beskrivelseLys"> 
@@ -126,7 +141,7 @@ export class JobMuligheder extends Component {
                 </div>
             </div>
 
-            <div className="historieLys">
+            <div id="cyber-sikkerhed" className="historieLys">
               <h1 className="overskriftVenstre">Cyber-Sikkerhed Analytiker</h1>
               <div className="indhold">
               <img className="gifAflang" src={cyberSikkerhedGif} alt=""/>
@@ -144,7 +159,7 @@ export class JobMuligheder extends Component {
                 </div>
             </div>
 
-            <div className="historiePink">
+            <div id="database" className="historiePink">
               <h1 className="overskriftHøjre">Database Administrator</h1>
               <div className="indhold">
                 <p className="beskrivelseLys"> 
@@ -164,7 +179,7 @@ export class JobMuligheder extends Component {
             </div>
 
 
-            <div className="historieLys">
+            <div id="projektleder" className="historieLys">
               <h1 className="overskriftHøjre">IT Projektleder</h1>
               <div className="indhold">
               <p className="beskrivelseMørk"> 
