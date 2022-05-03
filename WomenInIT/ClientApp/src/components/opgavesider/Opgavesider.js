@@ -43,7 +43,7 @@ export default function useOpgavesider() {
             "hint1": "Lav en knap ved at bruge tagget <button type=”button”>navnPåKnapHer</button>",
             "hint2": "For at style din baggrund grøn kan du skrive: <body style=”background-color:green”>",
             "hint3": "For at udskrive “Du har nu trykket på knappen” i konsollen brug onclick=”console.log(’tekst’)” efter du har defineret at type er en button",
-            "src":"?lite=true"
+            "src":"https://replit.com/@AlberteWaerens/lf2?lite=true"
         },
 
         "lf3": {
@@ -52,7 +52,7 @@ export default function useOpgavesider() {
             "hint1": "Du kan lave et label ved at skrive: <label>tekst:</label>",
             "hint2": "Du kan lave et inputfelt ved at skrive: <input type=”text” name=”email” required />",
             "hint3": "Du kan lave en knap med et button-tag ved at skrive: <button type=”button> Her er noget tekst</button> ",
-            "src":"?lite=true"
+            "src":"https://replit.com/@AlberteWaerens/lf3?lite=true"
         },
 
         "of1": {
@@ -61,7 +61,7 @@ export default function useOpgavesider() {
             "hint1": "For at style en div skriver du: <div style=”style1; style2”></div>",
             "hint2": "For at style en div med en baggrundsfarver skriver du: <div style=”backgroundcolor:#fff”></div>",
             "hint3": "For at style background-image skriver du: background-image:linear-gradient(90deg, transparent 50%, #000 50%)",
-            "src":"?lite=true"
+            "src":"https://replit.com/@AlberteWaerens/of1?lite=true"
         },
 
         "of2": {
@@ -70,7 +70,7 @@ export default function useOpgavesider() {
             "hint1": "Et passende navn til metoden kunne være “scrollToTop”",
             "hint2": "For at fortælle at en metode skal bruges når der klikkes, kan du skrive: “onClick={scrollToTop}",
             "hint3": "For at lave en knap kan du skrive: <button>her er en knap</button>",
-            "src":"?lite=true"
+            "src":"https://replit.com/@AlberteWaerens/of2?lite=true"
         },
 
         "of3": {
@@ -79,7 +79,7 @@ export default function useOpgavesider() {
             "hint1": "For at kalde på den nuværende variabel skal du skrive: “this.state.currentCount”",
             "hint2": "For at kalde på din variabel i dit strong-tag kan du skrive: <strong>{this.state.currentCount}</strong>",
             "hint3": "For at få din klik funktion til knappen og kalde på din metode kan du skrive: <button onClick={this.incrementCounter}>Increment</button>",
-            "src":"?lite=true"
+            "src":"https://replit.com/@AlberteWaerens/of3?lite=true"
         },
 
 //Backend opgaver
