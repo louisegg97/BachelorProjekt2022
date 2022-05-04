@@ -5,12 +5,13 @@ import AlberteWærens from './images/SuccesHistorier/alberteWærens.png';
 import CarlaMeninsky from './images/SuccesHistorier/CarlaMeninsky.png';
 import DonaBailey from './images/SuccesHistorier/DonaBailey.jpg';
 import GraceHopperImage from './images/SuccesHistorier/graceHopper.jpg';
-import LouiseBarkhuus from './images/SuccesHistorier/LouiseBarkhuus.jpg';
+import LouiseBarkhuus from './images/SuccesHistorier/LouiseBarkhuus.png';
 import MaryKennethKeller from './images/SuccesHistorier/MaryKennethKeller.png';
 import PernilleBjoern from './images/SuccesHistorier/PernilleBjoern.jpg'
 import PlamenaCherneva from './images/SuccesHistorier/PlamenaCherneva.jpg'
 import SukiLee from './images/SuccesHistorier/SukiLee.jpg'
 import IsabellaDrest from './images/SuccesHistorier/IsabellaDrest.jpg'
+import LouiseGotschze from './images/SuccesHistorier/LouiseGotschze.png'
 
 
 
@@ -55,40 +56,40 @@ export class SuccesHistorier extends Component {
 
 
 
-          <div className="billede4Div">
-          <img className="billede4" src={DonaBailey} alt=""/>
+          <div className="billede1Div">
+          <img className="billede1" src={DonaBailey} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Dona Bailey</div>
               <div class="skjultText">Programmør</div>
               </div>
           </div>
 
-          <div className="billede6Div">
-          <img className="billede6" src={AdaLovelace} alt=""/>
+          <div className="billede2Div">
+          <img className="billede2" src={AdaLovelace} alt=""/>
             <div className="skjultTextDiv">
               <div class="skjultTextOverskrift" onClick="overskriftHøjre">Ada Lovelace</div>
               <div class="skjultText">Verdens første computerprogrammør</div>
               </div>
           </div>
 
-          <div className="billede7Div">
-          <img className="billede7" src={GraceHopperImage} alt=""/>
+          <div className="billede3Div">
+          <img className="billede3" src={GraceHopperImage} alt=""/>
             <div  className="skjultTextDiv">
               <div class="skjultTextOverskrift" >Grace Hopper</div>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
 
-          <div className="billede8Div">
-          <img className="billede8" src={MaryKennethKeller} alt=""/>
+          <div className="billede1Div">
+          <img className="billede1" src={MaryKennethKeller} alt=""/>
             <div  className="skjultTextDiv">
               <div class="skjultTextOverskrift" >Mary Kennet hKeller</div>
               <div class="skjultText">Ph.d. i datalogi</div>
               </div>
           </div>
 
-          <div className="billede9Div">
-          <img className="billede9" src={PernilleBjoern} alt=""/>
+          <div className="billede2Div">
+          <img className="billede2" src={PernilleBjoern} alt=""/>
             <div  className="skjultTextDiv">
               <div class="skjultTextOverskrift" >Pernille Bjørn</div>
               <div class="skjultText">Professor på Datalogisk Institut</div>
@@ -96,26 +97,26 @@ export class SuccesHistorier extends Component {
           </div>
 
 
-          <div className="billede11Div">
-          <img className="billede11" src={PernilleBjoern} alt=""/>
+          <div className="billede3Div">
+          <img className="billede3" src={LouiseGotschze} alt=""/>
             <div  className="skjultTextDiv">
               <div class="skjultTextOverskrift" >Louise Gyland Götschze</div>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
           </div>
 
-          <div className="billede10Div">
-          <img className="billede10" src={SukiLee} alt=""/>
+          <div className="billede1Div">
+          <img className="billede1" src={SukiLee} alt=""/>
             <div  className="skjultTextDiv">
               <div class="skjultTextOverskrift" >Suki Lee</div>
               <div class="skjultText">Videospiludvikler, softwareingeniør og projektleder</div>
               </div>
           </div>
 
-          <div className="billede12Div">
-          <img className="billede12" src={IsabellaDrest} alt=""/>
+          <div className="billede2Div">
+          <img className="billede2" src={IsabellaDrest} alt=""/>
             <div  className="skjultTextDiv">
-              <div class="skjultTextOverskrift" >Isabella Drest Rasmussen</div>
+              <div class="skjultTextOverskrift" >Isabella Drest</div>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
           </div>
@@ -255,7 +256,7 @@ export class SuccesHistorier extends Component {
         <div className="historieLys">
           <h1 className="overskriftVenstre">Louise Gyland Götschze</h1>
           <div className="indhold">
-            <img className="succesfuldeKvinderBillede" src={AlberteWærens} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={LouiseGotschze} alt=""/>
             <p className="beskrivelseMørk"> Louise Götzsche er igang med at læse softwareudvikling på ITU og er på sit 6.semsester af uddannelsen. 
               Interessen for programmering startede på hendes tidliger uddannelse, “multimediedesign” på Zealand. 
               Multimediedesign er en bred uddannelse, hvor man berører mange forskellige aspekter af digital udvikling. 

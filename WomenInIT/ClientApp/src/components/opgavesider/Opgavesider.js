@@ -3,25 +3,25 @@ export default function useOpgavesider() {
 //Frontend opgaver
         "bf1": {
             "title": "Begynder, Opgave 1:",
-            "desc": "Skriv noget tekst i normal tykkelse og noget andet fed. Lav i head en titel “Titel” og i body tagget skal teksten skrives.",
+            "desc": "I denne opgave skal du skrive noget tekst i normal tykkelse og noget andet fed. Lav i head en titel med teksten: “Titel” og i body tagget skal der skrives noget tekst i et p-tag: <p>blabla</p>, her skal det stå: “Normal tekst”, efterfulgt af tekst med fed skrift i et b-tag:<b>blabla</b>, hvor der skal stå: “fed tekst”.",
             "hint1": "For at skrive en titel kan du bruge tagget <titel></titel>",
-            "hint2": "tekst skrives i et <p></p> tag",
-            "hint3": "For at gøre tekst fed, brug <b></b> tagget",
+            "hint2": "Tekst skrives i et p tag: <p>TekstHer</p> ",
+            "hint3": "For at gøre tekst fed, brug <b>TekstHer</b> tagget",
             "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
         },
 
         "bf2": {
-            "title": "Begynder, Opgave 3: ",
-            "desc": "Lav en knap der hedder “Klik her” og udskriver “Velkommen til” i konsollen. Der skal være en titel på siden, der hedder “Knap”",
-            "hint1": "Lav en knap ved at bruge tagget <button type=”button”></button>",
-            "hint2": "For at give knap en tekst, skriv teksten imellem <button ...> Skriv tekst her </button>",
+            "title": "Begynder, Opgave 2: ",
+            "desc": "I denne opgave skal du lave en knap, hvor der står “Klik her”. Når man klikker på knappen skal der udskrives “Velkommen til” i det der hedder konsollen. Der skal være en titel på siden, der hedder “Knap”. For at lave en knap bruger man button-tagget: <button></button>. For at få den til at gøre noget når der klikkes på knappen bruger man: onClick=”console.log(’tekst her’)” inde i button-tagget.",
+            "hint1": "Lav en knap ved at bruge tagget <button type=”button”>tekstPåKnap</button>",
+            "hint2": "For at give den en titel skriver du <title>tekstHer</titel>",
             "hint3": "For at udskrive “Velkommen til” i konsollen brug onclick=”console.log(’tekst’)” efter du har defineret at type er en button",
             "src":"https://replit.com/@AlberteWaerens/bf2?lite=true"
         },
 
         "bf3": {
             "title": "Begynder, Opgave 3: ",
-            "desc": "Lav en iframe (et udsnit fra en hjemmeside) i målene: 300px i højden og 70% i bredden. Brug dette link til at lave din iframe: https://www.google.com/?client=safari. Siden skal have en titel “iFrame”",
+            "desc": "Her skal du lave en iframe (et udsnit fra en hjemmeside) i målene: 300px i højden og 70% i bredden. Brug dette link til at lave din iframe: https://www.google.com/?client=safari. Siden skal have en titel “iFrame”",
             "hint1": "For at lave en iframe brug tagget <iframe></iframe> ",
             "hint2": "For at sætte linket ind brug src=”link” i iframe tagget",
             "hint3": "For at sætte størrelsen på iframen brug width=”x” height=”y” i iframe tagget",
