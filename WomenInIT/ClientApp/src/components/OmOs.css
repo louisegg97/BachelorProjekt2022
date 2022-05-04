@@ -42,3 +42,14 @@
     font-size: 18px;
     color: #6B3B0A;
 }
+
+@media only screen and (max-width: 1200px){
+    .fællesBillede {
+        width: 600px;
+        padding-top: 100px;
+    }
+
+    .overskrift{
+        margin-top: 0px;
+    }
+}

@@ -143,11 +143,6 @@ terDiv {
 
 
 /*Scroll to top*/
-.pp {
-  font-family: sans-serif;
-  padding: 1rem 5rem;
-}
-
 .scroll-to-top {
   position: fixed;
   bottom: 0.5rem;
@@ -190,4 +185,10 @@ terDiv {
     .indhold {
       flex-wrap: wrap;  
     }
+
+    .tiltoppen{
+      height: 60px !important;
+    }
+    
+    
  }

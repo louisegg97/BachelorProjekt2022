@@ -123,4 +123,13 @@
     color: #F4EEE8;
 }
 
+@media only screen and (max-width: 1200px){
+  .opgaveknapper{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 250px;
+  }
+}
+
 
