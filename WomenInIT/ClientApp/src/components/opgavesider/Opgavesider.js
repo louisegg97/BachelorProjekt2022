@@ -170,13 +170,13 @@ export default function useOpgavesider() {
 
         "bd1": {
             "title": "Begynder, Opgave 1: ",
-            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: En del af en database, som du er ved at udvikle, vil indeholde oplysninger om byer og stater i USA. Hver by ligger kun i én stat. ",
             "hint1": "Første del ser sådan ud:",
-            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "img1": "https://i.ibb.co/85CK4sp/Sk-rmbillede-2022-05-04-kl-16-06-04.png",
             "hint2": "Anden del ser sådan ud:",
-            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "img2": "https://i.ibb.co/HXDt86f/Sk-rmbillede-2022-05-04-kl-16-06-08.png",
             "hint3": "Det færdige skema ser sådan ud:",
-            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+            "img3": "https://i.ibb.co/N7Y1ZSk/Sk-rmbillede-2022-05-04-kl-16-05-57.png",
 
         },
 
