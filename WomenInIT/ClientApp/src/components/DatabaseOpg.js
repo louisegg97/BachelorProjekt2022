@@ -15,7 +15,7 @@ export class DatabaseOpg extends Component {
       return (
         <div>
             <div className="overskriftdiv" id="baggrund">
-              <secText className="overskriftOpgaver" >Backend Opgaver</secText>
+              <secText className="overskriftOpgaver" >Database Opgaver</secText>
             <p className="intro">
             Her har du mulighed for at prøve kræfter med at programmere Database selv. Vi mener at det er vigtigt at opleve programmering selv, for at forstå hvordan det virker, og hvad det kan. Vi har derfor lavet nogle opgaver, som du kan kaste dig ud i, uanset din erfaring med programmering. Hvis du ønsker at læse mere om Database programmering kan du gøre det i “Om programmering”.
             <br /> <br />

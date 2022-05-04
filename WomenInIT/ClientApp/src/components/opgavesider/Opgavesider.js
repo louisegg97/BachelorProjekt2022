@@ -1,3 +1,5 @@
+
+
 export default function useOpgavesider() {
     return {
 //Frontend opgaver
@@ -168,84 +170,111 @@ export default function useOpgavesider() {
 
         "bd1": {
             "title": "Begynder, Opgave 1: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"?lite=true"
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "hint1": "Første del ser sådan ud:",
+            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "hint2": "Anden del ser sådan ud:",
+            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "hint3": "Det færdige skema ser sådan ud:",
+            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+
         },
 
         "bd2": {
-            "title": "Begynder, Opgave 2: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"?lite=true"
+            "title": "Begynder, Opgave 1: ",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: I et rigtigt (gammeldags) bibliotekskatalog var der et ekstra kort til hver forfatter af en bog. (Forfatter- og titelkort var indeholdt i forskellige sæt kortskuffer.) Antag, at vi på disse kort ville have sådanne ting som: Forfatterens efternavn, Forfatterens fornavn, Forfatterens fødselsdato, Forfatterens død (hvis afdøde), Oprindelsesland.",
+            "hint1": "Første del ser sådan ud:",
+            "img1": "https://i.ibb.co/5LjY46Y/Sk-rmbillede-2022-05-04-kl-15-57-12.png",
+            "hint2": "Anden del ser sådan ud:",
+            "img2": "https://i.ibb.co/y8F02dV/Sk-rmbillede-2022-05-04-kl-15-57-17.png",
+            "hint3": "Det færdige skema ser sådan ud:",
+            "img3": "https://i.ibb.co/64PjjJB/Sk-rmbillede-2022-05-04-kl-15-56-58.png",
+
         },
 
         "bd3": {
-            "title": "Begynder, Opgave 3: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"?lite=true"
+            "title": "Begynder, Opgave 1: ",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "hint1": "Første del ser sådan ud:",
+            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "hint2": "Anden del ser sådan ud:",
+            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "hint3": "Det færdige skema ser sådan ud:",
+            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+
         },
 
         "ld1": {
-            "title": "Letøvet, Opgave 1: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"?lite=true"
+            "title": "Begynder, Opgave 1: ",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "hint1": "Første del ser sådan ud:",
+            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "hint2": "Anden del ser sådan ud:",
+            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "hint3": "Det færdige skema ser sådan ud:",
+            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+
         },
 
         "ld2": {
-            "title": "Letøvet, Opgave 2: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"?lite=true"
+            "title": "Begynder, Opgave 1: ",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "hint1": "Første del ser sådan ud:",
+            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "hint2": "Anden del ser sådan ud:",
+            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "hint3": "Det færdige skema ser sådan ud:",
+            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+
         },
 
         "ld3": {
-            "title": "Letøvet, Opgave 3: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"?lite=true"
+            "title": "Begynder, Opgave 1: ",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "hint1": "Første del ser sådan ud:",
+            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "hint2": "Anden del ser sådan ud:",
+            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "hint3": "Det færdige skema ser sådan ud:",
+            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+
         },
 
 
         "od1": {
-            "title": "Øvet, Opgave 1: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"?lite=true"
+            "title": "Begynder, Opgave 1: ",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "hint1": "Første del ser sådan ud:",
+            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "hint2": "Anden del ser sådan ud:",
+            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "hint3": "Det færdige skema ser sådan ud:",
+            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+
         },
 
         "od2": {
-            "title": "Øvet, Opgave 2: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"?lite=true"
+            "title": "Begynder, Opgave 1: ",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "hint1": "Første del ser sådan ud:",
+            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "hint2": "Anden del ser sådan ud:",
+            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "hint3": "Det færdige skema ser sådan ud:",
+            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+
         },
 
         "od3": {
-            "title": "Øvet, Opgave 3: ",
-            "desc": "I denne opgave skal du starte med at lave en overskrift inden i html filen. Du skal skrive det ind under <body>. Derefter skal du give den dette id=\"overskrift\" så du kan ændre dens farve inden i css filen. For at lave en overskrift skal du bruge <header></header> inden i .html",
-            "hint1": "Skriv din tekst imellem <header id=\"overskrift\">___</header>",
-            "hint2": "Du skal bruge color:;",
-            "hint3": "Find en rgb kode på nettet på en farve du godt kan lide og skrive den ind",
-            "src":"?lite=true"
+            "title": "Begynder, Opgave 1: ",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "hint1": "Første del ser sådan ud:",
+            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "hint2": "Anden del ser sådan ud:",
+            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "hint3": "Det færdige skema ser sådan ud:",
+            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+
         },
 
         
