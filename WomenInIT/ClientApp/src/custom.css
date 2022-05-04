@@ -87,7 +87,6 @@ terDiv {
   margin-bottom: 30px;
   margin-left: 40px;
   padding: 40px;
-
   
 }
 /* skal bruges til flere sider*/
@@ -117,8 +116,6 @@ terDiv {
   padding: 40px;
 
 }
-
-
 
 .overskriftdiv{
   margin-top: 100px;
@@ -170,3 +167,26 @@ terDiv {
 .tiltoppen{
   height: 70px !important;
 }
+
+
+@media only screen and (max-width: 1200px){
+ 
+    .overskriftHøjre {
+      margin-bottom: 30px;
+      margin-left: 40px;
+      padding: 10px;
+      
+    }
+    /* skal bruges til flere sider*/
+    .overskriftVenstre {
+      color: #6B3B0A;
+      margin-bottom: 30px;
+      text-align: right;
+      margin-right: 40px;
+      padding: 40px;
+    }
+     
+    .indhold {
+      flex-wrap: wrap;  
+    }
+ }

@@ -220,3 +220,16 @@
     padding: 10px;
 }
 
+@media only screen and (max-width: 1200px){
+ .kvindeligProgrammør{
+     width: 250px;
+ }
+
+ .introTextHome{
+    font-size: 40px;
+    margin: 150px 20px 0px 80px;
+ }
+
+    
+}
+
