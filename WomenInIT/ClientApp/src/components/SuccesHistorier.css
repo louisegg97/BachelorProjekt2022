@@ -168,10 +168,21 @@
 .skjultTextOverskrift {
     font-style: oblique;
     font-size: 16px;
+    color: #6B3B0A;
+    font-weight: bold;
+
+  }
+
+  .skjultTextOverskrift:hover {
+    font-style: oblique;
+    font-size: 16px;
+    color: #CF914C;
   }
   
   .skjultText {
     height: 0;
     opacity: 1;
     font-size: 12px;
+    color: #6B3B0A;
+
   }
