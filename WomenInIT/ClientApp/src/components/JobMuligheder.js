@@ -14,7 +14,7 @@ import projektlederGif from './images/JobMuligheder/projektlederGif.gif'
 
 export class JobMuligheder extends Component {
     static displayName = JobMuligheder.name;
-  
+    
     componentDidMount() {
       window.scrollTo(0, 0);
     } 
