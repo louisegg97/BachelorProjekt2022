@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Frontend.css';
+import './OmProgrammering_Undersider.css';
 import { FaLanguage } from 'react-icons/fa';
 import { FaHandHoldingUsd } from 'react-icons/fa';
 import { FaLaptopCode } from 'react-icons/fa';
@@ -29,18 +29,18 @@ export class Backend extends Component {
                     
                     <div className="icons_">
                         <article>
-                            <section><FaLaptopCode size="4em" className="one"/></section>
-                            <section><FaLanguage size="4em" className="two"/></section>
-                            <section><FaHandHoldingUsd size="4em" className="three"/></section>
-                            <section><p className="four">Hvad er Backend</p></section>
-                            <section><p className="five">Backend-end sprog</p></section>
-                            <section><p className="six">Jobmuligheder</p></section>
+                            <section><a href ="Backend/#section1_underside"><FaLaptopCode size="4em" className="one"/></a></section>
+                            <section><a href ="Backend/#section2_underside"><FaLanguage size="4em" className="two"/></a></section>
+                            <section><a href ="Backend/#section3_underside"><FaHandHoldingUsd size="4em" className="three"/></a></section>
+                            <section><a href ="Backend/#section1_underside"><p className="four">Hvad er Backend</p></a></section>
+                            <section><a href ="Backend/#section2_underside"><p className="five">Backend-end sprog</p></a></section>
+                            <section><a href ="Backend/#section3_underside"><p className="six">Jobmuligheder</p></a></section>
                         </article>
                         </div>
                  </div>
 
 
-               <div id="section_underside">
+               <div id="section1_underside">
                    <div className='section_1'>
                         <h2 className='section1_h2'>Hvad er Backend?</h2>
                         <p className='section1_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
@@ -51,7 +51,7 @@ export class Backend extends Component {
                             Disse tre sprog danner fundamentet for webstedet front-end.</p>
                     </div>
                </div>
-               <div id="section2">
+               <div id="section2_underside">
                     <div className='section_2'>
                         <h2>Backend sprog</h2>
                         <p className='section2_tekst'>Backend er alt det bagvedliggende på en hjemmeside og dækker 
@@ -65,7 +65,7 @@ export class Backend extends Component {
                             <img className="frontend_3"src={frontend_3} alt="frontend_3" />
                     </div>
                </div>
-               <div id="section3">
+               <div id="section3_underside">
                    <div className='section_3'>
                         <h2>Jobs inden for backend</h2>
                         <p className='section3_tekst'>Når man snakker on en database, snakker man om et sted,

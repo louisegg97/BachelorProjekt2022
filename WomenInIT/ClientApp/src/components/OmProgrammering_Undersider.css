@@ -18,12 +18,13 @@
     position: absolute;
     width: 100px;
     height: 40px;    
-    background: #CF914C;
+    background: #6B3B0A;
     border-radius: 10px;
     color: #F4EEE8;
     border: none;
     text-align: center;
     padding: 0.5%;
+    margin-top: 10px;
 }
 
 .overskrift_P{
@@ -65,7 +66,7 @@ article {
     align-items: center;
   }
 
-  #section_underside{
+  #section1_underside{
     background-color: #CF914C;
     height: 500px;
   }
@@ -111,11 +112,11 @@ color: #F4EEE8;
     opacity: 80%;
 }
 
-  #section2{
+  #section2_underside{
     height: 500px;
   }
 
-  #section3{
+  #section3_underside{
     height: 500px;
     background-color: #CFA99D;
   }

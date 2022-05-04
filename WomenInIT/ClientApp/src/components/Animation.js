@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import frontend_3 from './images/Frontend/Frontend_3.png'
-import './Frontend.css';
+import './OmProgrammering_Undersider.css';
 
 const Animation = () => {
     useEffect(() =>{

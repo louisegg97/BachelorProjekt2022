@@ -45,12 +45,12 @@ export class OmProgrammering extends Component {
                     </div>
                         <div className="icons">
                             <article>
-                                <section><FaColumns size="4em" className="one"/></section>
-                                <section><FaLaptopCode size="4em" className="two"/></section>
-                                <section><FaDatabase size="4em" className="three"/></section>
-                                <section><p className="four">Front-end</p></section>
-                                <section><p className="five">Back-end</p></section>
-                                <section><p className="six">Databaser</p></section>
+                                <section><a href="OmProgrammering/#frontend_OmProgrammering"><FaColumns size="4em" className="one"/></a></section>
+                                <section><a href="OmProgrammering/#backend_OmProgrammering"><FaLaptopCode size="4em" className="two"/></a></section>
+                                <section><a href="OmProgrammering/#database_OmProgrammering"><FaDatabase size="4em" className="three"/></a></section>
+                                <section><a href="OmProgrammering/#frontend_OmProgrammering"><p className="four">Front-end</p></a></section>
+                                <section><a href="OmProgrammering/#backend_OmProgrammering"><p className="five">Back-end</p></a></section>
+                                <section><a href="OmProgrammering/#database_OmProgrammering"><p className="six">Databaser</p></a></section>
                             </article>
                             </div>
                     </div>
