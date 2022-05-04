@@ -121,3 +121,14 @@ color: #F4EEE8;
     background-color: #CFA99D;
   }
 
+  .gui, .ui, .ux, .responsive{
+    width: 90px;
+}
+
+.front-end_ansvar_ikoner{
+    display: inline-grid;
+    grid-template-rows: 60px 60px 60px 60px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 20px;
+    text-align: center;
+  }
