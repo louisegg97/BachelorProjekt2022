@@ -14,6 +14,8 @@ import itKonsulentGif from './images/JobMuligheder/itKonsulentGif.gif'
 import projektlederGif from './images/JobMuligheder/projektlederGif.gif'
 
 
+
+
 export class JobMuligheder extends Component {
     static displayName = JobMuligheder.name;
     
@@ -32,7 +34,7 @@ export class JobMuligheder extends Component {
                   <img className="jobMulighedGif "src={introGif} alt="jobMulighedGif" />
               </div>
 
-              <div class="nav">
+              <div class="nav" >
                 <nav >
                   <a href="jobMuligheder/#Systemudvikler">Systemudvikler</a>
                   <a href="jobMuligheder/#Back-End">Back-end Udvikler</a>
