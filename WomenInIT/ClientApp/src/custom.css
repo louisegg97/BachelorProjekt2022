@@ -122,6 +122,7 @@ terDiv {
     background-image: url("./components/images/Figur.png");;
         background-size: 1500px;
         background-repeat: no-repeat;
+        height: 600px;
         background-position: -400px -200px;
 }
 
