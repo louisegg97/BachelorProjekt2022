@@ -3,14 +3,17 @@
     width: 100%;
     top: 20px;
     z-index: 9;
-    padding-left: 20px;
     margin-bottom: 10px;
+    align-content: center;
+    align-self: 'stretch';
+    text-align: 'center';
   }
 
   .nav a {
     padding: 7px 20px;
     border-radius: 7px;
-    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
     background: rgba(255, 255, 255, 0.5);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
