@@ -170,6 +170,18 @@ export default function useOpgavesider() {
 
         "bd1": {
             "title": "Begynder, Opgave 1: ",
+            "desc": "Tegn klasser i hånden på et stykke papir: der skal være 2 klasser. En skal repræsenterer en studerende på et universitet, og skal have værdierne navn, efternavn, studieretning, adresse og mobilnummer. Den anden skal repræsentere fakultetsmedlemmer på et universitet med værdierne navn, efternavn, afdeling og kontornummer.",
+            "hint1": "Første del ser sådan ud:",
+            "img1": "https://i.ibb.co/DkqkFdV/Sk-rmbillede-2022-05-04-kl-18-11-34.png",
+            "hint2": "Anden del ser sådan ud:",
+            "img2": "https://i.ibb.co/TcS5b0h/Sk-rmbillede-2022-05-04-kl-18-11-24.png",
+            "hint3": "Det færdige skema ser sådan ud:",
+            "img3": "https://i.ibb.co/DkqkFdV/Sk-rmbillede-2022-05-04-kl-18-11-34.png",
+
+        },
+
+        "bd2": {
+            "title": "Begynder, Opgave 1: ",
             "desc": "Tegn et relationsskema i hånden på et stykke papir: En del af en database, som du er ved at udvikle, vil indeholde oplysninger om byer og stater i USA. Hver by ligger kun i én stat. ",
             "hint1": "Første del ser sådan ud:",
             "img1": "https://i.ibb.co/85CK4sp/Sk-rmbillede-2022-05-04-kl-16-06-04.png",
@@ -180,7 +192,7 @@ export default function useOpgavesider() {
 
         },
 
-        "bd2": {
+        "bd3": {
             "title": "Begynder, Opgave 1: ",
             "desc": "Tegn et relationsskema i hånden på et stykke papir: I et rigtigt (gammeldags) bibliotekskatalog var der et ekstra kort til hver forfatter af en bog. (Forfatter- og titelkort var indeholdt i forskellige sæt kortskuffer.) Antag, at vi på disse kort ville have sådanne ting som: Forfatterens efternavn, Forfatterens fornavn, Forfatterens fødselsdato, Forfatterens død (hvis afdøde), Oprindelsesland.",
             "hint1": "Første del ser sådan ud:",
@@ -189,18 +201,6 @@ export default function useOpgavesider() {
             "img2": "https://i.ibb.co/y8F02dV/Sk-rmbillede-2022-05-04-kl-15-57-17.png",
             "hint3": "Det færdige skema ser sådan ud:",
             "img3": "https://i.ibb.co/64PjjJB/Sk-rmbillede-2022-05-04-kl-15-56-58.png",
-
-        },
-
-        "bd3": {
-            "title": "Begynder, Opgave 1: ",
-            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
-            "hint1": "Første del ser sådan ud:",
-            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
-            "hint2": "Anden del ser sådan ud:",
-            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
-            "hint3": "Det færdige skema ser sådan ud:",
-            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
 
         },
 
@@ -216,15 +216,16 @@ export default function useOpgavesider() {
 
         },
 
+
         "ld2": {
             "title": "Begynder, Opgave 1: ",
-            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: Ingeniørhøjskolen forsker i, hvor meget tid eleverne bruger på lektier hver uge. De forsøger at spore disse oplysninger for hver elev og hver af de klasser, de tager.",
             "hint1": "Første del ser sådan ud:",
-            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "img1": "https://i.ibb.co/SxpWY56/Sk-rmbillede-2022-05-04-kl-18-17-06.png",
             "hint2": "Anden del ser sådan ud:",
-            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "img2": "https://i.ibb.co/chFvdB3/Sk-rmbillede-2022-05-04-kl-18-17-30.png",
             "hint3": "Det færdige skema ser sådan ud:",
-            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+            "img3": "https://i.ibb.co/rFZZvqK/Sk-rmbillede-2022-05-04-kl-18-17-34.png",
 
         },
 
@@ -232,24 +233,24 @@ export default function useOpgavesider() {
             "title": "Begynder, Opgave 1: ",
             "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
             "hint1": "Første del ser sådan ud:",
-            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "img1": "https://i.ibb.co/YtFPD7B/Sk-rmbillede-2022-05-04-kl-18-21-34.png",
             "hint2": "Anden del ser sådan ud:",
-            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "img2": "https://i.ibb.co/K9qP102/Sk-rmbillede-2022-05-04-kl-18-21-38.png",
             "hint3": "Det færdige skema ser sådan ud:",
-            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+            "img3": "https://i.ibb.co/bHdjLKJ/Sk-rmbillede-2022-05-04-kl-18-21-41.png",
 
         },
 
 
         "od1": {
             "title": "Begynder, Opgave 1: ",
-            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database for at hjælpe julemanden og hans nisser med at holde styr på det legetøj, han giver til børn. Han skal naturligvis kende navn og adresse på hvert enkelt barn på hans liste, og hvornår de blev født. Hvert år vil hvert barn give julemanden en liste over det legetøj, han/hun ønsker sig. Julemanden vil registrere, om barnet har været fræk eller sød det år, og derefter vælge hvilket legetøj, der rent faktisk skal afleveres. Et barn får ikke mere end et af hvert legetøj, får sandsynligvis ikke alt det, han/hun bad om, og får måske noget, der ikke blev bedt om (som en kulklump, hvis han har været uartig). Julemanden ønsker selvfølgelig ikke at give et barn noget af det samme legetøj i år, som han gav det sidste år.",
             "hint1": "Første del ser sådan ud:",
-            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "img1": "https://i.ibb.co/JQP86JM/Sk-rmbillede-2022-05-04-kl-18-38-50.png",
             "hint2": "Anden del ser sådan ud:",
-            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "img2": "https://i.ibb.co/vXsJk0x/Sk-rmbillede-2022-05-04-kl-18-38-54.png",
             "hint3": "Det færdige skema ser sådan ud:",
-            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+            "img3": "https://i.ibb.co/tqGXFz1/Sk-rmbillede-2022-05-04-kl-18-38-59.png",
 
         },
 
@@ -257,23 +258,23 @@ export default function useOpgavesider() {
             "title": "Begynder, Opgave 1: ",
             "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
             "hint1": "Første del ser sådan ud:",
-            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "img1": "https://i.ibb.co/Sr2f2Np/Sk-rmbillede-2022-05-04-kl-18-34-23.png",
             "hint2": "Anden del ser sådan ud:",
-            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "img2": "https://i.ibb.co/p1Vrgyp/Sk-rmbillede-2022-05-04-kl-18-34-28.png",
             "hint3": "Det færdige skema ser sådan ud:",
-            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+            "img3": "https://i.ibb.co/RBcZTkP/Sk-rmbillede-2022-05-04-kl-18-34-31.png",
 
         },
 
         "od3": {
             "title": "Begynder, Opgave 1: ",
-            "desc": "Tegn et relationsskema i hånden på et stykke papir: Du designer en database til et autoværksted. Når en kunde bringer et køretøj ind, vil en servicerådgiver skrive en reparationsordre. Denne ordre identificerer kunden og køretøjet sammen med servicedatoen og rådgiverens navn. Et køretøj kan have brug for flere forskellige typer service på et enkelt besøg. Disse kan omfatte olieskift, smøring, rotation af dæk og så videre. Hver type service faktureres med et forudbestemt antal arbejdstimer, uanset teknikerens faktiske tidsforbrug. Hver type service har også en fast bogpris på dollars pr. time, der opkræves.",
+            "desc": "Tegn et relationsskema i hånden på et stykke papir: FORFATTER tabel: Author_ID, PK; Fornavn; Efternavn. TITLES tabel: TITLE_ID, PK; NAVN; Author_ID, FK. DOMÆNE-tabel: DOMAIN_ID, PK; NAVN; TITLE_ID, FK. LÆSERtabellen: READER_ID, PK; Fornavn; Efternavn; ADRESSE; CITY_ID, FK; TELEFON. CITY tabel: CITY_ID, PK; NAVN. LÅNE Tabel: BORROWING_ID,PK; READER_ID, FK; TITLE_ID, FK; DATO. HISTORIE tabel: READER_ID,FK,PK; TITLE_ID,FK,PK; DATE_OF_BORROWING; DATE_OF_RETURNING.",
             "hint1": "Første del ser sådan ud:",
-            "img1": "https://i.ibb.co/3kPcbK5/Billede1.png",
+            "img1": "https://i.ibb.co/fqzJYdB/Sk-rmbillede-2022-05-04-kl-18-30-51.png",
             "hint2": "Anden del ser sådan ud:",
-            "img2": "https://i.ibb.co/jv1xHD8/Billede2.png",
+            "img2": "https://i.ibb.co/zZSCj9n/Sk-rmbillede-2022-05-04-kl-18-30-59.png",
             "hint3": "Det færdige skema ser sådan ud:",
-            "img3": "https://i.ibb.co/dDQdZk4/Sk-rmbillede-2022-05-04-kl-15-42-08.png",
+            "img3": "https://i.ibb.co/7R1RX3G/Sk-rmbillede-2022-05-04-kl-18-31-05.png",
 
         },
 
