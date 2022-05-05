@@ -103,9 +103,9 @@ export class Frontend extends Component {
                    <div className='section_3'>
                         <h2>Lær frontend</h2>
                         <p className='section3_tekst'>Hvis frontend udvikling siger dig noget. Så prøv kræfter af
-                        med vores opgaver, der giver dig en introduktion til proncipperne bag frontend udvikling, og
+                        med vores opgaver, der giver dig en introduktion til principperne bag frontend udvikling, og
                         husk at begynd i det små! Start derfor med at forstå HTML og CSS før du bevæger dig videre til JavaScript. God programmerings lyst!! </p>
-                        <Link to="/FrontendOpg" className="FO_knap">Gå til frontend opgaver</Link>
+                        <Link to="/FrontendOpg" className="Opg_knap">Gå til frontend opgaver</Link>
                     </div>
 
                </div>

@@ -13,7 +13,7 @@
         margin-bottom: 20px;
 }
 
-.tilbage, .FO_knap{
+.tilbage, .Opg_knap{
     position: absolute;  
     border-radius: 10px;
     border: none;
@@ -30,7 +30,7 @@
     background: #6B3B0A;
 }
 
-.FO_knap{
+.Opg_knap{
     width: 200px;
     height: 40px;
     margin-left: 5.5%;
@@ -119,13 +119,13 @@ color: #F4EEE8;
     grid-column-end: 3; 
 }
 
-.frontend_1, .frontend_2, .frontend_3{
-    height: 70px;
-    opacity: 80%;
-}
-
   #section2_underside{
     height: 500px;
+  }
+
+  #section1_underside_backend{
+      height: 700px;
+      background-color:#CF914C;
   }
 
   #section3_underside{
@@ -133,26 +133,40 @@ color: #F4EEE8;
     background-color: #CFA99D;
   }
 
-  .gui, .ui, .ux, .responsive, .html, .css, .js{
+  .gui, .ui, .ux, .responsive, .html, .css, .js, .python, .php, .java{
     width: 90px;
 }
 
-.front-end_ansvar_ikoner, .front-end_sprog_ikoner{
+.front-end_ansvar_ikoner, .front-end_sprog_ikoner, .backend-end_sprog_ikoner, .backend_princip{
     text-align: center;
     margin-top: 5%;
 }
 
 
-.article_f_ansvar {
+.article_f_ansvar, .article_b_ansvar {
     display: inline-grid;
     grid-template-rows: 60px 60px 60px 60px;
     grid-template-columns: 200px 200px 200px 200px;
     grid-gap: 5px;
   }
 
-  .article_f_sprog{
+  .article_f_sprog, .article_b_sprog{
     display: inline-grid;
     grid-template-rows: 60px 60px 60px;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 5px;
+  }
+
+  .oop_funktionel{
+    display: inline-grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 400px 400px;
+    grid-gap: 100px;
+  }
+
+  .oop_boks, .funktionel_boks{
+      background-color: #CF914C;
+      color: #F4EEE8;
+      border-radius: 10px;
+      padding: 10px;
   }
