@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import './Opgaver.css';
 import './opgavesider/Opgaveside.js';
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 export class BackendOpg extends Component {
@@ -14,6 +19,7 @@ export class BackendOpg extends Component {
     render() {
       return (
         <div>
+            <Link to="/Opgaver" className="tilbage">Tilbage</Link>
             <div className="overskriftdiv" id="baggrund">
               <secText className="overskriftOpgaver" >Backend Opgaver</secText>
             <p className="intro">

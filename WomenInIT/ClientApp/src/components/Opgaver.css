@@ -123,4 +123,18 @@
     color: #F4EEE8;
 }
 
+.tilbage{
+  position: absolute;  
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  padding: 0.5%;
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;  
+  color: #F4EEE8;
+  background: #6B3B0A;
+}
+
 
