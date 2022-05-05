@@ -158,9 +158,6 @@ terDiv {
   cursor: pointer;
 }
 
-.scroll-to-top:hover{
-  color:#CFA99D;
-}
 
 @keyframes fadeIn {
   from {

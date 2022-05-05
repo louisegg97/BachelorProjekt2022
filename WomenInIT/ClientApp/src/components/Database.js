@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './OmProgrammering_Undersider.css';
 import { FaLanguage } from 'react-icons/fa';
-import { FaHandHoldingUsd } from 'react-icons/fa';
+import { FaUserGraduate } from 'react-icons/fa';
 import { FaChalkboardTeacher } from 'react-icons/fa';
 import frontend_1 from './images/Frontend/Frontend_1.png'
 import frontend_2 from './images/Frontend/Frontend_2.png'
@@ -32,10 +32,10 @@ export class Database extends Component {
                         <article>
                             <section><a href ="Database/#section1_underside"><FaLanguage size="4em" className="one"/></a></section>
                             <section><a href ="Database/#section2_underside"><FaChalkboardTeacher size="4em" className="two"/></a></section>
-                            <section><a href ="Database/#section3_underside"><FaHandHoldingUsd size="4em" className="three"/></a></section>
+                            <section><a href ="Database/#section3_underside"><FaUserGraduate size="4em" className="three"/></a></section>
                             <section><a href ="Database/#section1_underside"><p className="four">Database sprog</p></a></section>
                             <section><a href ="Database/#section2_underside"><p className="five">Ansvarsområder</p></a></section>
-                            <section><a href ="Database/#section3_underside"><p className="six">Jobmuligheder</p></a></section>
+                            <section><a href ="Database/#section3_underside"><p className="six">Lær om databaser</p></a></section>
                         </article>
                         </div>
                  </div>
