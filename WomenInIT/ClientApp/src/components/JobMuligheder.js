@@ -26,7 +26,7 @@ export class JobMuligheder extends Component {
     render() {
       return (
             <div>
-              <div className="overskriftdiv" >
+              <div className="overskriftdiv" id="overskriftdivJM">
                 <secText className="overskriftJob">Karriere i Software</secText>
                   <p className="introOverskrift"> Hvad kan du egentlig arbejde med indenfor programmering og software? Er det hele bare computerarbejde?
                   Vi har her samlet nogle forskellige muligheder der er indenfor en karriere i programmering. Du kan blandt andet læse om at være udvikler, projektleder eller designer og mange flere. 
@@ -36,14 +36,14 @@ export class JobMuligheder extends Component {
 
               <div class="nav" >
                 <nav >
-                  <a href="jobMuligheder/#Systemudvikler">Systemudvikler</a>
-                  <a href="jobMuligheder/#Back-End">Back-end Udvikler</a>
-                  <a href="jobMuligheder/#front-end">Front-end Udvikler</a>
-                  <a href="jobMuligheder/#full-stack">full-stack Udvikler</a>
-                  <a href="jobMuligheder/#spil">Spil Udvikler</a>
-                  <a href="jobMuligheder/#cyber-sikkerhed">Cyber-sikkerhed Analytiker</a>
-                  <a href="jobMuligheder/#database">Database Administrator</a>
-                  <a href="jobMuligheder/#projektleder">IT Projektleder</a>
+                  <a href="jobMuligheder/#Systemudvikler" className="a">Systemudvikler</a>
+                  <a href="jobMuligheder/#Back-End" className="a">Back-end Udvikler</a>
+                  <a href="jobMuligheder/#front-end" className="a">Front-end Udvikler</a>
+                  <a href="jobMuligheder/#full-stack" className="a">full-stack Udvikler</a>
+                  <a href="jobMuligheder/#spil" className="a">Spil Udvikler</a>
+                  <a href="jobMuligheder/#cyber-sikkerhed" className="a">Cyber-sikkerhed Analytiker</a>
+                  <a href="jobMuligheder/#database" className="a">Database Administrator</a>
+                  <a href="jobMuligheder/#projektleder" className="a">IT Projektleder</a>
                 </nav>
               </div>
 

@@ -1,3 +1,7 @@
+#overskriftdivJM{
+    height: 800px;
+}
+
 .overskriftJob {
     display: block;
     margin-left: auto;
@@ -42,4 +46,20 @@
 .gifAflang {
     width: 600px;
     height: 300px;
+}
+
+@media only screen and (max-width: 1200px){
+    #overskriftdivJM{
+        height: 800px;
+    }
+
+    .jobMulighedGif {
+        margin-bottom: 50px;
+        width: 400px;
+    }
+
+    .introOverskrift {
+        margin: 50px;
+    }
+
 }
