@@ -44,12 +44,13 @@ export class Database extends Component {
                <div id="section1_underside">
                    <div className='section_1'>
                         <h2 className='section1_h2'>Hvad er en database?</h2>
-                        <p className='section1_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
-                            dvs alle de synlige elementer på webstedet eller applikationen. 
-                            Der er således fokus på webudvikllingen af klientsiden, da der er 
-                            fokus på, hvad brugerne ser visuelt. Front-end udviklere koder i HTML, 
-                            CSS og Javascript, hvilket er de letteste programmeringssprog at lære. 
-                            Disse tre sprog danner fundamentet for webstedet front-end.</p>
+                        <p className='section1_tekst'>Databasesprog, almindeligvis omtalt som query sprog, er en 
+                        type programmeringssprog, som programmører bruger til at definere og få adgang til data. 
+                        Inden for databasestyringssystemet (DBMS) giver disse sprog brugere mulighed for at udføre 
+                        opgaver som:
+                          Begrænsning af dataadgang
+                          Definition og ændring af data
+                          Søger information.</p>
                     </div>
                </div>
                <div id="section2_underside">
@@ -68,11 +69,12 @@ export class Database extends Component {
                </div>
                <div id="section3_underside">
                    <div className='section_3'>
-                        <h2>Jobs inden for Database</h2>
-                        <p className='section3_tekst'>Når man snakker on en database, snakker man om et sted,
-                         hvor man kan opbevare data på en struktureret måde. Mange databaser starter ud som et
-                          regneark, men når omfanget af informationen bliver for stor er det en god ide at 
-                          overføre sin data til en database. </p>
+                        <h2>Lær om databaser</h2>
+                        <p className='section3_tekst'> Hvis database programmering siger dig noget. Så prøv kræfter af
+                        med vores opgaver, der giver dig en introduktion til principperne bag at lave en database, og
+                        husk at begynd i det små! Det er smart først at forstå proncipperne bag en database, før man lærer at kode en. 
+                        Derfor er vores opgaver omkring databser teoretiske. God arbejdslyst!! </p>
+                        <Link to="/DatabaseOpg" className="Opg_knap">Gå til databse opgaver</Link>
                     </div>
                </div>
           </div>

@@ -124,7 +124,7 @@ color: #F4EEE8;
   }
 
   #section1_underside_backend{
-      height: 700px;
+      height: 600px;
       background-color:#CF914C;
   }
 
@@ -162,6 +162,12 @@ color: #F4EEE8;
     grid-template-rows: 200px 200px;
     grid-template-columns: 400px 400px;
     grid-gap: 100px;
+  }
+
+  .python_h, .php_h, .java_h{
+      padding-top: 10px;
+      color:#F4EEE8;
+      text-align: center;
   }
 
   .oop_boks, .funktionel_boks{

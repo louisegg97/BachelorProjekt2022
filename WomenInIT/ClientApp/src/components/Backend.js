@@ -60,9 +60,6 @@ export class Backend extends Component {
                             <section><p className='python_h'>Python</p></section>
                             <section><p className='php_h'>PHP</p></section>
                             <section><p className='java_h'>Java</p></section>
-                            <section><p className='python_p'>HyperText Markup Language - HTML bruges til at strukturere indholdet på en hjemmeside ved hjælp af en række HTML-elementer. HTML-elementer består af tags.</p></section>
-                            <section><p className='php_p'>Cascading Style Sheets - CSS bruges til at definere layoutet på dine HTML-sider. CSS visualiserer HTML-siderne.</p></section>
-                            <section><p className='java_p'>JavaScript er et scripting-sprog, som du kan bruge til at gøre din hjemmeside interaktiv/dynamisk (dit indhold kan ændres afhængig af input fra brugeren)</p></section>
                         </article>
                         </div>
                </div>
