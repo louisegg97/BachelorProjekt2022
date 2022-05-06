@@ -26,7 +26,6 @@ const Animation_1 = () => {
                      <p data-aos="fade-up" className='js_p'>JavaScript er et scripting-sprog, som du kan bruge til at gøre din hjemmeside interaktiv/dynamisk (dit indhold kan ændres afhængig af input fra brugeren)</p> 
                 </article>
             </div>
-        
         </div>
 
     );
