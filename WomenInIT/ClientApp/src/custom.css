@@ -78,7 +78,7 @@ terDiv {
 }
 /* skal bruges til flere sider*/
 .indhold {
-  display: flex;    
+  display: flex; 
 }
 
 /* skal bruges til flere sider*/
@@ -87,7 +87,6 @@ terDiv {
   margin-bottom: 30px;
   margin-left: 40px;
   padding: 40px;
-
   
 }
 /* skal bruges til flere sider*/
@@ -118,8 +117,6 @@ terDiv {
 
 }
 
-
-
 .overskriftdiv{
   margin-top: 100px;
     background-image: url("./components/images/Figur.png");;
@@ -142,14 +139,7 @@ terDiv {
   background-repeat: no-repeat;
 }
 
-
-
 /*Scroll to top*/
-.pp {
-  font-family: sans-serif;
-  padding: 1rem 5rem;
-}
-
 .scroll-to-top {
   position: fixed;
   bottom: 0.5rem;
@@ -172,3 +162,45 @@ terDiv {
   height: 70px !important;
 }
 
+<<<<<<< HEAD
+=======
+
+@media only screen and (max-width: 1200px){
+ 
+    .overskriftHøjre {
+      margin-bottom: 30px;
+      margin-left: 75px;
+      padding: 10px;
+      
+    }
+
+    .overskriftVenstre {
+      margin-bottom: 30px;
+      text-align: right;
+      margin-right: 40px;
+      padding: 40px;
+    }
+     
+    .indhold {
+      flex-wrap: wrap;  
+    }
+
+    .tiltoppen{
+      height: 60px !important;
+    }
+
+    .historiePink .indhold {
+      flex-wrap: wrap-reverse;
+    }
+    /* skal bruges til flere sider*/
+    .historieLys .indhold {
+      flex-wrap: wrap;  
+    }
+    /* skal bruges til flere sider*/
+    .historieOrange .indhold{
+      flex-wrap: wrap-reverse;
+    }
+    
+    
+ }
+>>>>>>> b12d7ea25f7a9810199d390cf70b95deda7c94d5

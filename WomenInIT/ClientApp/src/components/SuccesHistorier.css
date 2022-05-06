@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 
-
 .topDivSuccesHistorie {
     position: relative;
     height: auto;
@@ -14,7 +13,6 @@
     background-repeat:no-repeat;
     background-position: 0px 0px;
     margin-bottom: 20px;
-
 }
 
 .overskrift {
@@ -25,7 +23,6 @@
     position: absolute;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
-
 }
 
 .introText {
@@ -41,15 +38,12 @@
 
 
 
-
-
 /* Billede 1*/
 
 .billede1Div {
     position: relative;
-    padding: 0;
     width: auto;
-    height: 450px;
+    height: 240px;
     display: block;
     cursor: pointer;
     overflow: hidden;
@@ -61,7 +55,7 @@
     width:230px;
     height:230px;
     border-radius: 50%;
-    margin: 150px 50px 0px 50px;
+    margin: 10px 50px 0px 50px;
     
 }
 
@@ -83,7 +77,8 @@
 .billede2Div {
     position: relative;
     padding: 0;
-    width: auto;
+    width: 150px;
+    height: 170px;
     display: block;
     cursor: pointer;
     overflow: hidden;
@@ -92,9 +87,9 @@
 .billede2 {
     transition: 1s ease;
     object-fit: cover;
-    width:400px;
-    height:400px;
-    margin: 100px 50px 0px 50px;
+    width:150px;
+    height:150px;
+    margin: 20px 50px 0px 0px;
     border-radius: 50%;
 }
 
@@ -118,7 +113,7 @@
 .billede3Div {
     position: relative;
     padding: 0;
-    width: auto;
+    width: 300px;
     height: 350px;
     display: block;
     cursor: pointer;
@@ -131,7 +126,7 @@
     object-fit: cover;
     width:200px;
     height:200px;
-    margin: 100px 50px 0px 50px;
+    margin: 100px 0px 0px 50px;
     border-radius: 50%;
 }
 
@@ -148,278 +143,6 @@
     opacity: 1;
 }
 
-/* Billede 4*/
-
-.billede4Div {
-    position: relative;
-    padding: 0;
-    width: auto;
-    height:500px;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
-  }
-
-.billede4 {
-    transition: 1s ease;
-    object-fit: cover;
-    width:400px;
-    height:400px;
-    margin: 100px 50px 50px 50px;
-    border-radius: 50%;
-}
-
-.billede4Div:hover .billede4{
-    opacity: 0.3;
-    transition: 1s ease;
-}
-
-.billede4Div:hover .skjultText{
-    opacity: 1;
-}
-
-.billede4Div:hover .skjultTextDiv {
-    opacity: 1;
-}
-
-
-
-/* Billede 6 */
-.billede6Div {
-    position: relative;
-    padding: 0;
-    width: auto;
-    height: 400px;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
-  }
-
-.billede6 {
-    transition: 2s ease;
-    object-fit: cover;
-    width:280px;
-    height:280px;
-    margin: 100px 50px 50px 50px;
-    border-radius: 50%;
-}
-
-.billede6Div:hover .billede6{
-    opacity: 0.3;
-    transition: 1s ease;
-}
-
-.billede6Div:hover .skjultText{
-    opacity: 1;
-}
-
-.billede6Div:hover .skjultTextDiv {
-    opacity: 1;
-}
-
-
-
-
-/* Billede 7 */
-.billede7Div {
-    position: relative;
-    padding: 0;
-    width: auto;
-    height: 500px;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
-  }
-
-.billede7 {
-    transition: 1s ease;
-    object-fit: cover;
-    width:320px;
-    height:320px;
-    margin: 130px 50px 50px 50px;
-    border-radius: 50%;
-}
-
-.billede7Div:hover .billede7{
-    opacity: 0.3;
-    transition: 1s ease;
-}
-
-.billede7Div:hover .skjultText{
-    opacity: 1;
-}
-
-.billede7Div:hover .skjultTextDiv {
-    opacity: 1;
-  }
-
-  /* Billede 8 */
-.billede8Div {
-    position: relative;
-    padding: 0;
-    width: auto;
-    height: 600px;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
-  }
-
-.billede8 {
-    transition: 1s ease;
-    object-fit: cover;
-    width:240px;
-    height:240px;
-    margin: 200px 50px 50px 50px;
-    border-radius: 50%;
-}
-
-.billede8Div:hover .billede8{
-    opacity: 0.3;
-    transition: 1s ease;
-}
-
-.billede8Div:hover .skjultText{
-    opacity: 1;
-}
-
-.billede8Div:hover .skjultTextDiv {
-    opacity: 1;
-  }
-
-
-  /* Billede 9 */
-.billede9Div {
-    position: relative;
-    padding: 0;
-    width: auto;
-    height: 420px;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
-  }
-
-.billede9 {
-    transition: 1s ease;
-    object-fit: cover;
-    width:410px;
-    height:410px;
-    margin: 10px 50px 50px 50px;
-    border-radius: 50%;
-}
-
-.billede9Div:hover .billede9{
-    opacity: 0.3;
-    transition: 1s ease;
-}
-
-.billede9Div:hover .skjultText{
-    opacity: 1;
-}
-
-.billede9Div:hover .skjultTextDiv {
-    opacity: 1;
-  }
-
- /* Billede 10 */
- .billede10Div {
-    position: relative;
-    padding: 0;
-    width: auto;
-    height: 350px;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
-  }
-
-.billede10 {
-    transition: 1s ease;
-    object-fit: cover;
-    width:200px;
-    height:200px;
-    margin: 100px 50px 50px 50px;
-    border-radius: 50%;
-}
-
-.billede10Div:hover .billede10{
-    opacity: 0.3;
-    transition: 1s ease;
-}
-
-.billede10Div:hover .skjultText{
-    opacity: 1;
-}
-
-.billede10Div:hover .skjultTextDiv {
-    opacity: 1;
-  }
-
- /* Billede 11 */
- .billede11Div {
-    position: relative;
-    padding: 0;
-    width: auto;
-    height: 450px;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
-  }
-
-.billede11 {
-    transition: 1s ease;
-    object-fit: cover;
-    width:320px;
-    height:320px;
-    margin: 100px 50px 50px 50px;
-    border-radius: 50%;
-}
-
-.billede11Div:hover .billede11{
-    opacity: 0.3;
-    transition: 1s ease;
-}
-
-.billede11Div:hover .skjultText{
-    opacity: 1;
-}
-
-.billede11Div:hover .skjultTextDiv {
-    opacity: 1;
-  }
-
- /* Billede 12 */
- .billede12Div {
-    position: relative;
-    padding: 0;
-    width: auto;
-    height: 450px;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
-  }
-
-.billede12 {
-    transition: 1s ease;
-    object-fit: cover;
-    width:350px;
-    height:350px;
-    margin: 100px 50px 50px 50px;
-    border-radius: 50%;
-}
-
-.billede12Div:hover .billede12{
-    opacity: 0.3;
-    transition: 1s ease;
-}
-
-.billede12Div:hover .skjultText{
-    opacity: 1;
-}
-
-.billede12Div:hover .skjultTextDiv {
-    opacity: 1;
-  }
-
-
 /* CSS til skjulte text på billeder */
 
 .skjultTextDiv {
@@ -431,16 +154,108 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-       
   }
-
 
 .skjultTextOverskrift {
     font-style: oblique;
-    font-size: 20px;
+    font-size: 16px;
+    color: #6B3B0A;
+    font-weight: bold;
+  }
+
+  .skjultTextOverskrift:hover {
+    font-style: oblique;
+    font-size: 16px;
+    color: #CF914C;
   }
   
   .skjultText {
     height: 0;
     opacity: 1;
+    font-size: 12px;
+    color: #6B3B0A;
+  }
+
+  @media only screen and (max-width: 1200px){
+    .introText {
+        margin: 20px 20px 0px 20px;
+        width: 600px;
+
+       }
+    
+    .billede1Div {
+        height: 200px;
+    }
+    
+    .billede1 {
+        width:190px;
+        height:190px;
+        margin: 10px 50px 0px 50px; 
+    }
+
+    .billede2Div {
+        width: 130px;
+        height: 150px;
+      }
+    
+    .billede2 {
+        width:130px;
+        height:130px;
+        margin: 10px 50px 0px 0px;
+      
+    }
+
+    .billede3Div {
+        width: 280px;
+        height: 330px;
+      }
+    
+    .billede3 {
+        width:180px;
+        height:180px;
+        margin: 50px 0px 0px 50px;
+       
+    }
+    
+    .billede1Div:hover .billede1{
+        opacity: 100%;
+    }
+
+    .billede1Div:hover .skjultText{
+        opacity: 0;
+    }
+    
+    .billede1Div:hover .skjultTextDiv {
+        opacity: 0;
+    }
+    
+    .billede2Div:hover .billede2{
+        opacity: 100%;
+    }
+
+    .billede2Div:hover .skjultText{
+        opacity: 0;
+    }
+    
+    .billede2Div:hover .skjultTextDiv {
+        opacity: 0;
+    }
+
+    .billede3Div:hover .billede3{
+        opacity: 100%;
+    }
+
+    .billede3Div:hover .skjultText{
+        opacity: 0;
+    }
+    
+    .billede3Div:hover .skjultTextDiv {
+        opacity: 0;
+    }
+
+    .succesfuldeKvinderBillede {
+        height: 400px;
+      max-width: 400px;
+        margin-left: 75px;  
+    }
   }

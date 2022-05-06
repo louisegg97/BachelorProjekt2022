@@ -29,10 +29,10 @@ export class Home extends Component {
           </div>
         </div>
 
-        <div className="historieOrange">
+        <div id="programmeringDiv" className="historieOrange">
         <div className="indhold">
           <h1 className="overskriftHøjre" id={'section1'}>Hvad er programmering egentlig?</h1>
-            <p className="beskrivelseLys"> 
+            <div className="beskrivelseLys"> 
             <p>Programmering har eksisteret i mange år, men er stadig en del af nyere tids udvikling. 
             Det kaldes også for kodning eller udvikling, og handler om udviklingen at software og applikationer. 
             Når man som udvikler skal lave en app eller et program, skal det kunne nogle specielle ting, 
@@ -45,7 +45,7 @@ export class Home extends Component {
             
             <p>Programmering er en super spænende verden, og det er kun fantasien der sætter grænser for hvad du kan gøre med det 
             - så vi er glade for at inviterer dig med på rejsen, og give dig en introduktion til det.</p>
-            </p>
+            </div>
           </div>
           <Link to="/OmProgrammering" className="omProgrammeringlæsMereHer">Læs mere her</Link>
         </div>

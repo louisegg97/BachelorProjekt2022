@@ -123,6 +123,7 @@
     color: #F4EEE8;
 }
 
+<<<<<<< HEAD
 .tilbage{
   position: absolute;  
   border-radius: 10px;
@@ -135,6 +136,15 @@
   height: 40px;  
   color: #F4EEE8;
   background: #6B3B0A;
+=======
+@media only screen and (max-width: 1200px){
+  .opgaveknapper{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 250px;
+  }
+>>>>>>> b12d7ea25f7a9810199d390cf70b95deda7c94d5
 }
 
 

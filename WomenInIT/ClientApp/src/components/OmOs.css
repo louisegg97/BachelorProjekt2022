@@ -2,9 +2,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 150px;
     padding-top: 150px;
-    width: 1000px;
+    padding-bottom: 150px;
+    max-width: 50%;
+    height: auto;
 
 }
 
@@ -41,4 +42,11 @@
     margin-top: 20px;
     font-size: 18px;
     color: #6B3B0A;
+}
+
+@media only screen and (max-width: 1200px){
+
+    .overskrift{
+        margin-top: 0px;
+    }
 }

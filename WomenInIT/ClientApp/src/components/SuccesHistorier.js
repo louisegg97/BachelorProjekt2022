@@ -5,12 +5,13 @@ import AlberteWærens from './images/SuccesHistorier/alberteWærens.png';
 import CarlaMeninsky from './images/SuccesHistorier/CarlaMeninsky.png';
 import DonaBailey from './images/SuccesHistorier/DonaBailey.jpg';
 import GraceHopperImage from './images/SuccesHistorier/graceHopper.jpg';
-import LouiseBarkhuus from './images/SuccesHistorier/LouiseBarkhuus.jpg';
+import LouiseBarkhuus from './images/SuccesHistorier/LouiseBarkhuus.png';
 import MaryKennethKeller from './images/SuccesHistorier/MaryKennethKeller.png';
 import PernilleBjoern from './images/SuccesHistorier/PernilleBjoern.jpg'
 import PlamenaCherneva from './images/SuccesHistorier/PlamenaCherneva.jpg'
 import SukiLee from './images/SuccesHistorier/SukiLee.jpg'
 import IsabellaDrest from './images/SuccesHistorier/IsabellaDrest.jpg'
+import LouiseGotschze from './images/SuccesHistorier/LouiseGotschze.png'
 
 
 
@@ -31,7 +32,7 @@ export class SuccesHistorier extends Component {
           <div className="billede1Div">
           <img className="billede1" src={AlberteWærens} alt=""/>
             <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Alberte Kjær Wærens</div>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#AlberteKjær">Alberte Kjær Wærens</a>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
           </div>
@@ -39,7 +40,7 @@ export class SuccesHistorier extends Component {
           <div className="billede2Div">
           <img className="billede2" src={CarlaMeninsky} alt=""/>
             <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Carla Meninsky</div>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#CarlaMeninsky">Carla Meninsky</a>
               <div class="skjultText">Ingeniør, softwareudvikler og advokat</div>
               </div>
           </div>
@@ -48,74 +49,74 @@ export class SuccesHistorier extends Component {
           <div className="billede3Div">
           <img className="billede3" src={LouiseBarkhuus} alt=""/>
             <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Louise Barkhuus</div>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#LouiseBarkhuus">Louise Barkhuus</a>
               <div class="skjultText">Professor ved IT-Universitetet</div>
               </div>
           </div>
 
 
 
-          <div className="billede4Div">
-          <img className="billede4" src={DonaBailey} alt=""/>
+          <div className="billede1Div">
+          <img className="billede1" src={DonaBailey} alt=""/>
             <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Dona Bailey</div>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#DonaBailey">Dona Bailey</a>
               <div class="skjultText">Programmør</div>
               </div>
           </div>
 
-          <div className="billede6Div">
-          <img className="billede6" src={AdaLovelace} alt=""/>
+          <div className="billede2Div">
+          <img className="billede2" src={AdaLovelace} alt=""/>
             <div className="skjultTextDiv">
-              <div class="skjultTextOverskrift" onClick="overskriftHøjre">Ada Lovelace</div>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#AdaLovelace">Ada Lovelace</a>
               <div class="skjultText">Verdens første computerprogrammør</div>
               </div>
           </div>
 
-          <div className="billede7Div">
-          <img className="billede7" src={GraceHopperImage} alt=""/>
+          <div className="billede3Div">
+          <img className="billede3" src={GraceHopperImage} alt=""/>
             <div  className="skjultTextDiv">
-              <div class="skjultTextOverskrift" >Grace Hopper</div>
+              <a class="skjultTextOverskrift"href="SuccesHistorier/#GraceHopper">Grace Hopper</a>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div>
 
-          <div className="billede8Div">
-          <img className="billede8" src={MaryKennethKeller} alt=""/>
+          <div className="billede1Div">
+          <img className="billede1" src={MaryKennethKeller} alt=""/>
             <div  className="skjultTextDiv">
-              <div class="skjultTextOverskrift" >Mary Kennet hKeller</div>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#MaryKenneth">Mary Kennet hKeller</a>
               <div class="skjultText">Ph.d. i datalogi</div>
               </div>
           </div>
 
-          <div className="billede9Div">
-          <img className="billede9" src={PernilleBjoern} alt=""/>
+          <div className="billede2Div">
+          <img className="billede2" src={PernilleBjoern} alt=""/>
             <div  className="skjultTextDiv">
-              <div class="skjultTextOverskrift" >Pernille Bjørn</div>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#PernilleBjørn">Pernille Bjørn</a>
               <div class="skjultText">Professor på Datalogisk Institut</div>
               </div>
           </div>
 
 
-          <div className="billede11Div">
-          <img className="billede11" src={PernilleBjoern} alt=""/>
+          <div className="billede3Div">
+          <img className="billede3" src={LouiseGotschze} alt=""/>
             <div  className="skjultTextDiv">
-              <div class="skjultTextOverskrift" >Louise Gyland Götschze</div>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#LouiseGyland">Louise Gyland Götschze</a>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
           </div>
 
-          <div className="billede10Div">
-          <img className="billede10" src={SukiLee} alt=""/>
+          <div className="billede1Div">
+          <img className="billede1" src={SukiLee} alt=""/>
             <div  className="skjultTextDiv">
-              <div class="skjultTextOverskrift" >Suki Lee</div>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#SukiLee">Suki Lee</a>
               <div class="skjultText">Videospiludvikler, softwareingeniør og projektleder</div>
               </div>
           </div>
 
-          <div className="billede12Div">
-          <img className="billede12" src={IsabellaDrest} alt=""/>
+          <div className="billede2Div">
+          <img className="billede2" src={IsabellaDrest} alt=""/>
             <div  className="skjultTextDiv">
-              <div class="skjultTextOverskrift" >Isabella Drest Rasmussen</div>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#IsabellaDrest">Isabella Drest</a>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
           </div>
@@ -123,7 +124,7 @@ export class SuccesHistorier extends Component {
         </div>
  
         <div className="historieOrange">
-          <h1 className="overskriftHøjre" id={'section1'}>Ada Lovelace</h1>
+          <h1 className="overskriftHøjre" id="AdaLovelace">Ada Lovelace</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Ada Lovelace er blevet kaldt verdens første computerprogrammør. 
               Det hun gjorde, var at skrive verdens første maskin-algoritme til en tidlig computermaskine, der kun eksisterede på papir, en computer der altså endnu ikke fandtes. 
@@ -143,17 +144,24 @@ export class SuccesHistorier extends Component {
         </div>
       
         <div className="historieLys">
-          <h1 className="overskriftVenstre">Alberte Kjær Wærens</h1>
+          <h1 className="overskriftVenstre" id="AlberteKjær">Alberte Kjær Wærens</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={AlberteWærens} alt=""/>
-            <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-            Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-            Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
-          </div>
+            <p className="beskrivelseMørk"> Alberte Kjær Wærens læser software udvikling på IT-universitetet i København, 
+            hun er på sit 6. semester. Hun havde ikke prøvet at programmere før hun startede, men har siden folkeskolen været glad for matematik og for at løse matematiske problemer. 
+            Da hun startede på gymnasiet var der én dag i 2.G, hvor man kunne prøve kræfter med forskellige valgfag. 
+            Her endte hendes klasse med at skulle programmere et lille spil. 
+            Det var første gang hun havde prøvet kræfter med programmering og en lille interesse blev vækket. 
+            Da det så i 3.G blev tid til den årlige dag, hvor repræsentanter fra samtlige vidergående uddannelser besøgte gymnasiet, var der selvfølgelig også en repræsentant fra ITU, mere specifikt software udvikling. 
+            Her gik det op for Alberte, hvad en uddannelse indenfor programmering kunne føre til, og hvordan det var meget mere end bare et nørdet fag for drenge der har gamet meget. 
+            I gennem hendes studier på software udvikling har hun lært at programmere indenfor samtlige aspekter af IT-verdenen, men ikke mindst hvordan man fungere i en gruppe, hvor medlemmerne har forskellig erfaring og bagrund inden for IT. 
+            En viden og nogle redskaber hun kan tage og bruge når hun bliver færdig med sin uddannelse og skal ud på arbejdsmarkedet.          
+            </p>
+            </div>
         </div>
 
         <div id="id-of-div" className="historiePink">
-          <h1 className="overskriftHøjre">Carla Meninsky</h1>
+          <h1 className="overskriftHøjre" id="CarlaMeninsky">Carla Meninsky</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Carla Meninsky er en banebrydende ingeniør, softwareudvikler og advokat. 
             Selvom hun begyndte på universitetet med hovedfag i matematik, endte hun med en grad i psykologi med speciale i visuel perception fra Stanford University i 1977. 
@@ -169,7 +177,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieLys">
-          <h1 className="overskriftVenstre">Dona Bailey</h1>
+          <h1 className="overskriftVenstre" id="DonaBailey">Dona Bailey</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={DonaBailey} alt=""/>
             <p className="beskrivelseMørk"> Dona Bailey var den første kvindelige programmør i coin-op afdelingen hos Atari, da hun blev ansat i 1980. 
@@ -194,7 +202,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieOrange">
-          <h1 className="overskriftHøjre" id={'section1'}>Grace Hopper</h1>
+          <h1 className="overskriftHøjre" id="GraceHopper">Grace Hopper</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Grace Murray Hopper, født Grace Brewster Murray, (født 9. december 1906, New York, New York, U.S.-død 1. januar 1992, Arlington, Virginia), 
               var amerikansk matematiker og kontreadmiral i den amerikanske flåde. Hun var en pioner inden for udvikling af computerteknologi, og hjalp med at udvikle UNIVAC I, 
@@ -212,7 +220,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieLys">
-          <h1 className="overskriftVenstre">Isabella Drest Rasmussen</h1>
+          <h1 className="overskriftVenstre" id="IsabellaDrest">Isabella Drest</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={IsabellaDrest} alt=""/>
             <p className="beskrivelseMørk"> Isabella læser til dagligt på ITU på en bachelor i Softwareudvikling og er igang med 6. semester. 
@@ -230,7 +238,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div id="id-of-div" className="historiePink">
-          <h1 className="overskriftHøjre">Louise Barkhuus</h1>
+          <h1 className="overskriftHøjre" id="LouiseBarkhuus">Louise Barkhuus</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Louise Barkhuus er professor ved IT-Universitetet (siden juli 2021, lektor fra september 2016), 
              hvor hun er medlem af Center for Informationssikkerhed og Tillid. Hendes forskning fokuserer på brugeroplevelser og privatlivsspørgsmål i relation til lokationsbaserede applikationer og sociale medier; 
@@ -253,9 +261,9 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieLys">
-          <h1 className="overskriftVenstre">Louise Gyland Götschze</h1>
+          <h1 className="overskriftVenstre" id="LouiseGyland">Louise Gyland Götschze</h1>
           <div className="indhold">
-            <img className="succesfuldeKvinderBillede" src={AlberteWærens} alt=""/>
+            <img className="succesfuldeKvinderBillede" src={LouiseGotschze} alt=""/>
             <p className="beskrivelseMørk"> Louise Götzsche er igang med at læse softwareudvikling på ITU og er på sit 6.semsester af uddannelsen. 
               Interessen for programmering startede på hendes tidliger uddannelse, “multimediedesign” på Zealand. 
               Multimediedesign er en bred uddannelse, hvor man berører mange forskellige aspekter af digital udvikling. 
@@ -264,7 +272,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieOrange">
-          <h1 className="overskriftHøjre" id={'section1'}>Mary Kenneth Keller</h1>
+          <h1 className="overskriftHøjre" id="MaryKenneth">Mary Kenneth Keller</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> I 1965 var Mary Kenneth Keller den første kvinde i USA, der blev tildelt en ph.d. i datalogi, efter at have studeret matematik og fysik. 
               Tidligere havde hun aflagt sine løfter som en romersk-katolsk religiøs søster i Ohio og var i 1958 begyndt at arbejde på Dartmouth College i computercentret (som dengang kun var for mænd).
@@ -281,7 +289,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieLys">
-          <h1 className="overskriftVenstre">Pernille Bjørn</h1>
+          <h1 className="overskriftVenstre" id="PernilleBjørn">Pernille Bjørn</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={PernilleBjoern} alt=""/>
             <p className="beskrivelseMørk"> Pernille Bjørn er professor på Datalogisk Institut ved Københavns Universitet, hvor hun også er viceinstitutleder for forskning. 
@@ -295,7 +303,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div id="id-of-div" className="historiePink">
-          <h1 className="overskriftHøjre">Plamena Cherneva</h1>
+          <h1 className="overskriftHøjre" id="PlamenaCherneva">Plamena Cherneva</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Plamena Cherneva er, som navnet antyder, ikke dansker, men fra Bulgarien. 
               Hun kom til Danmark i år 2010 for at studere Webudvikling på Copenhagen Business Academy og var chokeret over, at hun var den eneste kvinde i klassen med 30 mennesker. 
@@ -310,7 +318,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieLys">
-          <h1 className="overskriftVenstre">Suki Lee</h1>
+          <h1 className="overskriftVenstre" id="SukiLee">Suki Lee</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={SukiLee} alt=""/>
             <p className="beskrivelseMørk"> Suki Lee er en banebrydende kvindelig videospiludvikler, softwareingeniør og succesfuld projektleder.

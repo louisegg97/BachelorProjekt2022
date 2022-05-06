@@ -39,10 +39,10 @@ export class NavMenu extends Component {
                   <NavLink tag={Link} activeClassName="active" className="nav-link" to="/omProgrammering">Om programmering</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="nav-link" to="/jobMuligheder">Job muligheder</NavLink>
+                  <NavLink tag={Link} className="nav-link" to="/jobMuligheder">Jobmuligheder</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="nav-link" to="/succesHistorier">Succes historier</NavLink>
+                  <NavLink tag={Link} className="nav-link" to="/succesHistorier">Succeshistorier</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink tag={Link} className="nav-link" to="/opgaver">Opgaver</NavLink>
