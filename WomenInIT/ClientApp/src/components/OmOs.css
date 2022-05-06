@@ -2,9 +2,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 150px;
     padding-top: 150px;
-    width: 1000px;
+    padding-bottom: 150px;
+    max-width: 50%;
+    height: auto;
 
 }
 
@@ -44,10 +45,6 @@
 }
 
 @media only screen and (max-width: 1200px){
-    .fællesBillede {
-        width: 600px;
-        padding-top: 100px;
-    }
 
     .overskrift{
         margin-top: 0px;
