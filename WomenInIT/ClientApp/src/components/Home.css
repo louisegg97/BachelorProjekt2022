@@ -76,17 +76,17 @@
     display: flex;
     flex-wrap: wrap;
     background-image: url("images/Baggrund_figur_omvendtLodret.png");
-    background-size: 650px;
+    background-size: 400px;
     background-repeat: no-repeat;
-    background-position: -80px 0px;
+    background-position: -20px 0px;
 
 }
 
 .tal1 {
-    font-size: 400px;
+    font-size: 300px;
     color: #AE9188;
     font-style: italic;
-    margin: 30px;
+    margin: 0px;
     margin-left: 90px;
 }
 
@@ -97,14 +97,14 @@
     margin-left: auto; 
     margin-right: 0;
     background-image: url("images/Baggrund_figur_omvendtVandret.png");
-    background-size: 800px;
+    background-size: 500px;
     background-repeat: no-repeat;
     background-position: right;
     
 }
 
 .tal2 {
-    font-size: 400px;
+    font-size: 300px;
     color: #D0904D;
     font-style: italic;
     margin-left: auto; 
@@ -119,24 +119,24 @@
     display: flex;
     flex-wrap: wrap;
     background-image: url("images/Figur.png");
-    background-size: 1000px;
+    background-size: 650px;
     background-repeat: no-repeat;
-    background-position: -350px 50px;    
+    background-position: -180px -100px;    
 
 }
 
 .tal3 {
-    font-size: 400px;
+    font-size: 300px;
     color: #F7EFE8;
     font-style: italic;
-    margin: 20px;
     margin-left: 90px;
+    margin-top: -160px;
 }
 
 .stepTekst {
     text-align: center;
     color: #6B3B0A;
-    font-size: 40px;
+    font-size: 25px;
     width: 500px;
     margin-top: 250px;
     margin-left: 20%;
@@ -146,11 +146,20 @@
 .stepTekst2 {
     text-align: center;
     color: #6B3B0A;
-    font-size: 40px;
+    font-size: 25px;
     width: 500px;
     margin-top: 200px;
     margin-left: 30%; 
     margin-right: 0;
+}
+
+.stepTekst3 {
+    text-align: center;
+    color: #6B3B0A;
+    font-size: 25px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 20%;
 }
 
 .prøvProgrammeringlæsMereHer {
@@ -166,7 +175,7 @@
     font-size: 16px;
     border-radius: 10px;
     border: none;
-    margin-top: 150px;
+    margin-top: 0px;
     margin-bottom: 50px;
     text-align: center;
     padding-top: 5.5px;
@@ -177,8 +186,8 @@
 /* SuccesHistorie*/
 .billedeSucceshitorie {
     display: relative;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
     right: 50px;
     margin: 60px;
@@ -191,6 +200,7 @@
     margin-bottom: 30px;
     margin-left: 40px;
     font-size: 50px;
+    margin-top: 100px;
 }
 
 .quoteNavn {
