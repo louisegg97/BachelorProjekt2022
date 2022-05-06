@@ -19,7 +19,7 @@ const Animation_4 = () => {
                         <h4>Objekorienteret programmering</h4>
                             <p className="oop_tekst">OOP er teknikken, der fokuserer på skabelsen af objekter. 
                             Med objektorienteret programmering skal sætninger udføres i en bestemt rækkefølge. 
-                            Populære OOP-sprog er Java, .NET og Python,</p>
+                            Populære OOP-sprog er Java, .NET og Python.</p>
                     </div>
                     <div data-aos="fade-up" className='funktionel_boks'>
                         <h4>Funktionel programmering</h4>

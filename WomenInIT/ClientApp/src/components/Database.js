@@ -61,11 +61,6 @@ export class Database extends Component {
                         og en applikation at kommunikere med hinanden. En backend består typisk af tre komponenter: en server, en applikation og en database
                         De sprog man ofte bruger er java, C#, Python og databasesprog.</p>
                     </div>
-                    <div className="sprog_ikoner">
-                            <img className="frontend_1"src={frontend_1} alt="frontend_1" />
-                            <img className="frontend_2"src={frontend_2} alt="frontend_2" />
-                            <img className="frontend_3"src={frontend_3} alt="frontend_3" />
-                    </div>
                </div>
                <div id="section3_underside">
                    <div className='section_3'>
