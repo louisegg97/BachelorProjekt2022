@@ -7,7 +7,8 @@ import gui from './images/Frontend/gui.png'
 import ui from './images/Frontend/ui.png'
 import ux from './images/Frontend/ux.png'
 import responsive from './images/Frontend/responsive.png'
-import { FadeIn } from './FadeIn';
+import Animation_1 from './Animation/Animation_1';
+import Animation_2 from './Animation/Animation_2';
 import html from './images/Frontend/html.png'
 import css from './images/Frontend/css.png'
 import js from './images/Frontend/js.png'
@@ -50,7 +51,7 @@ export class Frontend extends Component {
                  </div>
 
                 
-               <div id="section1_underside">
+               <div id="section1_underside_frontend">
                    <div className='section_1'>
                         <h2 className='section1_h2'>Frontend sprog</h2>
                         <p className='section1_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
@@ -60,20 +61,15 @@ export class Frontend extends Component {
                             CSS og Javascript, hvilket er de letteste programmeringssprog at lære. 
                             Disse tre sprog danner fundamentet for webstedet front-end.</p>
                     </div>
-                    <div className="front-end_sprog_ikoner">
-                        <article className='article_f_sprog'>
-                            <FadeIn/>
+                    {/*<div className="front-end_sprog_ikoner">
+                        <article className='article_f_sprog'> */}
+                            <Animation_1/>
                             {/*<section><img className="html"src={html} alt="frontend_1" /></section>
                             <section><img className="css"src={css} alt="frontend_1" /></section>
                             <section><img className="js"src={js} alt="frontend_1" /></section> */}
-                            <section><p className='html_h'>HTML</p></section>
-                            <section><p className='css_h'>CSS</p></section>
-                            <section><p className='js_h'>JavaScript</p></section>
-                            <section><p className='html_p'>HyperText Markup Language - HTML bruges til at strukturere indholdet på en hjemmeside ved hjælp af en række HTML-elementer. HTML-elementer består af tags.</p></section>
-                            <section><p className='css_p'>Cascading Style Sheets - CSS bruges til at definere layoutet på dine HTML-sider. CSS visualiserer HTML-siderne.</p></section>
-                            <section><p className='js_p'>JavaScript er et scripting-sprog, som du kan bruge til at gøre din hjemmeside interaktiv/dynamisk (dit indhold kan ændres afhængig af input fra brugeren)</p></section>
-                        </article>
-                        </div>
+
+                        {/*</article>
+                        </div> */}
                </div>
                <div id="section2_underside">
                     <div className='section_2'>
@@ -84,10 +80,11 @@ export class Frontend extends Component {
                     </div>
                     <div className="front-end_ansvar_ikoner">
                         <article className='article_f_ansvar'>
-                            <section><img className="gui"src={gui} alt="frontend_1" /></section>
+                        <Animation_2/>
+                           {/* <section><img className="gui"src={gui} alt="frontend_1" /></section>
                             <section><img className="ui"src={ui} alt="frontend_1" /></section>
                             <section><img className="ux"src={ux} alt="frontend_1" /></section>
-                            <section><img className="responsive"src={responsive} alt="frontend_1" /></section>
+                        <section><img className="responsive"src={responsive} alt="frontend_1" /></section> 
                             <section><p className='gui_h'>Gui</p></section>
                             <section><p className='ui_h'>Ui</p></section>
                             <section><p className='ux_h'>Ux</p></section>
@@ -95,9 +92,9 @@ export class Frontend extends Component {
                             <section><p className='gui_p'>Graphic user interface - er en visuel forside, som giver mulighed for at interagere med softwaren</p></section>
                             <section><p className='ui_p'>User interface - skaber det rum, hvor interaktioner mellem menneske og maskine finder sted.</p></section>
                             <section><p className='ux_p'>User-experience - er den samlede oplevelse kunden opnår ved brug af jeres produkt, hjemmeside.</p></section>
-                            <section><p className='responsive_p'>Responsivt design handler om at tilpasse designet af grænsefladen til at passe til alle skærme.</p></section>
+                            <section><p className='responsive_p'>Responsivt design handler om at tilpasse designet af grænsefladen til at passe til alle skærme.</p></section> */}
                         </article>
-                        </div>
+                    </div>
                </div>
                <div id="section3_underside">
                    <div className='section_3'>

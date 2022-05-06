@@ -127,8 +127,13 @@ color: #F4EEE8;
     height: 500px;
   }
 
-  #section1_underside_backend{
-      height: 600px;
+ #section1_underside_backend{
+     height: 600px;
+     background-color:#CF914C;
+ }
+
+ #section1_underside_frontend{
+      height: 700px;
       background-color:#CF914C;
   }
 
@@ -141,9 +146,22 @@ color: #F4EEE8;
     width: 90px;
 }
 
-.front-end_ansvar_ikoner, .front-end_sprog_ikoner, .backend-end_sprog_ikoner, .backend_princip{
+.front-end_ansvar_ikoner, .backend-end_sprog_ikoner, .backend_princip{
+    margin-top: 2%;
     text-align: center;
-    margin-top: 5%;
+}
+
+.front-end_sprog_ikoner{
+    text-align: center;
+}
+
+.html, .css, .js, .gui, .ui, .ux, .responsive, .java, .php, .python{
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
 }
 
 
@@ -168,10 +186,27 @@ color: #F4EEE8;
     grid-gap: 100px;
   }
 
-  .python_h, .php_h, .java_h{
-      padding-top: 10px;
+  .html_h, .css_h, .js_h, .python_h, .php_h, .java_h{
+      padding-top: 50px;
       color:#F4EEE8;
       text-align: center;
+      font-weight: bold;
+  }
+
+  .gui_h, .ui_h, .ux_h, .responsive_h{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+
+  .html_p, .css_p, .js_p{
+      color:#F4EEE8;
+      padding-top: 10px;
+  }
+
+  .gui_p, .ui_p, .ux_p, .responsive_p{
+    padding-top: 10px;    
   }
 
   .oop_boks, .funktionel_boks{

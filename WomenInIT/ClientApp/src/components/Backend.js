@@ -3,6 +3,8 @@ import './OmProgrammering_Undersider.css';
 import { FaLanguage } from 'react-icons/fa';
 import { FaUserGraduate } from 'react-icons/fa';
 import { FaRegSun } from 'react-icons/fa';
+import Animation_3 from './Animation/Animation_3';
+import Animation_4 from './Animation/Animation_4';
 import python from './images/Backend/python.png'
 import php from './images/Backend/php.png'
 import java from './images/Backend/java.png'
@@ -39,7 +41,6 @@ export class Backend extends Component {
                         </div>
                  </div>
 
-
                <div id="section1_underside_backend">
                    <div className='section_1'>
                         <h2 className='section1_h2'>Backend sprog</h2>
@@ -52,16 +53,8 @@ export class Backend extends Component {
                          dynamiske websteder omfatter Facebook, Twitter og Google Maps.
                         Nedenfor har vi listet tre kendte sprog, men der findes mange andre</p>
                     </div>
-                    <div className="backend-end_sprog_ikoner">
-                        <article className='article_b_sprog'>
-                            <section><img className="python"src={python} alt="frontend_1" /></section>
-                            <section><img className="php"src={php} alt="frontend_1" /></section>
-                            <section><img className="java"src={java} alt="frontend_1" /></section>
-                            <section><p className='python_h'>Python</p></section>
-                            <section><p className='php_h'>PHP</p></section>
-                            <section><p className='java_h'>Java</p></section>
-                        </article>
-                        </div>
+                    <Animation_3/>
+
                </div>
                <div id="section2_underside">
                     <div className='section_2'>
@@ -69,23 +62,7 @@ export class Backend extends Component {
                         <p className='section2_tekst'>Backend-programmering kan enten være objektorienteret (OOP)
                          eller funktionel.</p>
                     </div>
-                    <div className="backend_princip">
-                      <div className="oop_funktionel">
-                            <div className="oop_boks">
-                                <h4>Objekorienteret programmering</h4>
-                                  <p className="oop_tekst">OOP er teknikken, der fokuserer på skabelsen af objekter. 
-                                  Med objektorienteret programmering skal sætninger udføres i en bestemt rækkefølge. 
-                                  Populære OOP-sprog er Java, .NET og Python,</p>
-                              </div>
-                              <div className='funktionel_boks'>
-                                <h4>Funktionel programmering</h4>
-                                  <p className="funktionel">Funktionel backend-programmering er en teknik, der er mere 
-                                  "action"-baseret. Funktionel programmering bruger deklarativt sprog, hvilket betyder, at 
-                                  sætninger kan udføres i enhver rækkefølge. Det bruges almindeligvis til datavidenskab, og 
-                                  populære sprog er SQL, F# og R.</p>
-                              </div>
-                        </div>
-                      </div>
+                  <Animation_4/>
                </div>
                <div id="section3_underside">
                    <div className='section_3'>
