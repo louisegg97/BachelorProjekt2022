@@ -29,7 +29,7 @@ export class Home extends Component {
           </div>
         </div>
 
-        <div className="historieOrange">
+        <div id="programmeringDiv" className="historieOrange">
         <div className="indhold">
           <h1 className="overskriftHøjre" id={'section1'}>Hvad er programmering egentlig?</h1>
             <div className="beskrivelseLys"> 

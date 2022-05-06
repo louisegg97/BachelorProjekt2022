@@ -287,6 +287,10 @@
     margin-left: 10%; 
     margin-right: 0;
 }
+
+#programmeringDiv .indhold{
+    flex-wrap: wrap !important;
+}
     
 }
 
