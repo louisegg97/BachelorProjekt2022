@@ -36,7 +36,11 @@
     margin-left: 5.5%;
     margin-top: 20%;
     background-color: #F4EEE8;
-    color: #6B3B0A;
+    color: #CFA99D;
+}
+
+.Opg_knap:hover{
+    color:#CF914C;
 }
 
 .overskrift_P{

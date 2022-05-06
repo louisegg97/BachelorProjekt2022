@@ -77,14 +77,14 @@ a:hover {
     height: 30px;   
     background: #F4EEE8;
     border-radius: 10px;
-    color: #6B3B0A;
+    color: #CF914C;
     border: none;
     text-align: center;
     padding-top: 2.5px;
 }
 
 .Tilmeld_knap:hover{
-    color:#CF914C;
+    color: #CFA99D;
 }
 
 .ikoner{

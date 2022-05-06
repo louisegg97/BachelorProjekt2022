@@ -126,7 +126,7 @@ h2{
     top: 950px;    
     background: #F4EEE8;
     border-radius: 10px;
-    color: #6B3B0A;
+    color:#CF914C;
     border: none;
     text-align: center;
     padding: 0.5%;
@@ -134,7 +134,7 @@ h2{
 }
 
 .frontend_knap:hover{
-    color:#CF914C;
+    color: #CFA99D;
 }
 
 .backend{
@@ -180,7 +180,7 @@ h2{
 }
 
 .backend_knap:hover{
-    color:#6B3B0A;
+    color: #CFA99D;
 }
 
 #database_OmProgrammering{
@@ -220,7 +220,7 @@ h2{
     top: 1950px;    
     background: #F4EEE8;
     border-radius: 10px;
-    color: #6B3B0A;
+    color: #CFA99D;
     border: none;
     text-align: center;
     padding: 0.5%;
@@ -228,6 +228,6 @@ h2{
 }
 
 .database_knap:hover{
-    color:#CFA99D;
+    color: #CF914C;
 }
 
