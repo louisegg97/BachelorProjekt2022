@@ -215,3 +215,26 @@ color: #F4EEE8;
       border-radius: 10px;
       padding: 10px;
   }
+
+  @media only screen and (max-width: 1200px){
+      .Opg_knap{
+        margin-left: 10%;
+        margin-top: 35%;
+      }
+
+      .backend_princip{
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+      .oop_boks, .funktionel_boks{
+        width: 350px;
+        height: 250px;
+
+      }
+
+      .oop_funktionel{
+        grid-gap: 0px;
+      }
+    
+  }
