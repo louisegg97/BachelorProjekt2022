@@ -1,44 +1,35 @@
-import React, { useRef, useEffect } from "react";
-import { gsap } from "gsap";
+import React, {useeffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "./OmProgrammering_Undersider.css"
+import gui from './images/Frontend/gui.png'
+import ui from './images/Frontend/ui.png'
+import ux from './images/Frontend/ux.png'
+import responsive from './images/Frontend/responsive.png'
+import html from './images/Frontend/html.png'
+import css from './images/Frontend/css.png'
+import js from './images/Frontend/js.png'
 
-const FadeIn = ({
-  children,
-  wrapperElement = "div",
-  direction = null,
-  delay = 0,
-  ...props
-}) => {
-  const Component = wrapperElement;
-  let compRef = useRef(null);
-  const distance = 200;
-  let fadeDirection;
-  switch (direction) {
-    case "left":
-      fadeDirection = { x: -distance };
-      break;
-    case "right":
-      fadeDirection = { x: distance };
-      break;
-    case "up":
-      fadeDirection = { y: distance };
-      break;
-    case "down":
-      fadeDirection = { y: -distance };
-      break;
-    default:
-      fadeDirection = { x: 0 };
-  }
-  useEffect(() => {
-    gsap.from(compRef.current, 1, {
-      ...fadeDirection,
-      opacity: 0,
-      delay
-    });
-  }, [compRef, fadeDirection, delay]);
-  return (
-    <Component ref={compRef} {...props}>
-      {children}
-    </Component>
+
+const FadeIn = () => {
+  useeffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
+  return(
+    <div className = "Fadein">
+      <div className="Frontend">
+          <div data-aos="fade-up" className="xx">
+          <div className="front-end_sprog_ikoner">
+                        <article className='article_f_sprog'>
+                            <section><img className="html"src={html} alt="frontend_1" /></section>
+                            <section><img className="css"src={css} alt="frontend_1" /></section>
+                            <section><img className="js"src={js} alt="frontend_1" /></section>
+                        </article>
+                        </div>
+          </div>
+      </div>
+      </div>
   );
 };
 

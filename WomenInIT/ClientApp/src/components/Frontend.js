@@ -3,22 +3,21 @@ import './OmProgrammering_Undersider.css';
 import { FaLanguage } from 'react-icons/fa';
 import { FaUserGraduate } from 'react-icons/fa';
 import { FaChalkboardTeacher } from 'react-icons/fa';
-import frontend_1 from './images/Frontend/Frontend_1.png'
-import frontend_2 from './images/Frontend/Frontend_2.png'
 import gui from './images/Frontend/gui.png'
 import ui from './images/Frontend/ui.png'
 import ux from './images/Frontend/ux.png'
 import responsive from './images/Frontend/responsive.png'
+import { FadeIn } from './FadeIn';
 import html from './images/Frontend/html.png'
 import css from './images/Frontend/css.png'
 import js from './images/Frontend/js.png'
-import FadeIn from './FadeIn';
-import {
+import {    
     BrowserRouter as Router,
     Switch,
     Route,
     Link
   } from "react-router-dom";
+
 
 
 
@@ -50,7 +49,7 @@ export class Frontend extends Component {
                         </div>
                  </div>
 
-
+                
                <div id="section1_underside">
                    <div className='section_1'>
                         <h2 className='section1_h2'>Frontend sprog</h2>
@@ -63,9 +62,10 @@ export class Frontend extends Component {
                     </div>
                     <div className="front-end_sprog_ikoner">
                         <article className='article_f_sprog'>
-                            <section><img className="html"src={html} alt="frontend_1" /></section>
+                            <FadeIn/>
+                            {/*<section><img className="html"src={html} alt="frontend_1" /></section>
                             <section><img className="css"src={css} alt="frontend_1" /></section>
-                            <section><img className="js"src={js} alt="frontend_1" /></section>
+                            <section><img className="js"src={js} alt="frontend_1" /></section> */}
                             <section><p className='html_h'>HTML</p></section>
                             <section><p className='css_h'>CSS</p></section>
                             <section><p className='js_h'>JavaScript</p></section>
