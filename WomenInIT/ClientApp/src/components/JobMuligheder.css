@@ -62,4 +62,20 @@
         margin: 50px;
     }
 
+    .gifKvadrat {
+        width: 400px;
+        height: 400px;
+        margin-left: 75px;
+    }
+    
+    .gifAflang {
+        width: 500px;
+        height: 200px;
+        margin-left: 75px;
+    }
+
+    #projektleder .indhold{
+        flex-wrap: wrap-reverse !important;
+    }
+
 }

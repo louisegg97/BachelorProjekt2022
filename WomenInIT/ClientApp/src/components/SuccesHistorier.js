@@ -147,10 +147,17 @@ export class SuccesHistorier extends Component {
           <h1 className="overskriftVenstre" id="AlberteKjær">Alberte Kjær Wærens</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={AlberteWærens} alt=""/>
-            <p className="beskrivelseMørk"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis gravida nisl, sit amet rutrum turpis elementum tempus. Sed sodales diam vel molestie consequat. Phasellus vitae sollicitudin eros. Sed ut interdum urna. In tincidunt velit vel ornare venenatis. Etiam nec neque non orci consectetur posuere. Nam non suscipit nibh. Donec venenatis nunc sit amet nunc laoreet mattis. Integer commodo orci dolor, eu faucibus diam sagittis et.
-            Vivamus congue lorem dui, sit amet tincidunt leo scelerisque sed. Nullam ac semper lorem. Integer vestibulum auctor dui, quis vestibulum nulla vehicula et. Cras ac lectus est. Fusce aliquam accumsan orci, et cursus dui accumsan quis. Donec aliquam quam sit amet arcu semper, quis luctus massa tincidunt. Curabitur sagittis dui quis arcu imperdiet efficitur. Etiam consequat quam a viverra sollicitudin. Cras sit amet elit tellus. Cras quam lacus, porttitor vitae bibendum id, congue nec magna. Fusce in ligula pellentesque, tempor augue ac, bibendum neque. Sed ut leo in libero pulvinar volutpat. Nulla nibh sem, auctor et condimentum non, ultrices id nibh.
-            Aenean ultrices, urna nec dapibus cursus, nisl justo rutrum diam, non aliquet risus nisl rhoncus diam. Nunc sagittis efficitur luctus. Aliquam mi dui, egestas non vestibulum id, sollicitudin non magna. Duis nec dui vel arcu scelerisque posuere at euismod sem. Mauris nisl nunc, lacinia ac nulla at, facilisis pellentesque dolor. Aliquam erat volutpat. Proin a sem nunc.</p>
-          </div>
+            <p className="beskrivelseMørk"> Alberte Kjær Wærens læser software udvikling på IT-universitetet i København, 
+            hun er på sit 6. semester. Hun havde ikke prøvet at programmere før hun startede, men har siden folkeskolen været glad for matematik og for at løse matematiske problemer. 
+            Da hun startede på gymnasiet var der én dag i 2.G, hvor man kunne prøve kræfter med forskellige valgfag. 
+            Her endte hendes klasse med at skulle programmere et lille spil. 
+            Det var første gang hun havde prøvet kræfter med programmering og en lille interesse blev vækket. 
+            Da det så i 3.G blev tid til den årlige dag, hvor repræsentanter fra samtlige vidergående uddannelser besøgte gymnasiet, var der selvfølgelig også en repræsentant fra ITU, mere specifikt software udvikling. 
+            Her gik det op for Alberte, hvad en uddannelse indenfor programmering kunne føre til, og hvordan det var meget mere end bare et nørdet fag for drenge der har gamet meget. 
+            I gennem hendes studier på software udvikling har hun lært at programmere indenfor samtlige aspekter af IT-verdenen, men ikke mindst hvordan man fungere i en gruppe, hvor medlemmerne har forskellig erfaring og bagrund inden for IT. 
+            En viden og nogle redskaber hun kan tage og bruge når hun bliver færdig med sin uddannelse og skal ud på arbejdsmarkedet.          
+            </p>
+            </div>
         </div>
 
         <div id="id-of-div" className="historiePink">

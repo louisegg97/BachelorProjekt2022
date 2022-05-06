@@ -78,7 +78,7 @@ terDiv {
 }
 /* skal bruges til flere sider*/
 .indhold {
-  display: flex;    
+  display: flex; 
 }
 
 /* skal bruges til flere sider*/
@@ -167,13 +167,12 @@ terDiv {
  
     .overskriftHøjre {
       margin-bottom: 30px;
-      margin-left: 40px;
+      margin-left: 75px;
       padding: 10px;
       
     }
-    /* skal bruges til flere sider*/
+
     .overskriftVenstre {
-      color: #6B3B0A;
       margin-bottom: 30px;
       text-align: right;
       margin-right: 40px;
@@ -186,6 +185,18 @@ terDiv {
 
     .tiltoppen{
       height: 60px !important;
+    }
+
+    .historiePink .indhold {
+      flex-wrap: wrap-reverse;
+    }
+    /* skal bruges til flere sider*/
+    .historieLys .indhold {
+      flex-wrap: wrap;  
+    }
+    /* skal bruges til flere sider*/
+    .historieOrange .indhold{
+      flex-wrap: wrap-reverse;
     }
     
     

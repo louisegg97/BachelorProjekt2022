@@ -13,7 +13,6 @@
     background-repeat:no-repeat;
     background-position: 0px 0px;
     margin-bottom: 20px;
-
 }
 
 .overskrift {
@@ -24,7 +23,6 @@
     position: absolute;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
-
 }
 
 .introText {
@@ -145,7 +143,6 @@
     opacity: 1;
 }
 
-
 /* CSS til skjulte text på billeder */
 
 .skjultTextDiv {
@@ -183,7 +180,82 @@
     .introText {
         margin: 20px 20px 0px 20px;
         width: 600px;
-        font-size: 35px;
+
        }
+    
+    .billede1Div {
+        height: 200px;
+    }
+    
+    .billede1 {
+        width:190px;
+        height:190px;
+        margin: 10px 50px 0px 50px; 
+    }
+
+    .billede2Div {
+        width: 130px;
+        height: 150px;
+      }
+    
+    .billede2 {
+        width:130px;
+        height:130px;
+        margin: 10px 50px 0px 0px;
+      
+    }
+
+    .billede3Div {
+        width: 280px;
+        height: 330px;
+      }
+    
+    .billede3 {
+        width:180px;
+        height:180px;
+        margin: 50px 0px 0px 50px;
        
+    }
+    
+    .billede1Div:hover .billede1{
+        opacity: 100%;
+    }
+
+    .billede1Div:hover .skjultText{
+        opacity: 0;
+    }
+    
+    .billede1Div:hover .skjultTextDiv {
+        opacity: 0;
+    }
+    
+    .billede2Div:hover .billede2{
+        opacity: 100%;
+    }
+
+    .billede2Div:hover .skjultText{
+        opacity: 0;
+    }
+    
+    .billede2Div:hover .skjultTextDiv {
+        opacity: 0;
+    }
+
+    .billede3Div:hover .billede3{
+        opacity: 100%;
+    }
+
+    .billede3Div:hover .skjultText{
+        opacity: 0;
+    }
+    
+    .billede3Div:hover .skjultTextDiv {
+        opacity: 0;
+    }
+
+    .succesfuldeKvinderBillede {
+        height: 400px;
+      max-width: 400px;
+        margin-left: 75px;  
+    }
   }
