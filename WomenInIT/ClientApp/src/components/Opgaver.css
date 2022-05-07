@@ -144,6 +144,22 @@
     padding: 5px;
     margin-bottom: 250px;
   }
+
+  #baggrund{
+    margin-top: 0px;
+  }
+
+  .overskriftOpgaver{
+    margin-top: 40px;
+  }
+
+  .tilbage{
+    margin-left: 1%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 40px;  
+  }
 }
 
 

@@ -58,7 +58,7 @@ export class Footer extends Component {
             <Link to="/Opgaver" className="footerGenveje">Opgaver</Link>
             </p>
             <p>
-            <Link to="/OmOs" className="footerGenveje">Hvem er vi</Link>
+            <Link to="/OmOs" className="footerGenveje">Hvem er vi?</Link>
             </p>
             </div>
           </div>

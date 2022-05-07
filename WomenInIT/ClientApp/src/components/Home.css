@@ -244,15 +244,12 @@
  }
 
  .indhold1 {
-    background-image: url("images/Baggrund_figur_omvendtLodret.png");
     background-size: 450px;
     background-position: -50px 0px;
 }
 
 .tal1 {
     font-size: 300px;
-    color: #AE9188;
-    font-style: italic;
     margin: 10px;
     margin-left: 70px;
 }
@@ -266,8 +263,6 @@
 
 .tal2 {
     font-size: 400px;
-    color: #D0904D;
-    font-style: italic;
     margin-left: auto; 
     margin-right: 120px;
     
@@ -281,8 +276,6 @@
 
 .tal3 {
     font-size: 400px;
-    color: #F7EFE8;
-    font-style: italic;
     margin: 5px;
     margin-left: 90px;
 }

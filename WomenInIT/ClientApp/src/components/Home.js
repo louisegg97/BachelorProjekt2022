@@ -63,7 +63,7 @@ export class Home extends Component {
             <p className="tal3">3</p>
             <p className ="stepTekst3">Til sidst er det bare at gå igang med at programmere. Du kan altid hente hjælp, hvis du går i stå eller bliver i tvivl.</p>
           </div>
-          <Link to="/Opgaver" className="prøvProgrammeringlæsMereHer">Kom igang her</Link>
+          <Link to="/Opgaver" className="prøvProgrammeringlæsMereHer">Kom i gang her</Link>
 
         </div>
 
