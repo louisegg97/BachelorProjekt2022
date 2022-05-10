@@ -131,7 +131,7 @@ h2{
 }
 
 .frontend_knap:hover{
-    color: #CFA99D;
+    color: #6B3B0A;
 }
 
 .backend{
@@ -178,7 +178,7 @@ h2{
 }
 
 .backend_knap:hover{
-    color: #CFA99D;
+    color: #6B3B0A;
 }
 
 #database_OmProgrammering{
@@ -226,7 +226,7 @@ h2{
 }
 
 .database_knap:hover{
-    color: #CF914C;
+    color: #6B3B0A;
 }
 
 @media only screen and (max-width: 1200px){

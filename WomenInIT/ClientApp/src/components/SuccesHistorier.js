@@ -12,6 +12,7 @@ import PlamenaCherneva from './images/SuccesHistorier/PlamenaCherneva.jpg'
 import SukiLee from './images/SuccesHistorier/SukiLee.jpg'
 import IsabellaDrest from './images/SuccesHistorier/IsabellaDrest.jpg'
 import LouiseGotschze from './images/SuccesHistorier/LouiseGotschze.png'
+import LouiseSparf from './images/SuccesHistorier/LouiseSparf.jpeg'
 
 
 
@@ -29,97 +30,105 @@ export class SuccesHistorier extends Component {
         <div className="topDivSuccesHistorie">
           <secText className="introText">Der er mange seje kvinder i IT-branchen! Her kan du blive klogere på nogle af dem, og høre deres historier</secText>
           
-          <div className="billede1Div">
+          <a href="SuccesHistorier/#AlberteKjær"><div className="billede1Div">
           <img className="billede1" src={AlberteWærens} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" href="SuccesHistorier/#AlberteKjær">Alberte Kjær Wærens</a>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
-          </div>
+          </div></a>
 
-          <div className="billede2Div">
+          <a href="SuccesHistorier/#CarlaMeninsky"><div className="billede2Div">
           <img className="billede2" src={CarlaMeninsky} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" href="SuccesHistorier/#CarlaMeninsky">Carla Meninsky</a>
               <div class="skjultText">Ingeniør, softwareudvikler og advokat</div>
               </div>
-          </div>
+          </div></a>
           
           
-          <div className="billede3Div">
+          <a href="SuccesHistorier/#LouiseBarkhuus"><div className="billede3Div">
           <img className="billede3" src={LouiseBarkhuus} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" href="SuccesHistorier/#LouiseBarkhuus">Louise Barkhuus</a>
               <div class="skjultText">Professor ved IT-Universitetet</div>
               </div>
-          </div>
+          </div></a>
 
 
 
-          <div className="billede1Div">
+          <a href="SuccesHistorier/#DonaBailey"><div className="billede1Div">
           <img className="billede1" src={DonaBailey} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" href="SuccesHistorier/#DonaBailey">Dona Bailey</a>
               <div class="skjultText">Programmør</div>
               </div>
-          </div>
+          </div></a>
 
-          <div className="billede2Div">
+          <a href="SuccesHistorier/#AdaLovelace"><div className="billede2Div">
           <img className="billede2" src={AdaLovelace} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" href="SuccesHistorier/#AdaLovelace">Ada Lovelace</a>
               <div class="skjultText">Verdens første computerprogrammør</div>
               </div>
-          </div>
+          </div></a>
 
-          <div className="billede3Div">
+          <a href="SuccesHistorier/#GraceHopper"><div className="billede3Div">
           <img className="billede3" src={GraceHopperImage} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift"href="SuccesHistorier/#GraceHopper">Grace Hopper</a>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
-          </div>
+          </div></a>
 
-          <div className="billede1Div">
+          <a href="SuccesHistorier/#MaryKenneth"><div className="billede1Div">
           <img className="billede1" src={MaryKennethKeller} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" href="SuccesHistorier/#MaryKenneth">Mary Kennet hKeller</a>
               <div class="skjultText">Ph.d. i datalogi</div>
               </div>
-          </div>
+          </div></a>
 
-          <div className="billede2Div">
+          <a href="SuccesHistorier/#PernilleBjørn"><div className="billede2Div">
           <img className="billede2" src={PernilleBjoern} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" href="SuccesHistorier/#PernilleBjørn">Pernille Bjørn</a>
               <div class="skjultText">Professor på Datalogisk Institut</div>
               </div>
-          </div>
+          </div></a>
 
 
-          <div className="billede3Div">
+          <a href="SuccesHistorier/#LouiseGyland"><div className="billede3Div">
           <img className="billede3" src={LouiseGotschze} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" href="SuccesHistorier/#LouiseGyland">Louise Gyland Götschze</a>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
-          </div>
+          </div></a>
 
-          <div className="billede1Div">
+          <a href="SuccesHistorier/#SukiLee"><div className="billede1Div">
           <img className="billede1" src={SukiLee} alt=""/>
             <div  className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#SukiLee">Suki Lee</a>
+              <a class="skjultTextOverskrift" href="SuccesHistorier/">Suki Lee</a>
               <div class="skjultText">Videospiludvikler, softwareingeniør og projektleder</div>
               </div>
-          </div>
+          </div></a>
 
-          <div className="billede2Div">
+          <a href="SuccesHistorier/#IsabellaDrest"><div className="billede2Div">
           <img className="billede2" src={IsabellaDrest} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" href="SuccesHistorier/#IsabellaDrest">Isabella Drest</a>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
-          </div>
+          </div></a>
+
+          <a href="SuccesHistorier/#LouiseSparf"><div className="billede3Div" >
+          <img className="billede3" src={LouiseSparf} alt=""/>
+            <div className="skjultTextDiv">
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#LouiseSparf">Louise Sparf</a>
+              <div class="skjultText">bestyrelsesmedlem og ledelsesrådgiver </div>
+              </div>
+          </div></a>
 
         </div>
  
@@ -256,7 +265,7 @@ export class SuccesHistorier extends Component {
               Hendes forskningsområde er menneske-computer interaktion, med særlig vægt på allestedsnærværende databehandling og privatliv.
                Mere specifikt forsøger hendes forskning at afdække den nye praksis og brugen af avancerede computerteknologier, såsom mobile applikationer og social software i deres oprindelige miljø. 
                Hun konceptualiserer og udvikler disse teknologier til videre studier, og hun studerer også eksisterende. Senest har hun set på mobil brug af sociale medier, hvilket har ført til analyser af privatlivsopfattelse hos brugere af mobile sociale medier.</p>
-            <img className="succesfuldeKvinderBillede" src={LouiseBarkhuus} alt=""/>
+            <img className="LouiseB" src={LouiseBarkhuus} alt=""/>
           </div>
         </div>
 
@@ -332,6 +341,31 @@ export class SuccesHistorier extends Component {
               Suki forlod Atari i 1984 og gik på arbejde for Cadtrak Corporation, hvor hun udviklede CAD-softwarebrugergrænseflader til oliebehandlingsanlægs layout, og her avancerede hun fra montageprogrammering til Pascal. 
               I 1986 arbejdede hun for Apple, fortsatte i 1997 til WebTV, eCircles og derefter Palm. Efter 6 års fravær vendte hun tilbage til Apple. 
               Hos Apple fortsætter hun sit arbejde som en anerkendt og succesfuld projektleder, som er dygtig til at arbejde med ingeniører og andre projektledere.</p>
+          </div>
+        </div>
+
+        <div className="historiePink">
+          <h1 className="overskriftHøjre" id="LouiseSparf">Louise Sparf</h1>
+          <div className="indhold">
+            <p className="beskrivelseLys"> Louise Sparf er bestyrelsesmedlem og ledelsesrådgiver i 
+            spændingsfeltet mellem mennesker, tech og samfund.
+            Louise er uddannet [cand.it](http://cand.it/) fra ITU i 2007 og har siden arbejdet 
+            på at skabe fremdrift, vækst og værdi på det danske arbejdsmarked gennem it og 
+            digitalisering. I 2013 blev hun hidtil yngste underdirektør i Skattestyrelsen og 
+            som 38-årig blev hun direktør, senere adm.direktør for en 100 mand stor 
+            softwareudviklings-virksomhed.
+            Siden 2005 har hun arbejdet på at skabe mere diversitet i it-branchen og 
+            skubbet på en ny fortælling, hvor programmering, teknik og nørderi, ikke 
+            er forbeholdt drengene. Hun mener, at fordomme skal af vejen, så stereotyper 
+            ikke spænder ben for piger, der vil en teknisk vej. Det kræver at vi sammen 
+            fortæller historien om en dynamisk og spændende branche i rivende vækst. En 
+            kreativ branche, hvor det at skabe ny software og nørde teknologi, giver et 
+            direkte aftryk på fremtiden, som er spændende, uforudsigelig og eksponentiel, 
+            men som mangler diversitet og mangfoldighed. I starten af 00´ere  kodede Louise 
+            hjemmesider, men har siden primært arbejdet med tech på strategisk- og 
+            ledelsesplan, og i dag arbejder hun med at gentænke og re-designe virksomhedens 
+            mindset, strukturer og mekanismer til det moderne højteknologiske arbejdsmarked.</p>
+            <img className="succesfuldeKvinderBillede" src={LouiseSparf} alt=""/>
           </div>
         </div>
 

@@ -24,10 +24,10 @@ const Animation_2 = () => {
                     <p data-aos="fade-up" className='ui_h'>Ui</p>
                     <p data-aos="fade-up" className='ux_h'>Ux</p>
                     <p data-aos="fade-up" className='responsive_h'>Responsiv</p>
-                    <p data-aos="fade-up" className='gui_p'>Graphic user interface - er en visuel forside, som giver mulighed for at interagere med softwaren</p>
+                    <p data-aos="fade-up" className='gui_p'>Graphic user interface - er en visuel forside, som giver mulighed for at interagere med softwaren.</p>
                     <p data-aos="fade-up" className='ui_p'>User interface - skaber det rum, hvor interaktioner mellem menneske og maskine finder sted.</p>
-                    <p data-aos="fade-up" className='ux_p'>User-experience - er den samlede oplevelse kunden opnår ved brug af jeres produkt, hjemmeside.</p>
-                    <p data-aos="fade-up" className='responsive_p'>Responsivt design handler om at tilpasse designet af grænsefladen til at passe til alle skærme.</p>
+                    <p data-aos="fade-up" className='ux_p'>User-experience - er den samlede oplevelse, som kunden opnår ved brug af jeres produkt, hjemmeside.</p>
+                    <p data-aos="fade-up" className='responsive_p'>Responsivt design handler om at tilpasse designet af grænsefladen, så det passer til alle skærme.</p>
                 </article>
             </div>
         

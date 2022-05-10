@@ -44,6 +44,10 @@
     
 }
 
+.komIgangKnap:hover{
+    color:#6B3B0A;;
+}
+
 .omProgrammeringlæsMereHer {
     width: 200px;
     height: 40px;
@@ -60,6 +64,10 @@
     margin-top: 60px;
     text-align: center;
     padding: 7px;
+}
+
+.omProgrammeringlæsMereHer:hover{
+color:#6B3B0A;
 }
 
 .mellemdiv {
@@ -181,6 +189,9 @@
     padding-top: 5.5px;
 }
 
+.prøvProgrammeringlæsMereHer:hover{
+color: #6B3B0A;
+}
 
 
 /* SuccesHistorie*/
@@ -230,7 +241,7 @@
 }
 
 .omSuccesHistorierlæsMereHer:hover{
-    color:#CF914C;
+    color:#6B3B0A;
 }
 
 @media only screen and (max-width: 1200px){

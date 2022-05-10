@@ -36,16 +36,16 @@ export class Frontend extends Component {
           <div className='body'>
               <div className="billedeBaggrund">
               <Link to="/OmProgrammering" className="tilbage">Tilbage</Link>
-                    <h1 className="overskrift_P">Frontend</h1>
+                    <h1 className="overskrift_P">Front-end</h1>
                     
                     <div className="icons_">
                         <article>
                             <section><a href ="Frontend/#section1_underside"><FaLanguage size="4em" className="one"/></a></section>
                             <section><a href ="Frontend/#section2_underside"><FaChalkboardTeacher size="4em" className="two"/></a></section>
                             <section><a href ="Frontend/#section3_underside"><FaUserGraduate size="4em" className="three"/></a></section>
-                            <section><a href ="Frontend/#section1_underside"><p className="four">Front-end sprog</p></a></section>
+                            <section><a href ="Frontend/#section1_underside"><p className="four">Front-end-sprog</p></a></section>
                             <section><a href ="Frontend/#section2_underside"><p className="five">Ansvarsområder</p></a></section>
-                            <section><a href ="Frontend/#section3_underside"><p className="six">Lær frontend</p></a></section>
+                            <section><a href ="Frontend/#section3_underside"><p className="six">Lær front-end</p></a></section>
                         </article>
                         </div>
                  </div>
@@ -53,13 +53,13 @@ export class Frontend extends Component {
                 
                <div id="section1_underside_frontend">
                    <div className='section_1'>
-                        <h2 className='section1_h2'>Frontend sprog</h2>
+                        <h2 className='section1_h2'>Front-end-sprog</h2>
                         <p className='section1_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
-                            dvs alle de synlige elementer på webstedet eller applikationen. 
+                            dvs. alle de synlige elementer på webstedet eller applikationen. 
                             Der er således fokus på webudvikllingen af klientsiden, da der er 
-                            fokus på, hvad brugerne ser visuelt. Front-end udviklere koder i HTML, 
-                            CSS og Javascript, hvilket er de letteste programmeringssprog at lære. 
-                            Disse tre sprog danner fundamentet for webstedet front-end.</p>
+                            fokus på, hvad brugerne oplever visuelt. Front-end-udviklere koder i HTML, 
+                            CSS og Javascript, som er de letteste programmeringssprog at lære. 
+                            Disse tre sprog danner fundamentet for webstedets front-end.</p>
                     </div>
                     {/*<div className="front-end_sprog_ikoner">
                         <article className='article_f_sprog'> */}
@@ -76,7 +76,7 @@ export class Frontend extends Component {
                         <h2>Ansvarsområder</h2>
                         <p className='section2_tekst'>Alt, hvad der har en visuel tilstedeværelse, som folk interagerer 
                         med, er i bund og grund skabt af front-end-udvikleren. Der er nogle ansvarsområder, som altid er 
-                        forbundet frontenden: </p>
+                        forbundet med front-enden: </p>
                     </div>
                     <div className="front-end_ansvar_ikoner">
                         <article className='article_f_ansvar'>
@@ -99,10 +99,10 @@ export class Frontend extends Component {
                <div id="section3_underside">
                    <div className='section_3'>
                         <h2>Lær frontend</h2>
-                        <p className='section3_tekst'>Hvis frontend udvikling siger dig noget. Så prøv kræfter af
-                        med vores opgaver, der giver dig en introduktion til principperne bag frontend udvikling, og
-                        husk at begynd i det små! Start derfor med at forstå HTML og CSS før du bevæger dig videre til JavaScript. God programmerings lyst!! </p>
-                        <Link to="/FrontendOpg" className="Opg_knap">Gå til frontend opgaver</Link>
+                        <p className='section3_tekst'>Hvis front-end-udvikling siger dig noget, så prøv kræfter af
+                        med vores opgaver, der giver dig en introduktion til principperne bag front-end-udvikling, og
+                        husk at begynde i det små! Start derfor med at forstå HTML og CSS, før du bevæger dig videre til JavaScript. God programmerings lyst!! </p>
+                        <Link to="/FrontendOpg" className="Opg_knap">Gå til front-end opgaver</Link>
                     </div>
 
                </div>

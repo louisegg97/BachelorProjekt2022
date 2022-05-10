@@ -3,6 +3,7 @@ import fællesBillede from './images/OmOs/FællesBillede.png'
 import isabella from './images/OmOs/isabella.png'
 import louise from './images/OmOs/louise.png'
 import alberte from './images/OmOs/alberte.png'
+import Animation_5 from './Animation/Animation_5';
 
 
 
@@ -66,7 +67,8 @@ export class OmOs extends Component {
               og har hjulpet hinanden igennem uddannelse, og vi er sikre på at det kun vil være til endnu større gavn at få flere kvinder ind.</p>
             </p>
             </div>
-            <div className="omOsSamlet">
+            <Animation_5/>
+           {/* <div className="omOsSamlet">
               <div className="omOsSeperat">
               <img className="personligtBillede" src={isabella} alt=""/>
               <p className="omOsTekst">Isabella Drest, 22 år</p>
@@ -83,7 +85,7 @@ export class OmOs extends Component {
               </div>
 
               
-            </div>
+      </div>*/}
           </div>
         </div>
 

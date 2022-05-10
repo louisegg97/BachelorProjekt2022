@@ -22,7 +22,7 @@ export class Footer extends Component {
         return (
             <div className="outerDiv">
               <div className="venstreDiv"> 
-                <p className="footerOverskrift">Tilmed dig vores nyhedbrev</p>
+                <p className="footerOverskrift">Tilmed dig vores nyhedsbrev</p>
                 <div className='form'>
                     <form>
                       <label className='formLabel'>email:</label>
@@ -46,7 +46,7 @@ export class Footer extends Component {
             <div className="højreDiv">
             <p className="footerOverskrift">Genveje</p>
             <p>
-            <Link to="/OmProgrammering" className="footerGenveje">Om Programmering</Link>
+            <Link to="/OmProgrammering" className="footerGenveje">Om programmering</Link>
             </p>
             <p>
             <Link to="/JobMuligheder" className="footerGenveje">Jobmuligheder</Link>
@@ -58,7 +58,7 @@ export class Footer extends Component {
             <Link to="/Opgaver" className="footerGenveje">Opgaver</Link>
             </p>
             <p>
-            <Link to="/OmOs" className="footerGenveje">Hvem er vi?</Link>
+            <Link to="/OmOs" className="footerGenveje">Om os</Link>
             </p>
             </div>
           </div>

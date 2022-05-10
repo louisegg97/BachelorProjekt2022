@@ -28,7 +28,7 @@
 }
 
 .intro{
-    font-size: 20px;
+    font-size: 16px;
     margin: 50px 100px 100px 100px;
     text-align: center;
     color: #6B3B0A;
@@ -102,26 +102,27 @@
 }
 
 .opgaveknapper {
-  width: 300px;
-  height: 100px;
+  width: 200px;
+  height: 40px;
   display: block;
+  color: #F4EEE8;
   background-color: #D0904D;
   font-family:  'Playfair Display';
   font-weight: 400;
-  font-size: 30px;
+  font-size: 16px;
   border-radius: 10px;
   border: none;
-  margin-top: 150px;
-  margin-bottom: 200px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
-  padding: 20px;
+  padding-top: 5.5px;
 }
 
-.opgaveknapper:hover, .opgaveknapper:visited, .opgaveknapper:link, .opgaveknapper:active
+.opgaveknapper:hover
 {
-    text-decoration: none;
-    color: #F4EEE8;
+  color:#6B3B0A;
 }
+
 
 .tilbage{
   position: absolute;  
