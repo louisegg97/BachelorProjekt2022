@@ -197,6 +197,7 @@ color: #F4EEE8;
     padding-top: 50px;
     text-align: center;
     font-weight: bold;
+    color:#6B3B0A;
   }
 
 
@@ -206,7 +207,8 @@ color: #F4EEE8;
   }
 
   .gui_p, .ui_p, .ux_p, .responsive_p{
-    padding-top: 10px;    
+    padding-top: 10px;  
+    color:#6B3B0A;  
   }
 
   .oop_boks, .funktionel_boks{
