@@ -27,7 +27,7 @@ export class Home extends Component {
         <div className="topDiv">
         <img className="kvindeligProgrammør" src={forsideBillede} alt=""/>
          <div className="textAndButton">
-          <secText className="introTextHome">Styrk din selvtillid inden for programmering sammen med Ladybugs</secText>
+          <secText className="introTextHome">Styrk din selvtillid inden for <b className="prog">programmering</b> sammen med Ladybugs</secText>
           <Link to="/OmProgrammering" className="komIgangKnap">Kom igang her</Link>
           </div>
         </div>

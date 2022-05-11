@@ -24,7 +24,11 @@
     right: 80px;
     width: 300px;
     font-size: 50px;
-    
+}
+
+.prog{
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #6B3B0A;
 }
 
 .komIgangKnap {
