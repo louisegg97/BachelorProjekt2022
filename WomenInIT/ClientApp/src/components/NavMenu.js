@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './NavMenu.css';
 import Logo from './images/Logo.png';
 
@@ -36,19 +37,19 @@ export class NavMenu extends Component {
             <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
               <ul className="navbar-nav flex-grow">
               <NavItem>
-                  <NavLink tag={Link} activeClassName="active" className="nav-link" to="/omProgrammering">Om programmering</NavLink>
+                  <NavLink tag={Link} activeStyle={{color: '#CF914C' }} className="nav-link" to="/omProgrammering">Om programmering</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="nav-link" to="/jobMuligheder">Jobmuligheder</NavLink>
+                  <NavLink tag={Link} activeStyle={{color: '#CF914C' }} className="nav-link" to="/jobMuligheder">Jobmuligheder</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="nav-link" to="/succesHistorier">Succeshistorier</NavLink>
+                  <NavLink tag={Link} activeStyle={{color: '#CF914C' }} className="nav-link" to="/succesHistorier">Succeshistorier</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="nav-link" to="/opgaver">Opgaver</NavLink>
+                  <NavLink tag={Link} activeStyle={{color: '#CF914C' }} className="nav-link" to="/opgaver">Opgaver</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="nav-link" to="/omOs">Om os</NavLink>
+                  <NavLink tag={Link} activeStyle={{color: '#CF914C' }} className="nav-link" to="/omOs">Om os</NavLink>
                 </NavItem>
               </ul>
             </Collapse>

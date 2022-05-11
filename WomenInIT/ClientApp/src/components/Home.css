@@ -83,6 +83,10 @@ color:#6B3B0A;
 
 }
 
+#talOverskrift{
+    margin-top: 10px;
+}
+
 .indhold1 {
     position: relative;
     display: flex;

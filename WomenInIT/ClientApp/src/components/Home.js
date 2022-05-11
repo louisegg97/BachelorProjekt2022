@@ -52,7 +52,7 @@ export class Home extends Component {
           </div>
           <Link to="/OmProgrammering" className="omProgrammeringlæsMereHer">Læs mere her</Link>
         </div>
-
+          <h1 className="overskriftHøjre" id="talOverskrift">Sådan kommer du igang med at programmere:</h1>
         <Animation_6/>
         <Animation_7/>
         <Animation_8/>
@@ -77,7 +77,7 @@ export class Home extends Component {
         <div id="id-of-div" className="historiePink">
         <div className="indhold">
           <div className ="tekstInhold">
-          <h1 className="overskriftSuccesForside">"eg programmerer, fordi det er en måde, jeg kan udfolde min kreativitet på"</h1>
+          <h1 className="overskriftSuccesForside">"Jeg programmerer, fordi det er en måde, jeg kan udfolde min kreativitet på"</h1>
           <p className="quoteNavn"> Alberte Kjær Wærens -23 år.</p>
           <Link to="/SuccesHistorier" className="omSuccesHistorierlæsMereHer">Læs mere her</Link>
 
