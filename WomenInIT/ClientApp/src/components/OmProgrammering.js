@@ -70,7 +70,7 @@ export class OmProgrammering extends Component {
                </div>
                <div id="backend_OmProgrammering">
                     <div className='backend'>
-                        <h2>Om back-end</h2>
+                        <h2>Om Back-end</h2>
                         <p className='backend_tekst'>Back-end er alt det bagvedliggende på en hjemmeside og dækker 
                         dermed webapplikationslogik. Back-end-udviklere bygger kode, der tillader en database 
                         og en applikation at kommunikere med hinanden. En backend består typisk af tre komponenter: en server, en applikation og en database.
@@ -81,8 +81,8 @@ export class OmProgrammering extends Component {
                </div>
                <div id="database_OmProgrammering">
                    <div className='database'>
-                        <h2>Om databaser</h2>
-                        <p className='databaser_tekst'>Når man taler on en database, taler man om et sted,
+                        <h2>Om Databaser</h2>
+                        <p className='databaser_tekst'>Når man taler om en database, taler man om et sted,
                          hvor man kan opbevare data på en struktureret måde. Mange databaser starter som et
                           regneark, men når omfanget af informationen bliver for stort er det en god idé at 
                           overføre sin data til en database. </p>

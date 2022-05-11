@@ -95,7 +95,7 @@ h2{
     display: inline-grid;
     grid-template-columns: repeat(2, 800px);
     grid-template-rows: auto;
-    grid-column-gap: 10%;
+    grid-column-gap: 5%;
     width: 100%;
 }
 
@@ -138,7 +138,7 @@ h2{
     display: inline-grid;
     grid-template-columns: repeat(2, 800px);
     grid-template-rows: auto;
-    grid-column-gap: 10%;
+    grid-column-gap: 5%;
     width: 100%;
 }
 
@@ -156,7 +156,7 @@ h2{
 }
 
 .backendGif{
-    height: 300px;
+    height: 280px;
     grid-column-start: 2;
     grid-column-end: 3;
     margin-top: 3%;
@@ -190,7 +190,7 @@ h2{
     display: inline-grid;
     grid-template-columns: repeat(2, 800px);
     grid-template-rows: auto;
-    grid-column-gap: 10%;
+    grid-column-gap: 5%;
     width: 100%;
 }
 
@@ -267,6 +267,7 @@ h2{
 
     .frontendGif, .backendGif, .databaseGif{
         height: 250px;
+       
     }
 
 }
