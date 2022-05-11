@@ -86,9 +86,15 @@ export class FrontendOpg extends Component {
                   window.location.href='./opgaveside/of1';
                   }}>1</button>
             
-                <button className="opgbtn" id="knap2" >2</button>
+                <button className="opgbtn" id="knap2"  onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/of2';
+                  }}>2</button>
                
-                <button className="opgbtn" id="knap3" >3</button>
+                <button className="opgbtn" id="knap3"  onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='./opgaveside/of3';
+                  }}>3</button>
                
               </div>
              
