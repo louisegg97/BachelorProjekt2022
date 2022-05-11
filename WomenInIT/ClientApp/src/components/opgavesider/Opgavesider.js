@@ -5,8 +5,8 @@ export default function useOpgavesider() {
 //Frontend opgaver
         "bf1": {
             "title": "Begynder, Opgave 1:",
-            "desc": "I denne opgave skal du skrive noget tekst i normal tykkelse og noget andet fed. Lav i head en titel med teksten: “Titel” og i body tagget skal der skrives noget tekst i et p-tag: <p>blabla</p>, her skal det stå: “Normal tekst”, efterfulgt af tekst med fed skrift i et b-tag:<b>blabla</b>, hvor der skal stå: “fed tekst”.",
-            "hint1": "For at skrive en titel kan du bruge tagget <titel></titel>",
+            "desc": "I denne opgave skal du skrive noget tekst i normal tykkelse og noget andet med fed. Lav i head en titel med teksten: “Titel”, og i body-tagget skal der skrives noget tekst i et p-tag: <p>blabla</p>. Her skal der stå: “Normal tekst”, efterfulgt af tekst med fed skrift i et b-tag:<b>blabla</b>, hvor der skal stå: “fed tekst”.",
+            "hint1": "For at skrive en titel kan du bruge tagget <titel>Titel</titel>",
             "hint2": "Tekst skrives i et p tag: <p>TekstHer</p> ",
             "hint3": "For at gøre tekst fed, brug <b>TekstHer</b> tagget",
             "src":"https://replit.com/@AlberteWaerens/Begynder1?lite=true"
@@ -14,10 +14,10 @@ export default function useOpgavesider() {
 
         "bf2": {
             "title": "Begynder, Opgave 2: ",
-            "desc": "I denne opgave skal du lave en knap, hvor der står “Klik her”. Når man klikker på knappen skal der udskrives “Velkommen til” i det der hedder konsollen. Der skal være en titel på siden, der hedder “Knap”. For at lave en knap bruger man button-tagget: <button></button>. For at få den til at gøre noget når der klikkes på knappen bruger man: onClick=”console.log(’tekst her’)” inde i button-tagget.",
+            "desc": "I denne opgave skal du lave en knap, hvor der står “Klik her”. Når man klikker på knappen, skal der udskrives “Velkommen til” i det, der hedder konsollen. Der skal være en titel på siden, der hedder “Knap”. For at lave en knap bruger man button-tagget: <button></button>. For at få den til at gøre noget, når der klikkes på knappen, bruger man: onClick=”console.log(’tekst her’)” inde i button-tagget.",
             "hint1": "Lav en knap ved at bruge tagget <button type=”button”>tekstPåKnap</button>",
             "hint2": "For at give den en titel skriver du <title>tekstHer</titel>",
-            "hint3": "For at udskrive “Velkommen til” i konsollen brug onclick=”console.log(’tekst’)” efter du har defineret at type er en button",
+            "hint3": "For at udskrive “Velkommen til” i konsollen brug onclick=”console.log(’tekst’)”, efter du har defineret, at type er en button",
             "src":"https://replit.com/@AlberteWaerens/bf2?lite=true"
         },
 
@@ -31,8 +31,8 @@ export default function useOpgavesider() {
         },
 
         "lf1": {
-            "title": "Letøvet, Opgave 1: ",
-            "desc": "Her skal du skrive en overskrift og en tekst. Din overskrift skal skrives i et h1 tag: <h1></h1>. Din tekst skal skrives i et p tag: <p></p> Derudover skal du nu style på det du har lavet. Dette kan gøres i en helt seperat fil der hedder en CSS-fil, men det kan også gøres direkte i den kode du skriver nu, som er en HTML-fil. Det du skal style er baggrundsfarven og farven på teksten. Dette gøres ved at skrive: style=”dinStylingHer”. Baggrundsfarven skal være bål og tekstens farve skal rød.",
+            "title": "Let øvet, Opgave 1: ",
+            "desc": "Her skal du skrive en overskrift og en tekst. Din overskrift skal skrives i et h1 tag: <h1></h1>. Din tekst skal skrives i et p tag: <p></p> Derudover skal du nu style på det, du har lavet. Dette kan gøres i en helt separat fil, der hedder en CSS-fil, men det kan også gøres direkte i den kode, du skriver nu, som er en HTML-fil. Det, du skal style, er baggrundsfarven og farven på teksten. Dette gøres ved at skrive: style=”dinStylingHer”. Baggrundsfarven skal være blå og tekstens farve skal være rød.",
             "hint1": "For at skrive en overskrift skriver du: <h1> Her er en overskrift</h1>",
             "hint2": "For at style din baggrund grøn kan du skrive: <body style=”background-color:green”>",
             "hint3": "For at style din baggrund grøn og lave din tekst pink kan du skrive: <body style=”background-color:green; color:pink”>",
@@ -40,16 +40,16 @@ export default function useOpgavesider() {
         },
 
         "lf2": {
-            "title": "Letøvet, Opgave 2: ",
-            "desc": "Her skal du lave en knap der med teksten “Jeg er en knap”. Når man trykker på knappen skal der udskrives “Du har nu trykket på knappen” i konsollen. Knappen skal styles så den bliver blå, og med runde hjørner svarerne til 10px. Dette kan gøres i en helt seperat fil der hedder en CSS-fil, men det kan også gøres direkte i den kode du skriver nu, som er en HTML-fil. Dette gøres ved at skrive: style=”dinStylingHer”.",
+            "title": "Let øvet, Opgave 2: ",
+            "desc": "Her skal du lave en knap der med teksten “Jeg er en knap”. Når man trykker på knappen, skal der udskrives “Du har nu trykket på knappen” i konsollen. Knappen skal styles, så den bliver blå, og med runde hjørner svaredne til 10px. Dette kan gøres i en helt separat fil, der hedder en CSS-fil, men det kan også gøres direkte i den kode, du skriver nu, som er en HTML-fil. Dette gøres ved at skrive: style=”dinStylingHer”.",
             "hint1": "Lav en knap ved at bruge tagget <button type=”button”>navnPåKnapHer</button>",
             "hint2": "For at style din baggrund grøn kan du skrive: <body style=”background-color:green”>",
-            "hint3": "For at udskrive “Du har nu trykket på knappen” i konsollen brug onclick=”console.log(’tekst’)” efter du har defineret at type er en button",
+            "hint3": "For at udskrive “Du har nu trykket på knappen” i konsollen brug onclick=”console.log(’tekst’)”, efter du har defineret, at type er en button",
             "src":"https://replit.com/@AlberteWaerens/lf2?lite=true"
         },
 
         "lf3": {
-            "title": "Letøvet, Opgave 3: ",
+            "title": "Let øvet, Opgave 3: ",
             "desc": "I denne opgave skal du lave et tekstfelt, et label, et input felt og en knap, som omhandler at tilmelde sig et nyhedsbrev på en hjemmeside. Først skal du lave et almindeligt tekstfelt med et p tag, hvor der skal stå: “Tilmeld dig nyhedsbrev”. Derefter skal du lave et form-tag, hvor der skal ligge et label-tag og et input-tag (vi har allerede lavet input-tagget for dig). I label-tagget skal der står teksten “email:”. I selve inputfeltet, skal der være nogler værdier; type=””text”, name=”email” og requried. Tilsidst skal der være en knap af tag button, med teksten: “Tilmeld”.",
             "hint1": "Du kan lave et label ved at skrive: <label>tekst:</label>",
             "hint2": "Du kan lave et inputfelt ved at skrive: <input type=”text” name=”email” required />",
@@ -59,18 +59,18 @@ export default function useOpgavesider() {
 
         "of1": {
             "title": "Øvet, Opgave 1: ",
-            "desc": "I denne opgave skal du lave en titel og en stripet baggrund. I titlen skal der stå teksten: “Stripet baggrund”. Den stribet baggrund skal laves i en div og den skal laves med style, hvor du skal bruge; width, height, backgroundcolor, background-image og background-size. Den skal være både 240px i bredden og højden, baggrunden skal være hvis, og baggrundsbilledet skal være “linear-gradient”, med værdierne 90 grader, gennemsigtig 50%, farven sort 50%. Baggrundsstørrelsen skal være 60px i højden og bredden.",
+            "desc": "I denne opgave skal du lave en titel og en stribet baggrund. I titlen skal der stå teksten: “Stribet baggrund”. Den stribede baggrund skal laves i en div, og den skal laves med style, hvor du skal bruge; width, height, background-color, background-image og background-size. Den skal være både 240px i bredden og højden, baggrunden skal være hvid, og baggrundsbilledet skal være “linear-gradient” med værdierne 90 grader, gennemsigtig 50%, farven sort 50%. Baggrundsstørrelsen skal være 60px i højden og bredden.",
             "hint1": "For at style en div skriver du: <div style=”style1; style2”></div>",
-            "hint2": "For at style en div med en baggrundsfarver skriver du: <div style=”backgroundcolor:#fff”></div>",
+            "hint2": "For at style en div med en baggrundsfarve skriver du: <div style=”backgroundcolor:#fff”></div>",
             "hint3": "For at style background-image skriver du: background-image:linear-gradient(90deg, transparent 50%, #000 50%)",
             "src":"https://replit.com/@AlberteWaerens/of1?lite=true"
         },
 
         "of2": {
-            "title": "Øvet, Opgave 3: ",
-            "desc": "I denne opgave skal du lave en knap, hvor når der klikkes på den vil man ryge til toppen af en hjemmeside. Disse er især brugt på online-shopping hjemmeside, men f.eks. også på denne hjemmeside. Vi har startet noget af koden for dig. Vi har lavet en metode, som er funktionaliteten der skal være i knappen, så man ryger til toppen af en hjemmesiden når der klikkes på den. Du skal give metoden et passende navn. Dernæst har vi lavet lidt kode til selve knappen, du skal skrive at når der klikkes på knappen, skal den bruge metoden vi har defineret ovenover. Derefter skal du lave selve knappen med et button-tag, med teksten: “Gå til toppen”.",
+            "title": "Øvet, Opgave 2: ",
+            "desc": "I denne opgave skal du lave en knap, hvor man, når der klikkes på den, ryger til toppen af en hjemmeside. Disse bruges brugt på online-shopping-hjemmesider, men er f.eks. også brugt på denne hjemmeside. Vi har startet noget af koden for dig. Vi har lavet en metode, som er den funktionalitet, der skal være i knappen, så man ryger til toppen af en hjemmesiden, når der klikkes på den. Du skal give metoden et passende navn. Dernæst har vi lavet lidt kode til selve knappen. Du skal skrive, at når der klikkes på knappen, skal den bruge metoden, som vi har defineret ovenover. Derefter skal du lave selve knappen med et button-tag, med teksten: “Gå til toppen”.",
             "hint1": "Et passende navn til metoden kunne være “scrollToTop”",
-            "hint2": "For at fortælle at en metode skal bruges når der klikkes, kan du skrive: “onClick={scrollToTop}",
+            "hint2": "For at fortælle, at en metode skal bruges, når der klikkes, kan du skrive: “onClick={scrollToTop}",
             "hint3": "For at lave en knap kan du skrive: <button>her er en knap</button>",
             "src":"https://replit.com/@AlberteWaerens/of2?lite=true"
         },

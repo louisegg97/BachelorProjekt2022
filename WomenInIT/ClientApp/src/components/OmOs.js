@@ -27,28 +27,28 @@ export class OmOs extends Component {
           <p className="midterTekst">Velkommen til LadyBugs!</p>
           <div className="indhold">
             <p className="beskrivelseLys"> 
-            <p>Der i dag en stor overvægt af mænd på både de tekniske uddannelse og på 
-            arbejdsmarkedet indenfor IT.  Der ligger flere grunde til dette, og en 
-            primær grund ligger i stereotypen omkring programmering og software. 
-            Denne stereotyp fører til at kvinder ikke føler sig tilaps i dette miljø 
-            og mangel på selvtillid, hvis ikke de opfylder stereotypen. Et problem ligger 
-            også i udvidenheden omkring programmering og IT, der giver et fordrejet billede 
-            af hvad programmering og IT egentlig er.</p>
+            <p>Der er og har altid været en stor overvægt af mænd på både de tekniske uddannelser og på 
+            arbejdsmarkedet indenfor IT.  Der ligger flere ting til grunde for til dette, men en stor del 
+            af forklaringen er den stereotype opfattelse af programmering og software, som betyder, at kvinder 
+            ikke føler sig tilpas i dette miljø og kæmper med 
+            mangel på selvtillid, hvis de ikke lever op til stereotypen. Problemet er
+            også udvidenheden omkring programmering og IT, der giver et skævt billede 
+            af, hvad programmering og IT egentlig er.</p>
             
-            <p>Vores mission er derfor at åbne verden indenfor programmering, IT og software op for kvinder, 
-            og vise at det hverken er skræmmende, nørdet eller en kun en “Boys Club”.</p>
+            <p>Vores mission er derfor at åbne programmerings-, IT-og software-verdenen op for kvinder, 
+            og vise, at det hverken er skræmmende, nørdet eller en “Boys Only Club”.</p>
             
-            <p>Derfor har du, her hos os, muligheden for at læse mere om programmering 
-            og de forskellige karriere muligheder der er indenfor IT og software. 
-            Du kan også læse om forskellige kvinder der har arbejdet eller uddannet sig indenfor IT, 
-            og forhåbentlig blive inspireret. Vi mener det er vigtigt at man prøver en smule programmering, 
-            for bedst at forstå hvad programmering handler om, og derfor har du også her muligheden 
+            <p>Derfor kan du her hos os, muligheden for at læse mere om programmering 
+            og de forskellige karrieremuligheder, der er indenfor IT og software. 
+            Du kan også læse om forskellige kvinder, der har arbejdet eller uddannet sig inden for IT, 
+            og forhåbentlig blive inspireret. Vi mener, det er vigtigt, at man prøver at programmere lidt 
+            for bedre at kunne forstå, hvad programmering handler om, og derfor har du også her muligheden 
             for at prøve kræfter med det selv. Vi har samlet en række små opgaver, som forhåbentlig kan 
-            kabe en interesse for programmering hos dig.</p>
+            skabe en interesse for programmering hos dig.</p>
             
-            <p>Vi håber på at hjælpe, primært unge kvinder, til at få en interesse indenfor IT og programmering, 
-            da vi synes det er vigtigt at få flere kvinder ind i IT branchen. Meget af vores fremtid afhænger 
-            af teknologien og softwaren, og vi ønsker at den bliver skabt at lige store dele mænd og kvinder 
+            <p>Vi håber på at bidrage til, at især unge kvinder får interesse for IT og programmering, 
+            da vi synes, det er vigtigt at få flere kvinder ind i IT-branchen. Meget af vores fremtid afhænger 
+            af teknologi og software, og vi ønsker, at den bliver udviklet af lige store dele mænd og kvinder 
             - da fremtiden er for os alle sammen.</p>
             </p>
           </div>
@@ -58,13 +58,13 @@ export class OmOs extends Component {
           <h1 className="overskriftVenstre">Hvem er vi?</h1>
           <div className="indhold">
             <p className="beskrivelseMørk">  
-            <p>Vi er 3 kvinder i midt 20’erne, som lærte at kende hinanden da vi i sommeren 2019 startede på en 
-              bachelor i Softwareudvikling på IT-universitet i København. Vi havde alle 3 aldrig prøvet at programmere 
-              før og startede på uddannelsen helt grønne og lettere uvidende omkring hvad programmering i bund og grund er.</p>
+            <p>Vi er tre kvinder i 20’erne, som lærte hinanden at kende, da vi i sommeren 2019 startede på en 
+              bachelor i Softwareudvikling på IT-universitetet i København. Ingen af os havde prøvet at programmere 
+              før, og vi startede på uddannelsen helt grønne og lettere uvidende om, hvad programmering i bund og grund er.</p>
             
-            <p>Vi har oplevet at der er en overvægt af drenge i denne branche, og det ønsker vi at ændre på. Vi har derfor lavet denne side, 
+            <p>Vi har oplevet, at der er en overvægt af mænd i denne branche, og det ønsker vi at ændre på. Vi har derfor lavet denne side, 
               hvor vi ønsker at introducerer dig for programmering, på en feminin og venlig måde. Vi har haft stor glæde af hinanden 
-              og har hjulpet hinanden igennem uddannelse, og vi er sikre på at det kun vil være til endnu større gavn at få flere kvinder ind.</p>
+              og har hjulpet hinanden igennem uddannelsen, og vi er sikre på, at det kun vil være til endnu større gavn at få flere kvinder ind.</p>
             </p>
             </div>
             <Animation_5/>
