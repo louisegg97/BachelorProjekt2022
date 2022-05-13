@@ -18,6 +18,22 @@ import LouiseSparf from './images/SuccesHistorier/LouiseSparf.jpeg'
 
 export class SuccesHistorier extends Component {
   static displayName = SuccesHistorier.name;
+  constructor(props) {
+    super(props);
+    this.scrollToAlberte = React.createRef();
+    this.scrollToAda= React.createRef();
+    this.scrollToCarla = React.createRef();
+    this.scrollToBarkhuus = React.createRef();
+    this.scrollToLouise= React.createRef();
+    this.scrollToDona = React.createRef();
+    this.scrollToIsabella = React.createRef();
+    this.scrollToPlamena= React.createRef();
+    this.scrollToGrace = React.createRef();
+    this.scrollToMary = React.createRef();
+    this.scrollToPernille= React.createRef();
+    this.scrollToSuki = React.createRef();
+    this.scrollToSparf = React.createRef();
+  }
   
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -33,7 +49,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#AlberteKjær"><div className="billede1Div">
           <img className="billede1" src={AlberteWærens} alt=""/>
             <div className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#AlberteKjær">Alberte Kjær Wærens</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToAlberte.current.scrollIntoView()}>Alberte Kjær Wærens</a>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
           </div></a>
@@ -41,7 +57,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#CarlaMeninsky"><div className="billede2Div">
           <img className="billede2" src={CarlaMeninsky} alt=""/>
             <div className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#CarlaMeninsky">Carla Meninsky</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToCarla.current.scrollIntoView()}>Carla Meninsky</a>
               <div class="skjultText">Ingeniør, softwareudvikler og advokat</div>
               </div>
           </div></a>
@@ -50,7 +66,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#LouiseBarkhuus"><div className="billede3Div">
           <img className="billede3" src={LouiseBarkhuus} alt=""/>
             <div className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#LouiseBarkhuus">Louise Barkhuus</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToBarkhuus.current.scrollIntoView()}>Louise Barkhuus</a>
               <div class="skjultText">Professor ved IT-Universitetet</div>
               </div>
           </div></a>
@@ -60,7 +76,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#DonaBailey"><div className="billede1Div">
           <img className="billede1" src={DonaBailey} alt=""/>
             <div className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#DonaBailey">Dona Bailey</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToDona.current.scrollIntoView()}>Dona Bailey</a>
               <div class="skjultText">Programmør</div>
               </div>
           </div></a>
@@ -68,7 +84,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#AdaLovelace"><div className="billede2Div">
           <img className="billede2" src={AdaLovelace} alt=""/>
             <div className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#AdaLovelace">Ada Lovelace</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToAda.current.scrollIntoView()}>Ada Lovelace</a>
               <div class="skjultText">Verdens første computerprogrammør</div>
               </div>
           </div></a>
@@ -76,7 +92,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#GraceHopper"><div className="billede3Div">
           <img className="billede3" src={GraceHopperImage} alt=""/>
             <div  className="skjultTextDiv">
-              <a class="skjultTextOverskrift"href="SuccesHistorier/#GraceHopper">Grace Hopper</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToGrace.current.scrollIntoView()}>Grace Hopper</a>
               <div class="skjultText">Softwareingeiør for Militæret</div>
               </div>
           </div></a>
@@ -84,7 +100,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#MaryKenneth"><div className="billede1Div">
           <img className="billede1" src={MaryKennethKeller} alt=""/>
             <div  className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#MaryKenneth">Mary Kennet hKeller</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToMary.current.scrollIntoView()}>Mary Kennet hKeller</a>
               <div class="skjultText">Ph.d. i datalogi</div>
               </div>
           </div></a>
@@ -92,7 +108,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#PernilleBjørn"><div className="billede2Div">
           <img className="billede2" src={PernilleBjoern} alt=""/>
             <div  className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#PernilleBjørn">Pernille Bjørn</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToPernille.current.scrollIntoView()}>Pernille Bjørn</a>
               <div class="skjultText">Professor på Datalogisk Institut</div>
               </div>
           </div></a>
@@ -101,7 +117,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#LouiseGyland"><div className="billede3Div">
           <img className="billede3" src={LouiseGotschze} alt=""/>
             <div  className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#LouiseGyland">Louise Gyland Götschze</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToLouise.current.scrollIntoView()}>Louise Gyland Götschze</a>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
           </div></a>
@@ -109,7 +125,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#SukiLee"><div className="billede1Div">
           <img className="billede1" src={SukiLee} alt=""/>
             <div  className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/">Suki Lee</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToSuki.current.scrollIntoView()}>Suki Lee</a>
               <div class="skjultText">Videospiludvikler, softwareingeniør og projektleder</div>
               </div>
           </div></a>
@@ -117,7 +133,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#IsabellaDrest"><div className="billede2Div">
           <img className="billede2" src={IsabellaDrest} alt=""/>
             <div  className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#IsabellaDrest">Isabella Drest</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToIsabella.current.scrollIntoView()}>Isabella Drest</a>
               <div class="skjultText">Studerende på Softwareudvikling på ITU</div>
               </div>
           </div></a>
@@ -125,7 +141,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#LouiseSparf"><div className="billede3Div" >
           <img className="billede3" src={LouiseSparf} alt=""/>
             <div className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#LouiseSparf">Louise Sparf</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToSparf.current.scrollIntoView()}>Louise Sparf</a>
               <div class="skjultText">bestyrelsesmedlem og ledelsesrådgiver </div>
               </div>
           </div></a>
@@ -133,7 +149,7 @@ export class SuccesHistorier extends Component {
           <a href="SuccesHistorier/#PernilleBjørn"><div className="billede2Div">
           <img className="billede2" src={PlamenaCherneva} alt=""/>
             <div  className="skjultTextDiv">
-              <a class="skjultTextOverskrift" href="SuccesHistorier/#PernilleBjørn">Plamena Cherneva</a>
+              <a class="skjultTextOverskrift" onClick={()=> this.scrollToPernille.current.scrollIntoView()}>Plamena Cherneva</a>
               <div class="skjultText">business-ingeniør og app-udvikler</div>
               </div>
           </div></a>
@@ -141,7 +157,7 @@ export class SuccesHistorier extends Component {
         </div>
  
         <div className="historieOrange">
-          <h1 className="overskriftHøjre" id="AdaLovelace">Ada Lovelace</h1>
+          <h1 className="overskriftHøjre" id="AdaLovelace" ref={this.scrollToAda}>Ada Lovelace</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Ada Lovelace er blevet kaldt verdens første computerprogrammør. 
               Det hun gjorde, var at skrive verdens første maskin-algoritme til en tidlig computermaskine, der kun eksisterede på papir, en computer der altså endnu ikke fandtes. 
@@ -161,7 +177,7 @@ export class SuccesHistorier extends Component {
         </div>
       
         <div className="historieLys">
-          <h1 className="overskriftVenstre" id="AlberteKjær">Alberte Kjær Wærens</h1>
+          <h1 className="overskriftVenstre" ref={this.scrollToAlberte} >Alberte Kjær Wærens</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={AlberteWærens} alt=""/>
             <p className="beskrivelseMørk"> Alberte Kjær Wærens læser software udvikling på IT-universitetet i København, 
@@ -178,7 +194,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div id="id-of-div" className="historiePink">
-          <h1 className="overskriftHøjre" id="CarlaMeninsky">Carla Meninsky</h1>
+          <h1 className="overskriftHøjre" id="CarlaMeninsky" ref={this.scrollToCarla}>Carla Meninsky</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Carla Meninsky er en banebrydende ingeniør, softwareudvikler og advokat. 
             Selvom hun begyndte på universitetet med hovedfag i matematik, endte hun med en grad i psykologi med speciale i visuel perception fra Stanford University i 1977. 
@@ -194,7 +210,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieLys">
-          <h1 className="overskriftVenstre" id="DonaBailey">Dona Bailey</h1>
+          <h1 className="overskriftVenstre" id="DonaBailey" ref={this.scrollToDona}>Dona Bailey</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={DonaBailey} alt=""/>
             <p className="beskrivelseMørk"> Dona Bailey var den første kvindelige programmør i coin-op afdelingen hos Atari, da hun blev ansat i 1980. 
@@ -219,7 +235,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieOrange">
-          <h1 className="overskriftHøjre" id="GraceHopper">Grace Hopper</h1>
+          <h1 className="overskriftHøjre" id="GraceHopper" ref={this.scrollToGrace}>Grace Hopper</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Grace Murray Hopper, født Grace Brewster Murray, (født 9. december 1906, New York, U.S.A-død 1. januar 1992, Arlington, Virginia), 
               var en amerikansk matematiker og kontreadmiral i den amerikanske flåde. Hun var en pioner inden for udvikling af computerteknologi, og hjalp med at udvikle UNIVAC I, 
@@ -237,7 +253,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieLys">
-          <h1 className="overskriftVenstre" id="IsabellaDrest">Isabella Drest</h1>
+          <h1 className="overskriftVenstre" id="IsabellaDrest" ref={this.scrollToIsabella}>Isabella Drest</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={IsabellaDrest} alt=""/>
             <p className="beskrivelseMørk"> Isabella læser på ITU til en bachelor i Softwareudvikling og er igang med 6. semester. 
@@ -255,7 +271,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div id="id-of-div" className="historiePink">
-          <h1 className="overskriftHøjre" id="LouiseBarkhuus">Louise Barkhuus</h1>
+          <h1 className="overskriftHøjre" id="LouiseBarkhuus" ref={this.scrollToBarkhuus}>Louise Barkhuus</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Louise Barkhuus er professor ved IT-Universitetet (siden juli 2021, lektor fra september 2016), 
              hvor hun er medlem af Center for Informationssikkerhed og Tillid. Hendes forskning fokuserer på brugeroplevelser og privatlivsspørgsmål i relation til lokationsbaserede applikationer og sociale medier, 
@@ -278,7 +294,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieLys">
-          <h1 className="overskriftVenstre" id="LouiseGyland">Louise Gyland Götschze</h1>
+          <h1 className="overskriftVenstre" id="LouiseGyland" ref={this.scrollToLouise}>Louise Gyland Götschze</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={LouiseGotschze} alt=""/>
             <p className="beskrivelseMørk"> Louise Götzsche er igang med at læse softwareudvikling 
@@ -297,7 +313,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieOrange">
-          <h1 className="overskriftHøjre" id="MaryKenneth">Mary Kenneth Keller</h1>
+          <h1 className="overskriftHøjre" id="MaryKenneth" ref={this.scrollToMary}>Mary Kenneth Keller</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> I 1965 var Mary Kenneth Keller den første kvinde i USA, der fik mulighed for at tage en ph.d. i datalogi, efter at have studeret matematik og fysik. 
               Tidligere havde hun aflagt løfte som nonne i Ohio og i 1958 begyndte hun at arbejde på Dartmouth College i computercentret (som dengang kun var for mænd).
@@ -314,7 +330,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieLys">
-          <h1 className="overskriftVenstre" id="PernilleBjørn">Pernille Bjørn</h1>
+          <h1 className="overskriftVenstre" id="PernilleBjørn" ref={this.scrollToPernille}>Pernille Bjørn</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={PernilleBjoern} alt=""/>
             <p className="beskrivelseMørk"> Pernille Bjørn er professor på Datalogisk Institut ved Københavns Universitet, hvor hun også er viceinstitutleder for forskning. 
@@ -328,7 +344,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div id="id-of-div" className="historiePink">
-          <h1 className="overskriftHøjre" id="PlamenaCherneva">Plamena Cherneva</h1>
+          <h1 className="overskriftHøjre" id="PlamenaCherneva" ref={this.scrollToPlamena}>Plamena Cherneva</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Plamena Cherneva er fra Bulgarien. 
               Hun kom til Danmark i 2010 for at studere Webudvikling på Copenhagen Business Academy og var chokeret over, at hun var den eneste kvinde på holdet med 30 mennesker. 
@@ -343,7 +359,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historieLys">
-          <h1 className="overskriftVenstre" id="SukiLee">Suki Lee</h1>
+          <h1 className="overskriftVenstre" id="SukiLee" ref={this.scrollToSuki}>Suki Lee</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={SukiLee} alt=""/>
             <p className="beskrivelseMørk"> Suki Lee er en banebrydende videospiludvikler, softwareingeniør og succesfuld projektleder.
@@ -361,7 +377,7 @@ export class SuccesHistorier extends Component {
         </div>
 
         <div className="historiePink">
-          <h1 className="overskriftHøjre" id="LouiseSparf">Louise Sparf</h1>
+          <h1 className="overskriftHøjre" id="LouiseSparf" ref={this.scrollToSparf}>Louise Sparf</h1>
           <div className="indhold">
             <p className="beskrivelseLys"> Louise Sparf er bestyrelsesmedlem og ledelsesrådgiver i 
             spændingsfeltet mellem mennesker, tech og samfund.

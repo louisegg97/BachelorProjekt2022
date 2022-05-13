@@ -16,6 +16,12 @@ import {
 
 export class Database extends Component {
     static displayName = Database.name;
+    constructor(props) {
+      super(props);
+      this.scrollToDBSprog = React.createRef();
+      this.scrollToDBAnsvar= React.createRef();
+      this.scrollToDBLær = React.createRef();
+    }
   
     componentDidMount() {
       window.scrollTo(0, 0);
@@ -30,18 +36,18 @@ export class Database extends Component {
                     
                     <div className="icons_">
                         <article>
-                            <section><a href ="Database/#section1_underside"><FaLanguage size="4em" className="one"/></a></section>
-                            <section><a href ="Database/#section2_underside"><FaChalkboardTeacher size="4em" className="two"/></a></section>
-                            <section><a href ="Database/#section3_underside"><FaUserGraduate size="4em" className="three"/></a></section>
-                            <section><a href ="Database/#section1_underside"><p className="four">Database-sprog</p></a></section>
-                            <section><a href ="Database/#section2_underside"><p className="five">Ansvarsområder</p></a></section>
-                            <section><a href ="Database/#section3_underside"><p className="six">Lær om databaser</p></a></section>
+                            <section><a onClick={()=> this.scrollToDBSprog.current.scrollIntoView()}><FaChalkboardTeacher size="4em" className="one"/></a></section>
+                            <section><a onClick={()=> this.scrollToDBAnsvar.current.scrollIntoView()}><FaLanguage size="4em" className="two"/></a></section>
+                            <section><a onClick={()=> this.scrollToDBLær.current.scrollIntoView()}><FaUserGraduate size="4em" className="three"/></a></section>
+                            <section><a onClick={()=> this.scrollToDBSprog.current.scrollIntoView()}><p className="four">Introduktion</p></a></section>
+                            <section><a onClick={()=> this.scrollToDBAnsvar.current.scrollIntoView()}><p className="five">Database-sprog</p></a></section>
+                            <section><a onClick={()=> this.scrollToDBLær.current.scrollIntoView()}><p className="six">Lær om databaser</p></a></section>
                         </article>
                         </div>
                  </div>
 
 
-               <div id="section1_underside">
+               <div id="section1_underside" ref={this.scrollToDBSprog}>
                    <div className='section_1'>
                         <h2 className='section1_h2'>Hvad er en database?</h2>
                         <p className='section1_tekst'>Databasesprog, almindeligvis omtalt som query-sprog, er en 
@@ -53,7 +59,7 @@ export class Database extends Component {
                           Informationssøgning.</p>
                     </div>
                </div>
-               <div id="section2_underside">
+               <div id="section2_underside" ref={this.scrollToDBAnsvar}>
                     <div className='section_2'>
                         <h2>Database-sprog</h2>
                         <p className='section2_tekst'>Back-end er alt det bagvedliggende på en hjemmeside og dækker 
@@ -62,7 +68,7 @@ export class Database extends Component {
                         De sprog, man ofte bruger, er Java, C#, Python og databasesprog.</p>
                     </div>
                </div>
-               <div id="section3_underside">
+               <div id="section3_underside" ref={this.scrollToDBLær}>
                    <div className='section_3'>
                         <h2>Lær om databaser</h2>
                         <p className='section3_tekst'> Hvis database programmering siger dig noget, så prøv kræfter af

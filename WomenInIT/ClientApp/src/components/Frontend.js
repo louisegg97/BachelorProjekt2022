@@ -26,6 +26,12 @@ import {
 
 export class Frontend extends Component {
     static displayName = Frontend.name;
+    constructor(props) {
+        super(props);
+        this.scrollToFESprog = React.createRef();
+        this.scrollToFEAnsvar= React.createRef();
+        this.scrollToFELær = React.createRef();
+      }
   
     componentDidMount() {
       window.scrollTo(0, 0);
@@ -40,18 +46,18 @@ export class Frontend extends Component {
                     
                     <div className="icons_">
                         <article>
-                            <section><a href ="Frontend/#section1_underside"><FaLanguage size="4em" className="one"/></a></section>
-                            <section><a href ="Frontend/#section2_underside"><FaChalkboardTeacher size="4em" className="two"/></a></section>
-                            <section><a href ="Frontend/#section3_underside"><FaUserGraduate size="4em" className="three"/></a></section>
-                            <section><a href ="Frontend/#section1_underside"><p className="four">Front-end-sprog</p></a></section>
-                            <section><a href ="Frontend/#section2_underside"><p className="five">Ansvarsområder</p></a></section>
-                            <section><a href ="Frontend/#section3_underside"><p className="six">Lær front-end</p></a></section>
+                            <section><a onClick={()=> this.scrollToFESprog.current.scrollIntoView()}><FaLanguage size="4em" className="one"/></a></section>
+                            <section><a onClick={()=> this.scrollToFEAnsvar.current.scrollIntoView()}><FaChalkboardTeacher size="4em" className="two"/></a></section>
+                            <section><a onClick={()=> this.scrollToFELær.current.scrollIntoView()}><FaUserGraduate size="4em" className="three"/></a></section>
+                            <section><a onClick={()=> this.scrollToFESprog.current.scrollIntoView()}><p className="four">Front-end-sprog</p></a></section>
+                            <section><a onClick={()=> this.scrollToFEAnsvar.current.scrollIntoView()}><p className="five">Ansvarsområder</p></a></section>
+                            <section><a onClick={()=> this.scrollToFELær.current.scrollIntoView()}><p className="six">Lær front-end</p></a></section>
                         </article>
                         </div>
                  </div>
 
                 
-               <div id="section1_underside_frontend">
+               <div id="section1_underside_frontend" ref={this.scrollToFESprog}>
                    <div className='section_1'>
                         <h2 className='section1_h2'>Front-end-sprog</h2>
                         <p className='section1_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
@@ -71,7 +77,7 @@ export class Frontend extends Component {
                         {/*</article>
                         </div> */}
                </div>
-               <div id="section2_underside">
+               <div id="section2_underside" ref={this.scrollToFEAnsvar}>
                     <div className='section_2'>
                         <h2>Ansvarsområder</h2>
                         <p className='section2_tekst'>Alt, hvad der har en visuel tilstedeværelse, som folk interagerer 
@@ -96,7 +102,7 @@ export class Frontend extends Component {
                         </article>
                     </div>
                </div>
-               <div id="section3_underside">
+               <div id="section3_underside" ref={this.scrollToFELær}>
                    <div className='section_3'>
                         <h2>Lær frontend</h2>
                         <p className='section3_tekst'>Hvis front-end-udvikling siger dig noget, så prøv kræfter af

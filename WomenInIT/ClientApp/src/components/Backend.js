@@ -17,6 +17,12 @@ import {
 
 export class Backend extends Component {
     static displayName = Backend.name;
+    constructor(props) {
+      super(props);
+      this.scrollToBESprog = React.createRef();
+      this.scrollToBEPrincipper= React.createRef();
+      this.scrollToBELær = React.createRef();
+    }
   
     componentDidMount() {
       window.scrollTo(0, 0);
@@ -31,17 +37,17 @@ export class Backend extends Component {
                     
                     <div className="icons_">
                         <article>
-                            <section><a href ="Backend/#section1_underside"><FaLanguage size="4em" className="one"/></a></section>
-                            <section><a href ="Backend/#section2_underside"><FaRegSun size="4em" className="two"/></a></section>
-                            <section><a href ="Backend/#section3_underside"><FaUserGraduate size="4em" className="three"/></a></section>
-                            <section><a href ="Backend/#section1_underside"><p className="four">Back-end-end sprog</p></a></section>
-                            <section><a href ="Backend/#section2_underside"><p className="five">Back-end-principper</p></a></section>
-                            <section><a href ="Backend/#section3_underside"><p className="six">Lær back-end</p></a></section>
+                            <section><a onClick={()=> this.scrollToBESprog.current.scrollIntoView()}><FaLanguage size="4em" className="one"/></a></section>
+                            <section><a onClick={()=> this.scrollToBEPrincipper.current.scrollIntoView()}><FaRegSun size="4em" className="two"/></a></section>
+                            <section><a onClick={()=> this.scrollToBELær.current.scrollIntoView()}><FaUserGraduate size="4em" className="three"/></a></section>
+                            <section><a onClick={()=> this.scrollToBESprog.current.scrollIntoView()}><p className="four">Back-end-end sprog</p></a></section>
+                            <section><a onClick={()=> this.scrollToBEPrincipper.current.scrollIntoView()}><p className="five">Back-end-principper</p></a></section>
+                            <section><a onClick={()=> this.scrollToBELær.current.scrollIntoView()}><p className="six">Lær back-end</p></a></section>
                         </article>
                         </div>
                  </div>
 
-               <div id="section1_underside_backend">
+               <div id="section1_underside_backend" ref={this.scrollToBESprog}>
                    <div className='section_1'>
                         <h2 className='section1_h2'>Back-end-sprog</h2>
                         <p className='section1_tekst'>Mange backend-udviklere kender front-end-sprog som 
@@ -56,7 +62,7 @@ export class Backend extends Component {
                     <Animation_3/>
 
                </div>
-               <div id="section2_underside">
+               <div id="section2_underside" ref={this.scrollToBEPrincipper}>
                     <div className='section_2'>
                         <h2>Back-end-principper</h2>
                         <p className='section2_tekst'>Back-end-programmering kan enten være objektorienteret (OOP)
@@ -64,7 +70,7 @@ export class Backend extends Component {
                     </div>
                   <Animation_4/>
                </div>
-               <div id="section3_underside">
+               <div id="section3_underside" ref={this.scrollToBELær}>
                    <div className='section_3'>
                         <h2>Lær back-end</h2>
                         <p className='section3_tekst'>Hvis back-end-udvikling siger dig noget, så prøv kræfter af

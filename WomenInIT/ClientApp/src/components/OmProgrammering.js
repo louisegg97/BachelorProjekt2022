@@ -19,6 +19,12 @@ import {
 
 export class OmProgrammering extends Component {
     static displayName = OmProgrammering.name;
+    constructor(props) {
+        super(props);
+        this.scrollToFE = React.createRef();
+        this.scrollToBE= React.createRef();
+        this.scrollToDB = React.createRef();
+      }
   
     componentDidMount() {
       window.scrollTo(0, 0);
@@ -45,17 +51,17 @@ export class OmProgrammering extends Component {
                     </div>
                         <div className="icons">
                             <article>
-                                <section><a href="OmProgrammering/#frontend_OmProgrammering"><FaColumns size="4em" className="one"/></a></section>
-                                <section><a href="OmProgrammering/#backend_OmProgrammering"><FaLaptopCode size="4em" className="two"/></a></section>
-                                <section><a href="OmProgrammering/#database_OmProgrammering"><FaDatabase size="4em" className="three"/></a></section>
-                                <section><a href="OmProgrammering/#frontend_OmProgrammering"><p className="four">Front-end</p></a></section>
-                                <section><a href="OmProgrammering/#backend_OmProgrammering"><p className="five">Back-end</p></a></section>
-                                <section><a href="OmProgrammering/#database_OmProgrammering"><p className="six">Databaser</p></a></section>
+                                <section><a onClick={()=> this.scrollToFE.current.scrollIntoView()}><FaColumns size="4em" className="one"/></a></section>
+                                <section><a onClick={()=> this.scrollToBE.current.scrollIntoView()}><FaLaptopCode size="4em" className="two"/></a></section>
+                                <section><a onClick={()=> this.scrollToDB.current.scrollIntoView()}><FaDatabase size="4em" className="three"/></a></section>
+                                <section><a onClick={()=> this.scrollToFE.current.scrollIntoView()}><p className="four">Front-end</p></a></section>
+                                <section><a onClick={()=> this.scrollToBE.current.scrollIntoView()}><p className="five">Back-end</p></a></section>
+                                <section><a onClick={()=> this.scrollToDB.current.scrollIntoView()}><p className="six">Databaser</p></a></section>
                             </article>
                             </div>
                     </div>
 
-               <div id="frontend_OmProgrammering">
+               <div id="frontend_OmProgrammering" ref={this.scrollToFE}>
                    <div className='frontend'>
                         <h2 className='frontend_h2'>Om Front-end</h2>
                         <p className='frontend_tekst'>Begrebet front-end dækker over grænsefladen på websteder, 
@@ -68,7 +74,7 @@ export class OmProgrammering extends Component {
                     </div>
                     <Link to="/Frontend" className="frontend_knap">Læs mere her</Link>
                </div>
-               <div id="backend_OmProgrammering">
+               <div id="backend_OmProgrammering" ref={this.scrollToBE}>
                     <div className='backend'>
                         <h2>Om Back-end</h2>
                         <p className='backend_tekst'>Back-end er alt det bagvedliggende på en hjemmeside og dækker 
@@ -79,7 +85,7 @@ export class OmProgrammering extends Component {
                     </div>
                     <Link to="/Backend" className="backend_knap">Læs mere her</Link>
                </div>
-               <div id="database_OmProgrammering">
+               <div id="database_OmProgrammering" ref={this.scrollToDB}>
                    <div className='database'>
                         <h2>Om Databaser</h2>
                         <p className='databaser_tekst'>Når man taler om en database, taler man om et sted,
