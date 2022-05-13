@@ -273,10 +273,18 @@ export class SuccesHistorier extends Component {
           <h1 className="overskriftVenstre" id="LouiseGyland">Louise Gyland Götschze</h1>
           <div className="indhold">
             <img className="succesfuldeKvinderBillede" src={LouiseGotschze} alt=""/>
-            <p className="beskrivelseMørk"> Louise Götzsche er igang med at læse softwareudvikling på ITU og er på sit 6.semester af uddannelsen. 
-              Interessen for programmering startede under hendes tidliger uddannelse, “Multimediedesign” på Zealand. 
-              Multimediedesign er en bred uddannelse, hvor man berører mange forskellige aspekter af digital udvikling. 
-              Louise stiftede bekendtskab med det at kode, da de blev introduceret til design af hjemmesider og i den forbindelse skulle lære HTML, CSS og JavaScript. .</p>
+            <p className="beskrivelseMørk"> Louise Götzsche er igang med at læse softwareudvikling 
+            på ITU og er på sit 6.semsester af uddannelsen. Interessen for programmering 
+            startede på hendes tidliger uddannelse, “multimediedesign” på Zealand. 
+            Multimediedesign er en bred uddannelse, hvor man berører mange forskellige 
+            aspekter af digital udvikling. Hun stiftede bekendtskab med kodning da de havde 
+            et forløb om hjemmesidedesign, hvor hun igennem dette forløb skulle lære HTML, 
+            CSS og JavaScript. Interessen for programmering startede her og hun valgte 
+            derfor at søge ind på bacheloren “softwareudvikling” på ITU. 
+            Nu er hun ved at færdiggøre sin bachelor og skal begynde på kandidaten “datalogi” 
+            også på ITU, som er en af de overbygninger til softwareudvikling, man kan vælge. 
+            Hun arbejder i GroupM som creatives and conversion assistent, hvor hun håber at 
+            kunne blive fuldtidsansat, når hun er færdiguddannet.</p>
           </div>
         </div>
 
