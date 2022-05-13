@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './JobMulighederNav.css';
 import './JobMuligheder.css';
-import machånd from './images/mac+hånd.jpg'
 import introGif from './images/JobMuligheder/JM.gif'
 import frontEndGif from './images/JobMuligheder/frontEnd.gif'
 import backEndGif from './images/JobMuligheder/backEndGif.gif'
@@ -18,10 +17,24 @@ import projektlederGif from './images/JobMuligheder/projektlederGif.gif'
 
 export class JobMuligheder extends Component {
     static displayName = JobMuligheder.name;
+    constructor(props) {
+      super(props);
+      this.scrollToSystemUdvikler = React.createRef();
+      this.scrollToBackend = React.createRef();
+      this.scrollToFrontend = React.createRef();
+      this.scrollToFullstack = React.createRef();
+      this.scrollToSpil = React.createRef();
+      this.scrollToCyber = React.createRef();
+      this.scrollToDatabase = React.createRef();
+      this.scrollToProjektleder = React.createRef();
+    
+    }
+  
     
     componentDidMount() {
       window.scrollTo(0, 0);
     } 
+
 
     render() {
       return (
@@ -36,18 +49,18 @@ export class JobMuligheder extends Component {
 
               <div class="nav" >
                 <nav >
-                  <a href="jobMuligheder/#Systemudvikler" className="a">Systemudvikler</a>
-                  <a href="jobMuligheder/#Back-End" className="a">Back-end Udvikler</a>
-                  <a href="jobMuligheder/#front-end" className="a">Front-end Udvikler</a>
-                  <a href="jobMuligheder/#full-stack" className="a">full-stack Udvikler</a>
-                  <a href="jobMuligheder/#spil" className="a">Spil Udvikler</a>
-                  <a href="jobMuligheder/#cyber-sikkerhed" className="a">Cyber-sikkerhed Analytiker</a>
-                  <a href="jobMuligheder/#database" className="a">Database Administrator</a>
-                  <a href="jobMuligheder/#projektleder" className="a">IT Projektleder</a>
+                  <a onClick={()=> this.scrollToSystemUdvikler.current.scrollIntoView()} className="a">Systemudvikler</a>
+                  <a onClick={()=> this.scrollToBackend.current.scrollIntoView()} className="a">Back-end Udvikler</a>
+                  <a onClick={()=> this.scrollToFrontend.current.scrollIntoView()}  className="a">Front-end Udvikler</a>
+                  <a onClick={()=> this.scrollToFullstack.current.scrollIntoView()}  className="a">full-stack Udvikler</a>
+                  <a onClick={()=> this.scrollToSpil.current.scrollIntoView()}  className="a">Spil Udvikler</a>
+                  <a onClick={()=> this.scrollToCyber.current.scrollIntoView()}  className="a">Cyber-sikkerhed Analytiker</a>
+                  <a onClick={()=> this.scrollToDatabase.current.scrollIntoView()}  className="a">Database Administrator</a>
+                  <a onClick={()=> this.scrollToProjektleder.current.scrollIntoView()}  className="a">IT Projektleder</a>
                 </nav>
               </div>
 
-            <div id="Systemudvikler" className="historieOrange">
+            <div ref={this.scrollToSystemUdvikler} className="historieOrange">
               <h1 className="overskriftHøjre">Systemudvikler</h1>
               <div className="indhold">
               <p className="beskrivelseLys"> 
@@ -66,7 +79,7 @@ export class JobMuligheder extends Component {
               </div>
             </div>
 
-            <div id="Back-End" className="historieLys">
+            <div ref={this.scrollToBackend} className="historieLys">
               <h1 className="overskriftVenstre">Back-end-udvikler</h1>
               <div className="indhold">
               <img className="gifAflang" src={backEndGif} alt=""/>
@@ -87,7 +100,7 @@ export class JobMuligheder extends Component {
               </div>
             </div>
 
-            <div id="front-end" className="historiePink">
+            <div ref={this.scrollToFrontend} className="historiePink">
               <h1 className="overskriftHøjre">Front-End-udvikler</h1>
               <div className="indhold">
                 <p className="beskrivelseLys"> 
@@ -108,7 +121,7 @@ export class JobMuligheder extends Component {
               </div>
             </div>
 
-            <div id="full-stack" className="historieLys">
+            <div ref={this.scrollToFullstack} className="historieLys">
               <h1 className="overskriftVenstre">Full Stack-udvikler</h1>
               <div className="indhold">
               <img className="gifKvadrat" src={fullStackGif} alt=""/>
@@ -126,7 +139,7 @@ export class JobMuligheder extends Component {
                 </div>
             </div>
 
-            <div id="spil" className="historieOrange">
+            <div ref={this.scrollToSpil} className="historieOrange">
               <h1 className="overskriftHøjre">Spiludvikler</h1>
               <div className="indhold">
               <p className="beskrivelseLys"> 
@@ -143,7 +156,7 @@ export class JobMuligheder extends Component {
                 </div>
             </div>
 
-            <div id="cyber-sikkerhed" className="historieLys">
+            <div ref={this.scrollToCyber} className="historieLys">
               <h1 className="overskriftVenstre">Cybersikkerheds-nalytiker</h1>
               <div className="indhold">
               <img className="gifAflang" src={cyberSikkerhedGif} alt=""/>
@@ -161,7 +174,7 @@ export class JobMuligheder extends Component {
                 </div>
             </div>
 
-            <div id="database" className="historiePink">
+            <div ref={this.scrollToDatabase} className="historiePink">
               <h1 className="overskriftHøjre">Databaseadministrator</h1>
               <div className="indhold">
                 <p className="beskrivelseLys"> 
@@ -181,7 +194,7 @@ export class JobMuligheder extends Component {
             </div>
 
 
-            <div id="projektleder" className="historieLys">
+            <div ref={this.scrollToProjektleder} className="historieLys">
               <h1 className="overskriftHøjre">IT-projektleder</h1>
               <div className="indhold">
               <p className="beskrivelseMørk"> 

@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "aos": "^2.3.4",
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.3.1",
+    "reaflow": "^5.0.4"
   }
 }
