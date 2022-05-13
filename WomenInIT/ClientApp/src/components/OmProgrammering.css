@@ -28,22 +28,22 @@
 }
 
 .tekstBoks{
-    margin-top: 20px;
     width: 60%;
     background-color: #CF914C;
     border-radius: 10px;
-    margin-left: 20%;
+    margin: 10px auto;
 }
 
 .tekstBoks h2{
     padding-top: 1%;
-    margin-left: 20%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .tekstBoks p{
     padding-left: 5%;
     padding-right: 5%;
-    text-align: center;
+    text-align: justify;
     padding-bottom: 2%;
     color: #F4EEE8;
 }

@@ -32,7 +32,7 @@ export class OmProgrammering extends Component {
                     
                     <div className='boks'>
                         <div className='tekstBoks'>
-                            <h2>Hvad er programmering egentlig?</h2>
+                            <h2 >Hvad er programmering egentlig?</h2>
                                     <p>Programmering dækker over udvikling af software og applikationer
                                         m.m. Formålet med software er at udføre nogle opgaver ud fra den 
                                         data, som programmet modtager, for at kunne generere et output til
@@ -40,7 +40,7 @@ export class OmProgrammering extends Component {
                                         anvendes programmeringssprog. Der findes en lang række forskellige 
                                         sprog, heraf er de mest udbredte Java, C#, JavaScript osv. 
                                         Her vil vi give et overblik over de forskellige aspekter, der er ved 
-                                        programmering</p>
+                                        programmering.</p>
                         </div>
                     </div>
                         <div className="icons">

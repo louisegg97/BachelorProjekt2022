@@ -130,6 +130,14 @@ export class SuccesHistorier extends Component {
               </div>
           </div></a>
 
+          <a href="SuccesHistorier/#PernilleBjørn"><div className="billede2Div">
+          <img className="billede2" src={PlamenaCherneva} alt=""/>
+            <div  className="skjultTextDiv">
+              <a class="skjultTextOverskrift" href="SuccesHistorier/#PernilleBjørn">Plamena Cherneva</a>
+              <div class="skjultText">business-ingeniør og app-udvikler</div>
+              </div>
+          </div></a>
+
         </div>
  
         <div className="historieOrange">
