@@ -46,7 +46,7 @@ export class SuccesHistorier extends Component {
         <div className="topDivSuccesHistorie">
           <secText className="introText">Der er mange seje kvinder i IT-branchen! Her kan du blive klogere på nogle af dem, og høre deres historier</secText>
           
-          <a href="SuccesHistorier/#AlberteKjær"><div className="billede1Div">
+          <a onClick={()=> this.scrollToAlberte.current.scrollIntoView()}><div className="billede1Div">
           <img className="billede1" src={AlberteWærens} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToAlberte.current.scrollIntoView()}>Alberte Kjær Wærens</a>
@@ -54,7 +54,7 @@ export class SuccesHistorier extends Component {
               </div>
           </div></a>
 
-          <a href="SuccesHistorier/#CarlaMeninsky"><div className="billede2Div">
+          <a onClick={()=> this.scrollToCarla.current.scrollIntoView()}><div className="billede2Div">
           <img className="billede2" src={CarlaMeninsky} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToCarla.current.scrollIntoView()}>Carla Meninsky</a>
@@ -63,7 +63,7 @@ export class SuccesHistorier extends Component {
           </div></a>
           
           
-          <a href="SuccesHistorier/#LouiseBarkhuus"><div className="billede3Div">
+          <a onClick={()=> this.scrollToBarkhuus.current.scrollIntoView()}><div className="billede3Div">
           <img className="billede3" src={LouiseBarkhuus} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToBarkhuus.current.scrollIntoView()}>Louise Barkhuus</a>
@@ -73,7 +73,7 @@ export class SuccesHistorier extends Component {
 
 
 
-          <a href="SuccesHistorier/#DonaBailey"><div className="billede1Div">
+          <a onClick={()=> this.scrollToDona.current.scrollIntoView()}><div className="billede1Div">
           <img className="billede1" src={DonaBailey} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToDona.current.scrollIntoView()}>Dona Bailey</a>
@@ -81,7 +81,7 @@ export class SuccesHistorier extends Component {
               </div>
           </div></a>
 
-          <a href="SuccesHistorier/#AdaLovelace"><div className="billede2Div">
+          <a onClick={()=> this.scrollToAda.current.scrollIntoView()}><div className="billede2Div">
           <img className="billede2" src={AdaLovelace} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToAda.current.scrollIntoView()}>Ada Lovelace</a>
@@ -89,7 +89,7 @@ export class SuccesHistorier extends Component {
               </div>
           </div></a>
 
-          <a href="SuccesHistorier/#GraceHopper"><div className="billede3Div">
+          <a onClick={()=> this.scrollToGrace.current.scrollIntoView()}><div className="billede3Div">
           <img className="billede3" src={GraceHopperImage} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToGrace.current.scrollIntoView()}>Grace Hopper</a>
@@ -97,7 +97,7 @@ export class SuccesHistorier extends Component {
               </div>
           </div></a>
 
-          <a href="SuccesHistorier/#MaryKenneth"><div className="billede1Div">
+          <a onClick={()=> this.scrollToMary.current.scrollIntoView()}><div className="billede1Div">
           <img className="billede1" src={MaryKennethKeller} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToMary.current.scrollIntoView()}>Mary Kennet hKeller</a>
@@ -105,7 +105,7 @@ export class SuccesHistorier extends Component {
               </div>
           </div></a>
 
-          <a href="SuccesHistorier/#PernilleBjørn"><div className="billede2Div">
+          <a onClick={()=> this.scrollToPernille.current.scrollIntoView()}><div className="billede2Div">
           <img className="billede2" src={PernilleBjoern} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToPernille.current.scrollIntoView()}>Pernille Bjørn</a>
@@ -114,7 +114,7 @@ export class SuccesHistorier extends Component {
           </div></a>
 
 
-          <a href="SuccesHistorier/#LouiseGyland"><div className="billede3Div">
+          <a onClick={()=> this.scrollToLouise.current.scrollIntoView()}><div className="billede3Div">
           <img className="billede3" src={LouiseGotschze} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToLouise.current.scrollIntoView()}>Louise Gyland Götschze</a>
@@ -122,7 +122,7 @@ export class SuccesHistorier extends Component {
               </div>
           </div></a>
 
-          <a href="SuccesHistorier/#SukiLee"><div className="billede1Div">
+          <a onClick={()=> this.scrollToSuki.current.scrollIntoView()}><div className="billede1Div">
           <img className="billede1" src={SukiLee} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToSuki.current.scrollIntoView()}>Suki Lee</a>
@@ -130,7 +130,7 @@ export class SuccesHistorier extends Component {
               </div>
           </div></a>
 
-          <a href="SuccesHistorier/#IsabellaDrest"><div className="billede2Div">
+          <a onClick={()=> this.scrollToIsabella.current.scrollIntoView()}><div className="billede2Div">
           <img className="billede2" src={IsabellaDrest} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToIsabella.current.scrollIntoView()}>Isabella Drest</a>
@@ -138,7 +138,7 @@ export class SuccesHistorier extends Component {
               </div>
           </div></a>
 
-          <a href="SuccesHistorier/#LouiseSparf"><div className="billede3Div" >
+          <a onClick={()=> this.scrollToSparf.current.scrollIntoView()}><div className="billede3Div" >
           <img className="billede3" src={LouiseSparf} alt=""/>
             <div className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToSparf.current.scrollIntoView()}>Louise Sparf</a>
@@ -146,7 +146,7 @@ export class SuccesHistorier extends Component {
               </div>
           </div></a>
 
-          <a href="SuccesHistorier/#PernilleBjørn"><div className="billede2Div">
+          <a onClick={()=> this.scrollToPernille.current.scrollIntoView()}><div className="billede2Div">
           <img className="billede2" src={PlamenaCherneva} alt=""/>
             <div  className="skjultTextDiv">
               <a class="skjultTextOverskrift" onClick={()=> this.scrollToPernille.current.scrollIntoView()}>Plamena Cherneva</a>

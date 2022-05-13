@@ -238,5 +238,13 @@ color: #F4EEE8;
       .oop_funktionel{
         grid-gap: 0px;
       }
-    
+
+      .tilbage{
+        margin-left: 1%;
+        margin-top: 10px !important;
+        margin-bottom: 10px;
+        width: 100px;
+        height: 40px; 
+    }
+ 
   }
